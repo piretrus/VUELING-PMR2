@@ -1,0 +1,77 @@
+function loadLang() { 
+lang = "ES";
+objTranslations = {
+
+"PANTALLA-INTRO-TEXTOINTRO":"<br/><br/><b>Cómo usar nuestro Chat</b><br/><br/><br/>Para ayudarte con mayor rapidez necesito que tengas en cuenta los siguientes puntos:<br/><br/><br/>Utiliza frases completas. Ejemplo: ¿Cómo puedo comprar un billete?<br/><br/>Realiza una sola pregunta con la información necesaria en cada consulta.",
+"PANTALLA-INTRO-BOTON-VAMOS":"Vamos!",
+
+"PANTALLA-PARAMETROS-TITULO":"Por favor, especifica tu motivo de contacto para poder iniciar el Chat.",
+"PANTALLA-PARAMETROS-ETIQUETA-CATEGORIA":"Categoria: ",
+"PANTALLA-PARAMETROS-ETIQUETA-MAIL":"E-mail: ",
+"PANTALLA-PARAMETROS-ETIQUETA-NOMBRE":"Nombre: ",
+"PANTALLA-PARAMETROS-ETIQUETA-APELLIDOS":"Apellidos: ",
+"PANTALLA-PARAMETROS-ETIQUETA-NUM-COMPRA":"Nº Compra: ",
+"PANTALLA-PARAMETROS-BOTON":"Chat!",
+
+"PANTALLA-CHAT-NUEVA-FRASE":"Enviar",
+"PANTALLA-CHAT-BOTON-LINK":"Enviar Link",
+"PANTALLA-CHAT-BOTON-ARCHIVO":"Enviar Fichero",
+"PANTALLA-CHAT-DESCONECTAR":"Desconectar",
+"PANTALLA-CHAT-IMPRIMIR":"Imprimir",
+"PANTALLA-CHAT-GUARDAR":"Guardar",
+"PANTALLA-CHAT-ENTRADILLA":"Bienvenido a Vueling. Para poder ayudarte necesitamos que tu consulta sea lo más completa posible y en una sola frase. Por ejemplo: Quiero realizar una reserva.",
+"PANTALLA-LINKS-TITULO":"Envío de Links",
+"PANTALLA-LINKS-CAPTION":"Título: ",
+"PANTALLA-LINKS-TARGET":"Dirección: ",
+"PANTALLA-LINKS-BOTON-ENVIAR":"Enviar",
+"PANTALLA-LINKS-BOTON-CANCELAR":"Cerrar",
+"AVISO-TIMEOUT":"Estoy a la espera de tu respuesta, si no tienes ninguna otra consulta en los próximos 60 segundos entenderé que ya he resuelto tus dudas y finalizaremos la conversación.",
+"NOTIFICACION-TIMEOUT":"Espero que nuestro servicio chat te haya ayudado. ¡Gracias por contactar con Vueling!",
+
+"PANTALLA-OPINION-BOTON-ENVIAR":"Enviar",
+"PANTALLA-OPINION-BOTON-CANCELAR":"Cancelar",
+"PANTALLA-OPINION-LABEL-SERVICIO-UTIL":"¿Ha sido útil este servicio?",
+"PANTALLA-OPINION-LABEL-SERVICIO-UTIL-MODIF":"Gracias por ayudarnos a mejorar. ¿Quieres puntuar nuestro servicio Chat?",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-SI":"SI",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-MUY-MALO":"Muy malo",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-MALO":"Malo",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-REGULAR":"Regular",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-BUENO":"Bueno",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-MUY-BUENO":"Muy bueno",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-PUNTUACIONES-PRIMERA":"Tiempo respuesta",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-PUNTUACIONES-SEGUNDA":"Claridad en la información",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-PUNTUACIONES-TERCERA":"Resolución consulta",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-VALORACION":"En concreto, ¿cómo valoras?",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-NSNC":"NS/NC",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-NO":"NO",
+"PANTALLA-OPINION-LABEL-VALORACION":"Por favor, valora el servicio recibido",
+"PANTALLA-OPINION-LABEL-COMENTARIOS":"¿Quieres dar tu opinión?",
+"PANTALLA-OPINION-LABEL-VUELING":"Muchas gracias. Tú haces Vueling.",
+"PANTALLA-OPINION-ALERT-INCOMPLETO":"Para mejorar el servicio, completa, por favor, todos los campos antes de salir. Muchas gracias.",
+
+"CATS-BUSQUEDA-VUELO":"Búsqueda de Vuelo",
+"CATS-CONEXIONES":"Conexiones",
+"CATS-BLOQUEA-PRECIO":"Bloquea tu precio",
+"CATS-DATOS-PASAJEROS":"Datos de Pasajeros",
+"CATS-RESIDENTES":"Residentes",
+"CATS-FAMILIA-NUMEROSA":"Familia Numerosa",
+"CATS-PUNTO":"Punto",
+"CATS-SERVICIOS":"Servicios",
+"CATS-METODOS-PAGO":"Métodos de pago",
+"CATS-CONFIRMACION-RESERVA":"Confirmación Reserva",
+
+"CAT8-ASIENTOS":"Asientos",
+"CAT8-MALETAS":"Maletas",
+"CAT8-SEGURO-VIAJE":"Seguro de Viaje",
+"CAT8-MASCOTAS":"Mascotas",
+"CAT8-EQUIPAJES-ESPECIALES":"Equipajes especiales",
+"CAT8-MENORES-NO-ACOMPAÑADOS":"Menores no acompañados",
+
+"CAT9-TARJETAS":"Tarjetas",
+"CAT9-PAYPAL":"Paypal",
+"CAT9-BONO-DESCUENTO":"Bono descuento"
+
+};
+return lang;
+}
+

@@ -1,0 +1,252 @@
+.ui-widget-content .ui-state-disabled span{color:#999!important}
+.buscador .sel_pasajeros .select{min-width:103px;width:103px}
+.sel_idaVuelta input.validationError{padding:3px 5px 5px 4px}
+.sectionBorder_layerSmall-noborder{border:1px solid #eee!important}
+.sectionSolid_checkin ul li, .listadoHalf li{margin-right:1.5%!important}
+
+.disableButton.bt_yellow{color:#999}
+.disableButton span.bt_link{filter:alpha(opacity=40);color:#999}
+#points .footerPoints .contentSection span.greyArrow{top:-1px}
+.cssHint{margin-left:0px!important;}
+.loadingLayer {background:white!important;}
+
+/******************************************************************************
+  +Barra Lateral
+=========================================================================*/
+.travelInfo .sepTotal span{top:-1px}
+.aside .travelInfo .tableContainer.SBSidebarToogleClassToShowOnClose{background:#FFF;padding:10px 7px}
+#currencyConverter{background-color:#ebebeb;padding:5px 5px 8px}
+#currencyConverter a {font-weight:800}
+a.newSearch{background:none;color:#FFF;padding:0 5px;font-weight:800}
+#taxAndFeeInclusiveDivFooter.atAGlanceDivFooter IMG{padding-top:8px;margin-left:5px}
+
+
+.disabledPiece .wrap_btSmall_plus a:hover span, .disabledPiece .wrap_btSmall_plus a{color:#999!important}
+
+.sectionSelected .wrap_btSmall_plus a,.seatPiece.sectionSelected .wrap_btSmall_plus a:hover{color:#999!important}
+
+.legendSeats{left:-3px}
+	
+.disabledPiece .icon.icoSeatDuo{background-position:-796px -3423px!important}
+.disabledPiece .icon.icoSeatCero{background-position:-907px -3423px!important}
+
+
+/******************************************************************************
+ *
+ * @Index buscador
+ *  
+ * =Buscador
+ *
+ *	+BuscadorPasajeros (.seleccionPasajeros)
+ *  +DesplegableBuscador (.cajaDesplegableTab)
+ *
+ */
+
+
+/*=========================================================================
+  +BuscadorPasajeros
+=========================================================================*/
+#wrapper .seleccionPasajero select{
+	background-image:none;
+	padding-right:4px!important;
+	padding-left:4px!important;
+}
+
+/******************************************************************************
+ *
+ *  =Residentes
+ *
+ *	Cambios en página de verificación de residentes
+ *
+ */
+
+.pageValidacionResi #pnrDetails, 
+.pageValidacionResi .c3AsideBar.styleBox{min-height:216px}
+.pageValidacionResi .c3AsideBar.styleBox{min-height:207px}
+
+/******************************************************************************
+ *  =Seatmap
+ */
+.legendSeats{width:100%;position:relative;float:left;margin:15px 0 0;min-height:49px;z-index:1}
+.legendSeats li{position:relative;float:left}
+.legendSeats li .squarePrice .arrow{left:50%;margin-left:-10px!important}
+.legendSeats li, .legendSeats li .squarePrice{padding:0 2px;box-sizing:border-box;-moz-box-sizing:border-box}
+.legendSeats li.legendDuo{position:absolute}
+.legendSeats li.legend15-19,.legendSeats li.legendDuo{margin-right:0}
+.legendSeats-duo{margin-top:-43px!important}
+.legendSeats-duo li.legendDuo .squarePrice{left:-18px}
+.legendSeats-duo li.legendDuo .squarePrice .arrow{top:auto;bottom:-10px;border-top-color:#666!important;border-width:10px 10px 0;left:33%!important}
+
+.legendSeats li .squarePrice{width:100%;font:800 .85em/1.2 Verdana;color:#fff;text-align:center;border:0;position:relative;padding:5px 0 4px}
+.legendSeats li .squarePrice .arrow{position:absolute;top:-10px;display:block;width:0;height:0;overflow:hidden;border-style:solid;border-width:0 10px 10px;margin:0 11px 0 0;border-color:transparent}
+.legendSeats li span{float:right;padding:3px;font:normal 0.8em/1.2 Verdana;color:#fff;display:block;text-align:center;margin-top:4px}
+.legendSeats li.legendDuo{left:7px;top:-472%;width:12%}
+#c3Body .legendSeats li.legendDuo{left:7px;top:-399%;width:12%}
+.legendSeats li.legendDuo .squarePrice{background-color:#666}
+.legendSeats li.legendDuo .squarePrice .arrow{border-width:10px 10px 0;bottom:-10px;top:auto;border-top-color:#666666;left:26px}
+.legendSeats li.legendPref{width:16.5%}
+.legendSeats li.legendOptimum{width:22%}
+.legendSeats li.legendXL{width:7.8%}
+.legendSeats li.legendOptimum{width:22%}
+.legendSeats li.legendXL span{width:100%;float:left}
+.legendSeats li.legend15-19, .legendSeats li.legend20-24{width:15.3%;left:3px}
+.legendSeats li.legend15-19{left:2px}
+.legendSeats li.legend25-31{width:23%;left:3px}
+#avionthList {position:absolute;z-index:1;top:270px;left:15px;padding:0;background-color:#fff;border-left:4px solid #fff;height:122px;float:left;line-height:1em}
+#avionthList li{padding-top:7px; font-weight: 800; font-size: 13px}
+#avionthList li.pasillo{padding-top:0; height:12px; font-weight: 800}
+#avionthList  li:first-child{padding-top:0;margin: -1px 0 1px}
+
+.tableAvion th a,.tableAvion td a{height:17px;width:18px;float:left;display:block}
+.tableAvion tr.pasillo td{text-align:center;letter-spacing:-.5px;font:800 10px/1.2 Verdana;padding-right:6px!important;color:#4d4d4d}
+.avion .tableAvion{width:100%;background-color:#fff;position:relative;padding:9px; border:4px solid #bdbdbd; box-sizing: border-box; -moz-box-sizing: border-box}
+.avion .tableAvion table#Y{width:99%;margin-left:12px}
+.avion .tableAvion:before, .avion .tableAvion:after{content:""; position: absolute; width:108px; height:34px;left:36%; margin-left:-54px; background-position: -14px -1601px; top:-35px; background-image:url(../../images/VuelingBase/global_sprite.png)}
+.tableAvion_seatMask{width:4px; height:175px; background-color: #bdbdbd;  position: absolute; left:0; z-index: 3}
+.avion .tableAvion:after{background-position: -14px -1653px; top:auto; bottom:-38px}
+.seatMapSeparator{ position: absolute; height:129%; width:1px; background: url(../../images/VuelingBase/sepDo_seatmap.png) top left repeat-y; margin-left: -4px;z-index: 1}
+UL.seatLegendList{float:right}
+.legendSeats{margin:24px 0 0}
+
+.icoRoundSeat_basic.icoSeatOpacity,.icoRoundSeat_optimum.icoSeatOpacity, #sec4.disabledPiece i, #sec3.disabledPiece i{ background-position: -493px -1563px!important}
+.icoRoundSeat_xl.icoSeatOpacity, #sec2.disabledPiece i, #secXL.disabledPiece i { background-position: -468px -1563px!important}
+.icoRoundSeat_select_xl{background-position:-820px -1564px!important}
+
+.icoRoundSeat_pref.icoSeatOpacity{background-position: -518px -1563px !important}
+.icoRoundSeat_optimum.icoSeatOpacity,.icoRoundSeat_basic.icoSeatOpacity{background-position: -495px -1563px !important}
+.icoRoundSeat_xl.icoSeatOpacity{ background-position: -469px -1563px!important}
+.icoRoundSeat_duo.icoSeatOpacity{background-position: -443px -1563px !important}
+.icoRoundSeat_duo,.icoRoundSeat_basic,.icoRoundSeat_optimum,.icoRoundSeat_bebe,.icoRoundSeat_xl{cursor:pointer}
+.icoRoundSeat_select,.icoRoundSeat_reserved,.icoRoundSeat_fleetblocked{cursor:default}
+.blockDuo .btAvion{display:none}
+.icoRoundSeat_reserved.icoSeatOpacity{ background-position: -565px -1563px!important}
+.icoRoundSeat_fleetblocked.icoSeatOpacity{ background-position: -632px -1563px!important}
+.blockDuo .legendSeats li span{display:none}
+.icoSeatOpacity { cursor: default!important}
+.icoRoundSeat_select_xl{background-position:-817px -1564px!important}
+
+/*hack para webkit*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .tableAvion_thList{top:59px}
+	.tableAvion_thList li.pasillo{height:23.4px}
+	.legendSeats li.legendPref{width:16.5%}
+	.legendSeats li.legendOptimum{width:21.2%}
+	.legendSeats li.legendXL{width:7.7%}
+	.legendSeats li.legend15-19{width:15.4%;left:0}
+	.legendSeats li.legend20-24{width:15.4%;left:1px}
+	.legendSeats li.legend25-31{width:23%;left:2px}
+
+	/*change flight*/
+	#c3_seatsPage .legendSeats li.legend20-24{left:-1px}
+	#c3_seatsPage .legendSeats li.legend25-31{left:-2px}
+	
+	/*checkin*/
+	#c3_seatsPage .styleBox_checkin .legendSeats li.legend20-24 {width:15.4%;left:0}
+	#c3_seatsPage .styleBox_checkin .legendSeats li.legend25-31 {left:0}
+	
+	/*express checkin*/
+	#expressSeatMap .legendSeats li.legendXL{width:7.6%}
+	#expressSeatMap .legendSeats li.legend15-19{left:0}
+	#expressSeatMap .legendSeats li.legend20-24 {width:15.5%;left:0}
+	#expressSeatMap .legendSeats li.legend25-31 {left:1px}
+}
+	
+/*hack firefox*/
+@-moz-document url-prefix() {
+	.legendSeats li.legendXL{width:7.7%}
+	.legendSeats li.legend15-19{width:15%;left:1px}
+	.legendSeats li.legend20-24{width:15.2%;left:3px}
+	.legendSeats li.legend25-31{left:5px;width:22%}
+}
+
+.legendSeats li.legendPref .squarePrice,.legendSeats li.legendPref span,.legendSeats li.legendOptimum span{background-color:#990}
+.legendSeats li.legendPref .squarePrice .arrow{border-color:transparent transparent #990;left:72%}
+.legendSeats li.legendXL .squarePrice,.legendSeats li.legendXL span,.legendSeats li.legendOptimum span{background-color:#999}
+.legendSeats li.legendXL .squarePrice .arrow{border-color:transparent transparent #999}
+.legendSeats li.legendOptimum .squarePrice,.legendSeats li.legendOptimum span,.legendSeats li.legendSegment .squarePrice, .legendSeats li.legendSegment span{background-color:#fc0}
+.legendSeats li.legendOptimum .squarePrice .arrow,.legendSeats li.legendSegment .squarePrice .arrow{border-color:transparent transparent #fc0}
+.type319left {left:65px!important}
+.seatWrap{position:relative}
+.tableAvion .hover{z-index:10}
+#dvPromoExcIn {width:47%!important}
+
+.detailSeatLayer{position:absolute;padding:10px;border:2px solid #4d4d4d;color:#666;width:140px;background-color:#fff;font-size:0.91em;min-height:25px;z-index:10;border-radius:8px;-webkit-border-radius:8px}
+.detailSeatLayer p{margin-bottom:0;vertical-align:middle}
+.detailSeatLayer p > span{display:block;font:normal 1.091em/1 verdana;margin-top:3px;text-align:left}
+.detailSeatLayer p > span:first-child{margin-top:0}
+.detailSeatLayer:before{background:url("../../images/VuelingBase/global_sprite.png") no-repeat scroll -925px -3229px transparent;content:"";height:25px;left:-9px;margin-top:-13px;position:absolute;top:50%;width:12px}
+.detailSeatLayer--izq:before, .detailSeatLayer--izq.layerAlert:before{left:auto;right:-9px;background-position:-946px -3229px}
+.detailSeatLayer--izq.layerAlert:before{background-position:-946x -3196px}
+
+/*capa boton seleccionado*/
+.layerSelect{background-position:-926px -3227px}
+.layerDuo:before{background-position:-926px -3227px}
+.layerDuo{background-color:#fc0;color:#666}
+.layerOptimum:before{background-position:-926px -3227px}
+.layerOptimum{background-color:#999}
+.layerXl:before{background-position:-926px -3227px}
+.layerXl{background-color:#666}
+.layerBusy:before{background-position:-926px -3227px}
+.layerBusy{background-color:#d2460c}
+.layerBebe:before{background-position:-926px -3227px}
+.layerBebe{background-color:#fff;color:#666;border-color:#990}
+.layerAlert{border-color:#d2460c;padding-right:30px;width:174px}
+.layerAlert:before{background-position:-925px -3196px}
+
+div.ssrAmount{float:right!important}
+div.ssrAmount input{background-color:transparent;border:0 solid transparent;padding-top:3px;width:70px;text-align:right}
+
+/******************************************************************************
+ * Modules
+ *
+ * @pushBox
+ * 
+ * Este módulo está ubicado en el paso 2, como mensaje en la parte superior que acompaña al scroll en toda la página
+ *
+ */
+
+.pushBox_colBoxPrice .sectionSolid{ min-height: 0;}
+.pushBox_colCounter{ right:-1px;}
+.pushBox.boxShadow{
+    border:3px solid #fff;
+    border-left: 0;
+    border-right: 0;
+    margin-top: -3px;
+}
+.pushBox_colBoxPrice .sectionSolid > span{ position: absolute; top:50%; margin-top: -5%;}
+.pushBox.pushBox--fewPlaces .pushBox_colBoxPrice .sectionSolid .pushBox_colBoxPrice_txt{margin-top: -6%;}
+.pushBox.pushBox--fewPlaces .pushBox_colBoxPrice_price {right: 10px; width:60%;}
+.pushBox_colBoxPrice:after{display:none;}
+
+/**
+ * Modules
+ *
+ * @shareBox
+ * 
+ * Este módulo está ubicado en tu itinerario, carga en la parte superior. Contiene los botones de compartir de las redes sociales
+ *
+ */
+.shareBox .sectionSolid.bc_white:after{border-color: transparent transparent transparent #ffffff;}
+
+
+/**
+ * Modules
+ *
+ * @shareBox
+ * 
+ * Este módulo está ubicado en tu itinerario, carga en la parte superior. Contiene los botones de compartir de las redes sociales
+ *
+ */
+.shareBox .sectionSolid.bc_white:after{border-color: transparent transparent transparent #ffffff;}
+
+/**
+ * Modules
+ *
+ * @buyPoints
+ * 
+ * Este módulo está ubicado el area privada, en la sección de comprar puntos 
+ *
+ */
+
+.buyPoints_row_modules .buyPoints_row_modules_icon{ background: transparent url(../../images/VuelingBase/buy_pointsRound_ie.png) 0 0!important;}
+.buyPoints_row_modules.has-points .buyPoints_row_modules_icon{ background-image: url(../../images/VuelingBase/buy_pointsRound_hover_ie.png)!important;}

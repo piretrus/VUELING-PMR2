@@ -1,0 +1,77 @@
+function loadLang() { 
+lang = "EN";
+objTranslations = {
+
+"PANTALLA-INTRO-TEXTOINTRO":"<br/><br<b>How to use our chat</b><br/><br/><br/>In order to help you faster, please bear in mind the following:<br/><br/><br/>Use complete sentences. For example, how can I buy a ticket?<br/><br/>Ask one single question for each issue with the necessary information.",
+"PANTALLA-INTRO-BOTON-VAMOS":"Go!",
+
+"PANTALLA-PARAMETROS-TITULO":"Please, explain your contact reason to start the Chat.",
+"PANTALLA-PARAMETROS-ETIQUETA-CATEGORIA":"Category: ",
+"PANTALLA-PARAMETROS-ETIQUETA-MAIL":"E-mail: ",
+"PANTALLA-PARAMETROS-ETIQUETA-NOMBRE":"Name: ",
+"PANTALLA-PARAMETROS-ETIQUETA-APELLIDOS":"Last name: ",
+"PANTALLA-PARAMETROS-ETIQUETA-NUM-COMPRA":"Order: ",
+"PANTALLA-PARAMETROS-BOTON":"Chat!",
+
+"PANTALLA-CHAT-NUEVA-FRASE":"Do!",
+"PANTALLA-CHAT-BOTON-LINK":"Send Link",
+"PANTALLA-CHAT-BOTON-ARCHIVO":"Send File",
+"PANTALLA-CHAT-DESCONECTAR":"Disconnect",
+"PANTALLA-CHAT-IMPRIMIR":"Print",
+"PANTALLA-CHAT-GUARDAR":"Save",
+"PANTALLA-CHAT-ENTRADILLA":"Welcome to Vueling. We need your question as complete as possible and in one sentence, in order to help you.",
+"PANTALLA-LINKS-TITULO":"Links sending",
+"PANTALLA-LINKS-CAPTION":"Title: ",
+"PANTALLA-LINKS-TARGET":"Target: ",
+"PANTALLA-LINKS-BOTON-ENVIAR":"Send",
+"PANTALLA-LINKS-BOTON-CANCELAR":"Close",
+"AVISO-TIMEOUT":"I am waiting for your answer, if you do not have any further questions over the next two minutes I would finish the Chat.",
+"NOTIFICACION-TIMEOUT":"I hope that our chat service has helped you. Thank you for contacting Vueling!",
+
+"PANTALLA-OPINION-BOTON-ENVIAR":"Send",
+"PANTALLA-OPINION-BOTON-CANCELAR":"Cancel",
+"PANTALLA-OPINION-LABEL-SERVICIO-UTIL":"Has been helpfull this service?",
+"PANTALLA-OPINION-LABEL-SERVICIO-UTIL-MODIF":"Thank you for helping us. Do you want to rate our Chat?",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-SI":"YES",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-MUY-MALO":"Very bad",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-MALO":"Bad",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-REGULAR":"Regular",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-BUENO":"Good",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-MUY-BUENO":"Very good",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-PUNTUACIONES-PRIMERA":"Response time",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-PUNTUACIONES-SEGUNDA":"Information clearness",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-PUNTUACIONES-TERCERA":"Query resolution",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-VALORACION":"How do you rate it?",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-NSNC":"N/A",
+"PANTALLA-OPINION-RADIO-SERVICIO-UTIL-NO":"NO",
+"PANTALLA-OPINION-LABEL-VALORACION":"Rate the service received, please",
+"PANTALLA-OPINION-LABEL-COMENTARIOS":"Want to give your opinion?",
+"PANTALLA-OPINION-LABEL-VUELING":"Thank you. You make Vueling.",
+"PANTALLA-OPINION-ALERT-INCOMPLETO":"To improve the service, complete, please, all the fields before exit. Thanks a lot.",
+
+"CATS-BUSQUEDA-VUELO":"Flight search",
+"CATS-CONEXIONES":"Connections",
+"CATS-BLOQUEA-PRECIO":"Block your price",
+"CATS-DATOS-PASAJEROS":"Passengers data",
+"CATS-RESIDENTES":"Residents",
+"CATS-FAMILIA-NUMEROSA":"Familia Numerosa",
+"CATS-PUNTO":"Punto",
+"CATS-SERVICIOS":"Services",
+"CATS-METODOS-PAGO":"Payment",
+"CATS-CONFIRMACION-RESERVA":"Confirmación Reserva",
+
+"CAT8-ASIENTOS":"Seats",
+"CAT8-MALETAS":"Maletas",
+"CAT8-SEGURO-VIAJE":"Trip insurance",
+"CAT8-MASCOTAS":"Pets",
+"CAT8-EQUIPAJES-ESPECIALES":"Equipajes especiales",
+"CAT8-MENORES-NO-ACOMPAÑADOS":"Menores no acompañados",
+
+"CAT9-TARJETAS":"Cards",
+"CAT9-PAYPAL":"Paypal",
+"CAT9-BONO-DESCUENTO":"Discount card"
+
+};
+return lang;
+}
+

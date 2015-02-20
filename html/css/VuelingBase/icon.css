@@ -1,0 +1,2560 @@
+/****** iconos general *****/
+
+/*declaración icon*/
+.icon,.icon2,.icon-bf:before,.icon-af:after,.icon2-af:after,.icon2-bf:before{display:inline-block;background-image:url(../../images/VuelingBase/global_sprite.png);background-repeat:no-repeat}
+.icon2, .icon2-af:after,.icon2-bf:before{background-image:url(../../images/VuelingBase/global_sprite_colors.png)}
+.icon-bf,.icon-af,.icon2-af,.icon2-bf{position:relative}
+.icon-bf:before,.icon-af:after, .icon2-af:after,.icon2-bf:before{content:"";position:absolute;top:0;left:0}
+
+.secTab .icon{position:relative;top:-2px;margin-right:5px}
+.sectionHold .styleBox_white h3 .icon{position:absolute;top:0;left:0}
+.holdDetails .numPassenger .icon{margin-right:10px}
+.holdDetails .pnrDetailBar .paymentStatus .icon{position:relative;top:-8px;margin-bottom:-8px}
+.pnrDetail > .icon{position:absolute;top:0;left:0}
+.pnrDetailBar .statusMsg .icon{margin:0 5px 0 3px}
+.opcionVuelo li a span,.opcionVuelo li a.desplegable span.icon{display:block;float:left;position:relative;top:-4px;margin-right:4px}
+.opcionVuelo li a.desplegable span.icon{border:none}
+.toolsList li h6 a .icon{position:absolute;top:0;left:0}
+#research a .icon{position:relative;top:2px;margin-right:3px}
+.HoldSb .icon{position:absolute;top:0;left:0}
+.myVuelingUserRow .iconSection .icon{float:right;margin:0}
+.espBaggageListIcons .icon{float:left;width:44px;height:42px;margin:3px}
+#paymentHoldAside .travelInfo h3 .icon{left:2px;position:absolute;top:-4px;*top:0}
+#paymentHoldConfirmArticle #paxDetails .paxPaymentTotal .icon{float:left;margin-right:7px;position:relative;top:-11px}
+.bottomComment .icon{margin-right:10px}
+#punto_visaPage .radioForm .icon{position:relative;top: -8px}
+#ap_formaPagoArticle .icoSafe .icon{margin-right:10px}
+.c3AsideBar .c3AsideBar_footer .ventajas .icon{position:relative;top:1px}
+.c3AsideBar .c3AsideBar_footer h3 .icon{margin-right:10px}
+.paxPaymentRow .paymentStatus .icon{margin-right:8px}
+#c3_checkinArticle .passengersBar fieldset span.col3 span.icon{cursor:default}
+#c3_checkinArticle .seatLegendList span.icon{cursor:default}
+.shareBox ul li a span.icon{position:absolute;top:0;left:0}
+.welcomePunto_list li .icon{margin-right:5px;position:relative;top:-2px}
+.welcomePunto_list li .icon.icoWelcomePunto_checkin{top:-4px}
+.checkinItineraryList li a .icon{float:left}
+.checkinItineraryList li:first-child span.icon{top:0}
+.feeListTab li .icon{float:left}.listado_imgText li .icon{float:left}
+.reservationList .flyResume .bt_detalles span.icon{position:absolute;right:0;top:0}
+.reservationList .flyResume .bt_detalles_active .icon{background-position:-409px -26px}
+.reservationList .flyResume .bt_detalles .icon{float:right;margin-left:8px}
+.improveFlyLayer ul li .icon{float:left}
+.proformaTable .passenger .col2 .icon{position:relative;top:-2px}
+.sectionInsuranceUsers h3 .icon{margin:10px}
+.availability th .icon{position:relative;top:14px}
+.availability .arrowLeft .icon{margin:0 4px 0 0}
+.availability .arrowRight .icon{margin:0 8px 0 4px}
+.tabFee .icon{margin-top:4px}
+.newTabs .icon{margin-top:0}.tabExcellence .tabFee .icon{margin-top:23px}
+.newTabs .tabExcellence .tabFee .icon{margin-top:0}
+.sectionPiece .icon{margin:3px auto 13px}
+.sectionBaggage .sectionPiece .icon{margin:0}
+.payBox .numPasos .icon{margin-right:10px}
+.promoCode .icon{position:relative;top:4px}
+.passengersBar .whiteBox .seatLegend .icon{margin-right:5px;top:-2px;position:relative;*position:static}
+.seatLegendList li .icon{margin-right:3px;float:left}
+.listFacturas tbody td.listDescargar a span.icon{position:relative;top:-2px}
+.feeName_bf{position:relative;padding-left:15px;font-weight:800}
+.feeName_bf:before{content:"";position:absolute;width:15px;height:15px;top:50%;margin-top:-7px;left:0;background-image:url(../../images/VuelingBase/global_sprite.png)}
+.feeName_bf.feeNameBasic:before{background-position:-69px -2684px!important}
+.feeName_bf.feeNameOptima:before{background-position:-111px -2684px!important}
+.feeName_bf.feeNameExcellence:before{background-position:-90px -2684px!important}
+.submenu ul ul li a span.icon{position:absolute;left:0;top:2px}
+.menuAcordeon li .acordeonContent .icon{float:left}
+.newSearch h5 .icon{float:left;margin-right:5px}
+.checkRow label span.icon{margin-right:4px}
+
+/*submenu iconos*/
+.icoMenu{position:absolute;width:26px;height:27px;z-index:1;top:0!important;left:0;float:left}
+.icoMenu_gestiona{background-position:-900px -899px!important}
+.icoMenu_checkin{background-position:-864px -896px!important}
+.icoMenu_seat{background-position:-863px -960px!important}
+.icoMenu_change{background-position:-864px -928px!important}
+.icoMenu_block{background-position:-865px -1080px!important}
+.icoMenu_go{background-position:-863px -1051px!important}
+.icoMenu_baggage{background-position:-865px -1112px!important}
+.icoMenu_especial{background-position:-866px -1143px!important}
+.icoMenu_insurance{background-position:-867px -990px!important}
+.icoMenu_api{background-position:-870px -1173px!important}
+.icoMenu_factura{background-position:-868px -1200px!important}
+.icoMenu_residente{background-position:-865px -1235px!important}
+.icoMenu_mascota{background-position:-899px -928px!important}
+.icoMenu_puntos{background-position:-896px -962px!important}
+.icoMenu_preparation{background-position:-899px -990px!important}
+.icoMenu_airport{background-position:-901px -1017px!important}
+.icoMenu_aboard{background-position:-904px -1050px!important}
+.icoMenu_destination{background-position:-904px -1079px!important}
+.icoMenu_business{background-position:-903px -1113px!important}
+.icoMenu_services{background-position:-861px -1021px!important}
+.icoMenu_home{background-position:-907px -1174px!important}
+.icoMenu_flying{background-position:-906px -1202px!important}
+.icoMenu_net{background-position:-933px -898px!important}
+.icoMenu_job{background-position:-934px -927px!important}
+.icoMenu_investors{background-position:-936px -961px!important}
+.icoMenu_press{background-position:-939px -989px!important}
+.icoMenu_contact{background-position:-936px -1022px!important}
+.icoMenu_search{background-position:-938px -1171px!important}
+.icoMenu_where{background-position:-939px -1080px!important}
+.icoMenu_estimation{background-position:-938px -1110px!important}
+.icoMenu_calendar{background-position:-936px -1141px!important}
+.icoMenu_groups{background-position:-938px -1048px!important}
+.icoMenu_tarifas{background-position:-939px -1200px !important}
+.icoMenu_legal{background-position:-901px -1142px !important}
+.icoMenu_specialPassenger{background-position:-963px -892px!important}
+.icoMenu_info_vuelos{background-position:-963px -924px!important}
+.icoSub-queespunto{background-position:-966px -988px!important}
+.icoSub-obtenerpuntos{background-position:-966px -1139px!important}
+.icoSub-compravuelos{background-position:-966px -1019px!important}
+.icoSub-recuperapuntos{background-position:-966px -1047px!important}
+.icoSub-comprapuntos{background-position:-966px -1077px!important;top:-2px!important}
+.icoSub-premium{background-position:-966px -1109px!important}
+.icoMenu_my25{background-position:-967px -960px}
+
+/*iconos*/
+.icon2StJoanDeu {background-position:-715px -419px; height: 44px; width: 285px; }
+.icoPlane_big,.icoSeatsOptima,.icoPrograms,.icoAdelanta_medium,.icoInstantCheckin_big,.icoSnack_big,.icoHandBaggage_big,.icoPreferentBoarding_big,.icoMostradores_big,.icoDuo_big,.icoReembolso_big,.icoFacturacion_big,.icoFlexibilidad_big,.icoVip_big,.icoCarril_big{width:73px;height:59px}
+.icoPlane_big{background-position:-110px -3346px}
+.icoSeatsOptima{background-position:-193px -3346px;height:75px}
+.icoPrograms{background-position:-274px -3346px}
+.icoAdelanta_medium{background-position:-357px -3346px}
+.icoInstantCheckin_big{background-position:-28px -3428px}
+.icoSnack_big{background-position:-522px -3428px}
+.icoHandBaggage_big{background-position:-275px -3428px}
+.icoPreferentBoarding_big{background-position:-192px -3428px}
+.icoMostradores_big{background-position:-357px -3428px}
+.icoDuo_big{background-position:-111px -3428px}
+.icoReembolso_big{background-position:-439px -3428px}
+.icoFacturacion_big{background-position:-603px -3428px;position:relative;top:-10px}
+.icoFlexibilidad_big{background-position:-684px -3428px}
+.icoVip_big{background-position:-29px -3346px}
+.icoCarril_big{background-position:-515px -2777px}
+.icoBrowser_ff,.icoBrowser_ie,.icoBrowser_ch{width:74px;margin-right:70px;height:67px;background-image:url(../../images/VuelingBase/global_sprite_colors.png)}
+.icoBrowser_ff{background-position:-19px -238px}
+.icoBrowser_ie{background-position:-99px -238px}
+.icoBrowser_ch{background-position:-183px -238px}
+.icoGoma{width:39px;height:37px;background-position:-741px -3212px;float:left}
+.icoHandBaggageNoTxt_small{background-position:-548px -2231px !important;height:53px;width:44px}
+.icoPromoUniversal{width:22px;height:21px;background-position:-947px -3104px}
+.icoRoundAdded{background-position:-646px -3068px;height:26px;width:28px}
+.icoAdvantageFeeOk,.icoAdvantageFeeNo{width:35px;height:35px}
+.icoAdvantageFeeOk{background-position:-489px -3029px}
+.icoAdvantageFeeNo{background-position:-530px -3029px}
+.icoRoundFeeBasic,.icoRoundFeeOptima,.icoRoundFeeExcellence{width:10px!important;height:10px!important;float:left;margin-right:6px;position:relative;top:2px}
+.icoRoundFeeOptima{background-position:-596px -3024px}
+.icoRoundFeeBasic{background-position:-596px -3039px}
+.icoRoundFeeExcellence{background-position:-596px -3055px}
+.icoFeeTabListSeats_small,.icoFeeTabListBaggage_small,.icoFeeTabListChrono_small,.icoFeeTabListPlane_small,.icoFeeTabListPrograma_small,.icoFeeTabListPreferent_small,.icoFeeTabListDuo_small,.icoFeeTabListChangeFlight_small,.icoFeeTabListHandBaggage_small,.icoFeeTabListReembolso_small,.icoFeeTabListClick_small,.icoFeeTabListSnack_small,.icoFeeTabListPunto_small,.icoFeeTabListIberia_small,.icoFeeTabListSeatOptimum_small,.icoFeeTabListSeatXL_small,.icoFeeTabListBCNMAD_small,.icoFeeTabListAdelanta2_small,.icoFeeTabListCombina_small{float:left;width:45px;height:31px}
+.icoFeeTabListBCNMAD_small{background-position:-954px -2980px}
+.icoFeeTabListSeatXL_small{background-position:-905px -2980px}
+.icoFeeTabListSeatOptimum_small{background-position:-905px -3018px}
+.icoFeeTabListIberia_small{background-position:-905px -2943px}
+.icoFeeTabListPunto_small{background-position:-625px -3024px}
+.icoFeeTabListSnack_small{background-position:-375px -3031px}
+.icoFeeTabListClick_small{background-position:-625px -2981px}
+.icoFeeTabListReembolso_small{background-position:-468px -2981px}
+.icoFeeTabListHandBaggage_small{background-position:-573px -2981px}
+.icoFeeTabListChangeFlight_small{background-position:-415px -2981px}
+.icoFeeTabListDuo_small{background-position:-430px -3031px}
+.icoFeeTabListPreferent_small{background-position:-520px -2981px}
+.icoFeeTabListPrograma_small{background-position:-362px -2981px}
+.icoFeeTabListSeats_small{background-position:-257px -2981px}
+.icoFeeTabListBaggage_small{background-position:-204px -2981px}
+.icoFeeTabListChrono_small{background-position:-310px -2981px}
+.icoFeeTabListPlane_small{background-position:-62px -2981px}
+.icoFeeTabListAdelanta2_small{background-position:-266px -3250px}
+.icoFeeTabListCombina_small{background-position:-265px -3188px;height:52px}
+.icoFeeOptimaTab{width:55px;height:21px;background-position:0 -3596px}
+.icoComparativaFees{width:19px;height:19px;background-position:-108px -3031px;left:0;position:absolute;top:-1px}
+.icoFeeExcellenceTab{width:95px;height:21px;background-position:-70px -3596px}
+.icoFeeTab{width:18px;height:17px;position:absolute;left:10px}
+.icoFeeTab_seat{background-position:-140px -3030px}
+.icoFeeTab_baggage{background-position:-140px -3054px}
+.icoFeeTab_adelanta{background-position:-140px -3079px}
+.icoFeeTab_plus{background-position:-167px -3030px}
+.icoFeeTab_pref{background-position:-167px -3054px}
+.icoFeeTab_flex{background-position:-167px -3077px}
+.icoFeeExcellence_small{width:14px;height:25px;float:left;background-position:-8px -2980px}
+.icoBaggageAdded{width:101px;height:102px;background-position:-32px -758px;float:left}
+.icoBaggageAdded_small{width:56px;height:43px;background-position:-739px -3100px;float:left}
+.icoDuoSeatAdded{background-position:-739px -3159px;float:left;width:55px;height:40px}
+.icoBaggageDiscount{width:43px;height:41px;background-position:-579px -1063px;float:left}
+.icoCorpLaptop{width:210px;height:162px;background-position:-676px -2896px;float:left}
+.icoClock{width:31px;height:38px;background-position:-14px -2686px;float:left}
+.icoClockGestion{width:31px;height:30px;background-position:-705px -3500px}
+.iconHotelDefault,.iconCarDefault{width:110px;height:82px;background-position:-349px -210px;float:left}
+.iconCarDefault{background-position:-349px -321px}
+.icoConnectionIda,.icoConnectionVuelta{width:54px;float:left;height:36px;background-position:-770px -2797px}
+.icoConnectionVuelta{background-position:-770px -2833px}
+.icoConnectionIda_small,.icoConnectionVuelta_small{width:36px;float:left;height:26px;background-position:-839px -2805px}
+.icoConnectionVuelta_small{background-position:-839px -2843px}
+.icoUserConfirmMyVueling{width:77px;height:76px;background-position:-680px -2801px}
+.icoMyVuelingLogo{width:190px;height:37px;background-position:-683px -2746px;margin-bottom:10px}
+.icoMyVuelingLogo_small{width:102px; height:18px; background-position: -685px -2717px;}
+.icoMyVuelingLogo_smallBlack{ background-position: -805px -2717px;  height: 15px; width: 83px;}
+.icoMyvueling_unlogged,.icoMyvueling_logged{width:14px;height:20px;position:relative;top:-5px;background-position:-520px -2112px}
+.icoMyvueling_logged{background-position:-504px -2112px;margin:0 10px}
+.icoLupa_grey{width:30px;height:24px;float:left;background-position:-680px -1545px;left:0;position:absolute;top:3px}
+.icoTel_small{width:37px;height:35px;background-position:-7px -2629px}
+.icoQuestionConnect_small{width: 40px;height: 37px;float: left;background-position: -52px -2627px}
+.icoVisaCard_tutorial{width:270px;height:107px;background: url(../../images/VuelingBase/global_sprite_colors.png) -19px -445px no-repeat}
+.icoExpressCard_tutorial{width: 270px;height: 109px;background: url(../../images/VuelingBase/global_sprite_colors.png) -312px -450px no-repeat}
+.icoPreference_big{width:93px;float:left;height:90px;background-position:-266px -2628px}
+.icoGestionIntegral_small{width:60px;height:47px;background-position:-475px -2327px;float:left;margin:10px 10px 0 0}
+.icoGestionIntegral_big{width:79px;height:60px;background-position:-571px -2312px;float:left}
+.icoTarifaPromo_small{width:62px;height:59px;background-position:-475px -2403px;float:left;margin-right:10px}
+.icoTarifaPromo_big{width:80px;height:76px;background-position:-575px -2384px;float:left}
+.icoCompass_big{width:80px;height:76px;background-position:-740px -2555px;float:left}
+.icoAtencionCliente_big{width:76px;height:86px;background-position:-571px -2485px;float:left}
+.icoAtencionCliente_small{width:67px;height:57px;margin-right:10px;background-position:-474px -2514px;float:left}
+.icoInvoiceRquest_big{width:160px;height:162px;background-position:-279px -2444px}
+.icoEmergency_big{width:167px;height:169px;background-position:-273px -2243px}
+.icoErrro404{width:218px;height:356px;background-position:-28px -2239px}
+.icoSmiley{width:25px;height:26px;display:inline;background-position:-961px -162px;zoom:1;position:relative;top:6px;margin:-5px 0 0 5px;padding:0 40px 7px 0}
+.icoChat{width:20px;height:18px;background-position:-678px -346px}
+.icoTelChat_callmeBack_bf:before{width:37px;height:35px; background-position: -147px -4439px}
+.icoChat_callmeBack_bf:before{width:31px;height:27px; background-position: -149px -4392px}
+.icoFlightsToday{height:20px;width:27px;background:url(../../images/VuelingBase/global_sprite.png) no-repeat -278px -3076px;clear: none}
+.icoDescargaFactura{width:20px;height:20px;background-position:-787px -1545px}
+.icoLupa_big{width:124px;height:143px;background-position:-544px -1863px}
+.icoPlaneOut_small,.icoPlaneBack_small{width:20px;height:19px;background-position:-589px -410px}
+.icoPlaneBack_small{background-position:-617px -410px}
+.icoGoogleCalendar{width:22px;height:20px;background-position:-400px -1885px;position:relative;top:-2px;margin-bottom:-2px}
+.icoOutlook{width:22px;height:22px;background-position:-399px -1923px;position:relative;top:-2px;margin-bottom:-4px}
+.icoFacebookLayer{background-position:-257px -1885px;width:107px;height:40px}
+.icoTwitterLayer{background-position:-256px -1940px;width:121px;height:33px}
+.icoLoading{display:block;width:59px;height:58px;background:url(../../images/VuelingBase/loading.gif) 0 0 no-repeat;margin:40px auto 0}
+.paymentLoading .icoloading{background:url(../../images/VuelingBase/icoLoadingPaymnet.gif) top left no-repeat;width:301px;height:50px}
+.icoRoundSeat_basic,.icoRoundSeat_xl,.icoRoundSeat_optimum,.icoRoundSeat_duo,.icoRoundSeat_select,.icoRoundSeat_reserved,.icoRoundSeat_bebe,.icoRoundSeat_fleetblocked,.icoRoundSeat_0,.icoRoundSeat_pref{height:17px;width:18px}
+.icoRoundSeat_xl{background-position:-469px -1545px!important}
+.icoRoundSeat_pref{background-position:-518px -1545px!important}
+.icoRoundSeat_optimum, .icoRoundSeat_basic{background-position:-495px -1545px!important}
+.icoRoundSeat_duo{background-position: -443px -1545px !important;height: 14px !important;position: relative;top: -3px;  width: 21px !important}
+.icoRoundSeat_reserved{background-position:-565px -1545px!important}
+.icoRoundSeat_bebe{background-position:-609px -1545px!important}
+.icoRoundSeat_fleetblocked{background-position:-632px -1545px!important}
+.icoRoundSeat_0{background-position:-653px -1545px!important}
+.icoRoundSeat_select{background-position:-821px -1564px!important}
+.icoCondEspecialChair,.icoCondEspecialPregnant,.icoCondEspecialBaby,.icoCondEspecialBlind,.icoCondEspecialChair_big,.icoCondEspecialPregnant_big,.icoCondEspecialBaby_big,.icoCondEspecialBlind_big, .icoCondEspecialBaby2{width:59px;height:43px}
+.icoCondEspecialChair,.icoCondEspecialChair_big{background-position:-25px -1459px}
+.icoCondEspecialPregnant,.icoCondEspecialPregnant_big{background-position:-95px -1459px}
+.icoCondEspecialBaby,.icoCondEspecialBaby_big{background-position:-172px -1459px}
+.icoCondEspecialBlind,.icoCondEspecialBlind_big{background-position:-236px -1459px}
+.icoCondEspecialBaby2{background-position:-239px -1408px}
+.icoUM_big{width:77px;height:82px;float:left;background-position:-905px -2831px}
+.icoUM_small{width:31px;height:43px;background-position:-882px -588px}
+.icoMail{width:66px;height:55px;background-position:-887px -790px}
+.icoArrow_yellow{width:6px;height:14px;background-position:-566px -55px}
+.icoAdd{width:14px;height:13px;background-position:-508px -408px;float:left;margin-right:4px}
+.icoEliminar{width:14px;height:13px;float:left;cursor:pointer;margin-right:4px;background-position:-10px -34px}
+.icoAlert{width:44px;height:41px;background-position:-853px -466px}
+.icoHoldDetails,.icoHoldHeader{width:21px;height:29px;background-position:-724px -246px}
+.icoYellowArrow_big_bf{padding-left: 15px}
+.icoYellowArrow{background-position:-394px -400px;height:17px;width:6px}
+.icoYellowArrow_big, .icoYellowArrow_big_bf:before{background-position:-538px -55px;height:19px;width:8px}
+.icoYellowArrow_small_bf:before,.icoYellowArrow_small_der_bf:before{height:14px;width:6px}
+.icoYellowArrow_small_bf:before{background-position:-580px -55px}
+.icoYellowArrow_small_der_bf{padding-left: 11px}
+.icoYellowArrow_small_der_bf:before{background-position:-566px -55px}
+.icoGratis{width:76px;height:30px;background-position:-167px -445px}
+.icoPet_small{width:35px;height:34px;background-position:-445px -408px}
+.icoPet_medium, .icoPet_medium_bf:before{background-position: -316px -1456px; height: 52px; width: 56px;}
+.icoMissedFlight_small{width:30px;height:25px;background-position:-126px -1110px}
+.icoInsuranceBack, .icoInsuranceBack_bf:before,.icoInsuranceTrip,.icoInsuranceHealth_bf:before, .icoMissedFlight_c3_bf:before, .icoInsuranceDear_c3_bf:before{width:80px!important;height:106px}
+.icoInsuranceBack, .icoInsuranceBack_bf:before{background-position:-425px -1302px}
+.icoInsuranceTrip{background-position:-508px -1303px}
+.icoInsuranceSky_c3,.icoInsuranceGolf_c3,.icoInsuranceHobby_c3,.icoInsuranceDear_c3,.icoInsuranceHealth_c3,.icoSegMaleta, .icoMissedFlight_c3, .icoInsuranceHobby_c3_bf:before{width:78px;height:105px}
+.icoInsuranceSky_c3{background-position:-428px -1417px}
+.icoInsuranceGolf_c3{background-position:-516px -1417px}
+.icoInsuranceHobby_c3, .icoInsuranceHobby_c3_bf:before{background-position:-607px -1417px}
+.icoInsuranceDear_c3, .icoInsuranceDear_c3_bf:before,.icoSegMaleta{background-position:-696px -1417px}
+.icoInsuranceHealth_c3, .icoInsuranceHealth_bf:before{background-position:-790px -1417px}
+.icoInsuranceNone{background-position: -602px -1303px; width:80px; height:105px;}
+.icoMissedFlight_c3, .icoMissedFlight_c3_bf:before{background-position:-30px -1105px;height:65px}
+.icoBaggage{width:93px;height:96px;background-position:-349px -652px}
+.icoSeatPref,.icoSeatDuo,.icoSeatXL,.icoSeatOptimum,.icoSeatBasic,.icoSeatCero,.icoPromoExcellence_big,.icoPromoXL_small{width:120px;height:48px;background-image:url(../../images/VuelingBase/priority_seats.jpg);background-repeat:no-repeat;overflow:hidden;border-radius:8px}
+.icoSeatPref{background-position:0 0}
+.icoSeatXL{background-position:-126px 0}
+.icoSeatOptimum{background-position:-251px 0}
+.icoSeatBasic{background-position:-375px 0}
+.icoSeatDuo{background-position:-330px -124px}
+.icoSeatCero{background-position:-732px -792px;height:50px}
+BODY.DE .icoSeatCero,BODY.IT .icoSeatCero,BODY.RU .icoSeatCero{height:36px}
+.icoInfo{width:18px;height:18px;background-position:-110px -4px}
+.icoInfo_grey, .icoInfo_grey_bf:before{width:18px;height:18px;background-position:-552px -297px}
+.icoPromoCode, .ico_bf_PromoCode:before{width:23px;height:21px;background-position:-456px -297px}
+.ico_bf_PromoCode:before{margin-top:-10px;top:50%}
+.ico_bf_PromoCode{padding-left:28px}
+.icoHold_small{width:15px;height:20px;background-position:-855px -16px}
+.icoMsgError, .icoMsgInfo, .icoMsgError_bf:before{width:44px;height:41px;background-position:-851px -412px}
+.icoMsgError_bf{padding-left: 60px}
+.icoMsgError_small{width:28px;height:29px;float:left;background-position:-959px -90px}
+.icoMsgInfo{background-position:-851px -521px}
+.icoComment{width:44px;height:41px;background-position:-851px -520px}
+.icoComment_small {width:28px;height:29px;background-position:-851px -314px}
+.icoUser_grey,.icoUser_red{width:13px;height:14px}
+.icoUser_grey{background-position:-358px -427px}
+.icoUser_red{background-position:-357px -398px}
+.icon .secRoundTab span{right:42px!important;top:-33px!important}
+.icoPig,.icoCup,.icoPlane{margin-right:10px;float:left}
+.icoPig{width:62px;height:46px;background-position:-18px -247px}
+.icoCup{width:39px;height:45px;background-position:-112px -247px}
+.icoPlane{width:65px;height:41px;background-position:-179px -247px}
+.icoPlaneBig_ida,.icoPlaneBig_vuelta{width:47px;height:33px}
+.icoPlaneBig_ida{background-position:-158px -506px}
+.icoPlaneBig_vuelta{background-position:-205px -506px}
+.logoPunto_medium{width:93px;height:29px;background-position:-152px -3285px}
+.logoPunto_medium.icoFlotante_Top{position:absolute;right:0;top:0}
+#iconPhone{height:17px;width:16px;margin-right:4px;display:block;float:left;background:url(../../images/VuelingBase/global_sprite.png) no-repeat;background-position:0 -59px}
+.iconPhone_footer{height:36px;width:41px;margin-right:14px;float:left;background-position:-151px -8px}
+.iconClose{position:relative;border-radius:3px;font-size:.9em!important;height:9px;width:9px;background-color:#d2460c;color:#fff;text-align:center;margin-right:3px;float:left;text-decoration:none!important;font: normal .88em/.8 Verdana!important; top: 1px; display:block; padding:1px 1px 1px}
+.icoModificar{width:13px;height:13px;float:left;cursor:pointer;margin-right:4px;background-position:-112px -54px}
+.icoModificar_bf{cursor:pointer; padding-left:18px;}
+.icoModificar_bf:before{width:13px;height:13px;background-position:-112px -54px}
+
+.icoExportar{width:10px;height:12px;float:left;cursor:pointer;margin-right:4px;background-position:-967px -212px}
+.icoModificar_white{width:14px;height:13px;float:left;cursor:pointer;margin-right:4px;background-position:-111px -33px}
+.icoVisaMedium{width:104px;height:69px;background-position:-12px -347px}
+.icoVisaBig{width:215px;height:171px;background:url(../../images/VuelingBase/global_sprite_colors.png) -419px 0 no-repeat}
+.icoVisaCola{width:104px;height:69px;background-position:-115px -347px}
+.icoVisaDots{width:107px;height:69px;background-position:-221px -348px}
+.logoPunto_big{width:122px;height:44px;background-position:-437px -3px}
+.icoCrono{width:100px;height:76px;float:left;background-position:-373px -484px}
+.icoPuntoc3{width:57px;height:22px;background-position:-818px -57px}
+.icoCrono_small{width:88px;float:left;height:62px;background-position:-571px -980px}
+.ico_solFactura{width:20px;height:20px;background-position:-508px -251px}
+.icoPrint{width:18px;height:18px;background-position:-553px -254px}
+.icoLupa{width:15px!important;height:15px!important;background-position:-594px -257px}
+.icoCheckin_online,.icoCambio_vuelo,.icoInsurance_small,.icoSeat_small,.icoEquipajeEspecial_small,.icoEquipaje_small,.icoApi_small,.icoPet_mini,.icoVer_vuelo,.icoBag_mini,.icoGtrGuide_grey,.icoGtrMail_grey,.icoGtrCalendar_grey,.icoGtrInfo-passengersss, .icoReembolso_small{width:36px;height:23px}
+.icoWheelChair{width:36px;height:46px}
+.icoVer_vuelo{background-position:-674px -304px}
+.icoSeat_vuelo{width:13px;height:21px;background-position:-799px -321px}
+.icoReservasVoladas{background-image: url("../../images/VuelingBase/global_sprite.png");background-repeat: no-repeat;display: inline-block;background-position:0 -866px;height:150px;width:268px;margin:0 15px}
+.icoGrupos{background-position:-274px -881px;height:138px;width:147px;margin:0 73px 12px}
+.icoCheckin_online{background-position:-793px -251px}
+.icoReembolso_small{background-position:-404px -197px}
+.icoCambio_vuelo{background-position:-793px -274px}
+.icoWheelChair{background-position:-33px -1460px; }
+.icoInsurance_small{background-position:-793px -297px}
+.icoSeat_small{background-position:-793px -320px}
+.travelUser_servicesList .icoPrint{background-position:-547px -251px}
+.travelUser_servicesList .ico_solFactura{background-position:-503px -251px}
+.icoEquipajeEspecial_small{background-position:-793px -343px}
+.icoEquipaje_small{background-position:-793px -394px}
+.icoApi_small{background-position:-793px -411px}
+.icoPet_mini{background-position:-796px -470px}
+.icoBag_mini{background-position:-794px -442px}
+.icoGtrGuide_grey{background-position:-793px -363px}
+.icoGtrMail_grey{background-position: -793px -491px}
+.icoGtrInfo-passenger{background-position: -760px -252px}
+.icoGtrCalendar_grey{background-position: -793px -411px}
+.icoIbplus_small{width:102px;height:11px;background:url(../../images/VuelingBase/global_sprite_colors.png) -308px -55px no-repeat}
+.icoPunto_small{width:57px;height:22px;background-position:-235px -52px}
+.icoPlaneIda,.icoPlaneVuelta{width:20px;height:19px;float:left}
+.icoPlaneIda{background-position:-409px -55px}
+.icoPlaneVuelta{background-position:-445px -55px}
+.icoConfirm_big{width:40px;height:40px;background-position:-743px -8px}
+.icoConfirm_medium{width:20px;height:20px;background-position:-480px -55px}
+.icoConfirm_medium_2{width:31px;height:31px;background-position:-320px -15px}
+.icoConfirm_medium_white_bf{padding-left: 30px}
+.icoConfirm_medium_white, .icoConfirm_medium_white_bf:before{width:24px;height:24px;background-position:-595px -293px}
+.icoConfirm_small,.ico-bf-confirm_small:before{width:14px;height:14px;background-position:-507px -61px}
+.ico-bf-confirm_small:before{width:14px;height:14px;background-position:-475px -3991px}
+.ico-bf-confirm_small{padding-left:18px}
+.ico-bf-confirm_medium{padding-left:24px}
+.ico-bf-confirm_medium:before{width:20px;height:20px;background-position:-480px -55px;margin-top:-10px;top:50%}
+
+.ico-bf-confirm_medium_bgfff{padding-left:28px}
+.ico-bf-confirm_medium_bgfff:before{width:22px;height:22px;background-position:-499px -3985px}
+
+.ico-af-bottomYellowArrow{margin-bottom:74px;position:relative}
+.ico-af-bottomYellowArrow:after{width:47px;height:20px;background-position:-411px -4021px;left:50%;margin-left:-10px;top:auto;bottom:-49px}
+
+.icoError_big{width:40px;height:40px;background-position:-950px -3152px}
+.icoInsurance_big, .icoSeat_big,.icoSeat_bf_big:before,.icoMaleta_big,.icoEquipoEspecial_big,.icoPet_big,.icoMoneyBack_medium, .icoMissedFlight_big{width:158px;height:106px}
+.icoInsurance_big{background-position:0 -647px}
+.icoInsurance_big_bf:before{background-position:-46px -647px;width:70px;height:89px}
+.icoInsurance_big_bf.iconx2:before{left:7px}
+.icoSeat_big{background-position:-158px -647px}
+.icoMaleta_big{background-position:-316px -647px}
+.icoEquipoEspecial_big{background-position:-632px -647px}
+.icoPet_big{background-position:-862px -1671px}
+.icoMoneyBack_medium{width:84px;background-position:-425px -1302px}
+.icoTarjetaEmabarque_small{width:35px;height:41px;background-position:-846px -257px}
+.ico-bf-comment_small{padding-left:40px;min-height:30px}
+.icoComment_small,.icoComment_small_bf:before{width:30px;height:32px;background-position:-851px -312px}
+.icoComment_small,.ico-bf-comment_small:before{width:30px;height:32px;background-position:-851px -312px}
+.icoComment_small_dark{width:34px;height:33px;background-position:-89px -4440px}
+.icoComment_small_bf, .icoComment_small, .icoComment_small_dark, .icoNewsletter{min-height:34px}
+.icoNewsletter{width:42px;height:37px;background-position:-86px -4392px}
+
+.icoComment_small_bf, .icoComment_small{min-height:34px}
+.icoComment_big{width:47px;height:42px;background-position:-850px -352px}
+.icoCoberturas_small{width:21px;height:24px;background-position:-110px -467px}
+.icoHomeAgencias_left{width:254px;height:123px;background-position:-10px -883px}
+.icoHomeAgencias_right,.icoGrupos_big{width:116px;height:116px;background-position:-289px -890px}
+.icoGrupos_small{width:68px;height:71px;background-position:-460px -1012px}
+.icoAccesAgencias{width:112px;height:96px;background-position:-440px -890px}
+.icoVentajaGris{width:15px;height:15px;background-position:-110px -592px}
+.icoPromo{float:none!important;margin:10px auto 23px;display:block}
+.icoPrint_grey,.icoFactura_grey,.icoCalendar_grey,.icoGuide_grey,.icoInsurance_grey,.icoSeat_grey,.icoGestiona_grey,.icoMail_grey,.icoCheckin_grey,.icoAddBaggage_grey,.icoAddSpecialBaggage_grey,.icoChangeFly_grey,.icoInfo-passenger, .icoMissedFlight_medium{width:41px;height:42px}
+.icoAddBaggage_grey{background-position:-56px -572px}
+.icoAddSpecialBaggage_grey{background-position:-8px -572px}
+.icoMail_grey{background-position:-918px -2026px}
+.icoPrint_grey{background-position:-206px -572px}
+.icoFactura_grey{background-position:-254px -572px}
+.icoCalendar_grey{background-position:-295px -572px}
+.icoInsurance_grey{background-position:-400px -593px}
+.icoGuide_grey{background-position:-350px -593px}
+.icoSeat_grey{background-position:-440px -593px}
+.icoGestiona_grey{background-position:-945px -614px}
+.icoGestion_big{width:77px;height:80px;background-position:-759px -2458px;float:left;position:relative;left:6px}
+.icoCheckin_grey{background-position:-163px -616px}
+.icoChangeFly_grey{background-position:-207px -614px}
+.icoChangeFly_small{width:35px;height:33px;background-position:-700px -3386px}
+.icoInfo-passenger{background-position:-158px -570px}
+.icoSeat_general,.icoInsurance_general,.icoInsurance_general_bf:before,.icoInsurance_generalBig_bf:before,.icoShare_medium,.icoBoardinpass_medium,.icoCar_medium{width:82px;height:80px}
+.icoInsurance_general, .icoInsurance_general_bf:before{height:71px;background-position:-750px -890px}
+.icoInsurance_generalBig_bf:before{background-position:-46px -654px}
+.icoSeat_general{background-position:-670px -1052px}
+.icoShare_medium{background-position:-670px -890px}
+.icoBoardinpass_medium{background-position:-673px -973px}
+.icoCar_medium{background-position:-758px -963px}
+.icoFacebook_grey,.icoTwitter_grey{width:28px;height:29px}
+.icoFacebook_grey{background-position:-297px -469px}
+.icoTwitter_grey{background-position:-298px -518px}
+.icoCheckin_big, .icoCheckin_big_bf:before{width:39px;height:41px;background-position:-199px -1727px}
+.icoMissedFlight_medium{background-position:-178px -1105px}
+.icoMissedFlight_big{background-position:-234px -1111px}
+.icoPay{width:21px;height:28px;background-position:-815px -8px}
+.ico_nskError_Tel,.ico_nskError_Chat{width:73px;height:75px}
+.ico_nskError_Tel{background-position:-28px -3514px}
+.ico_nskError_Chat{background-position:-111px -3514px}
+.icoCreditCardVV,.icoCreditCardVI,.icoCreditCardVE,.icoCreditCardMC,.icoCreditCardMD,.icoCreditCardAX,.icoCreditCardDI,.icoCreditCardEL,.icoCreditCardVD,.icoCreditCardMB,.icoCreditCardDL,.icoCreditCardCM,.icoCreditCardAB,.icoCreditCardDB,.icoCreditCardTP{width:40px;height:27px;background:url(../../images/VuelingBase/global_sprite_colors.png) no-repeat}
+.icoCreditCardVV,.icoCreditCardEL{background-position:-744px -529px}
+.icoCreditCardVE,.icoCreditCardVD{background-position:-900px -529px}
+.icoCreditCardVI,.icoCreditCardDL{background-position:-783px -529px}
+.icoCreditCardMC,.icoCreditCardMD,.icoCreditCardMB,.icoCreditCardCM{background-position:-822px -529px}
+.icoCreditCardAX,.icoCreditCardAB{background-position:-861px -529px}
+.icoCreditCardDI,.icoCreditCardDB{background-position:-939px -529px}
+.icoCreditCardTP{background-position:-953px -629px}
+.icoUsbCookie{background-position:-242px -3514px; width:42px; height:48px; display:inline-block;top: 17px;position: relative}
+.icoVisaV,.icoVisa2,.icoVisaE,.icoMasterCD,.icoAX,.icoDi,.icoPaypalCard{width:40px;height:27px;background-image:url(../../images/VuelingBase/global_sprite_colors.png);background-repeat:no-repeat}
+.icoVisaV{background-position:-744px -529px}
+.icoVisaE{background-position:-900px -529px}
+.icoVisa2{background-position:-783px -529px}
+.icoMasterCD{background-position:-822px -529px}
+.icoAX{background-position:-861px -529px}
+.icoDi{background-position:-939px -529px}
+.icoPaypalCard{background-position:-939px -555px}
+.icoPromoSelect_rastreator{width:28px;height:24px;background-position:-265px -3297px;position:relative;margin:-23px auto 2px!important}
+.icoModSeat{background-position:-293px -3513px;width:55px;height:48px}
+.icoBaggageDiscount{width:43px;height:41px;background-position:-579px -1063px;float:left}
+.icoPhotoCatalonia{width:188px;height:122px;background:none}
+.icoStars{width:50px;height:18px; background-position:-758px -2414px}
+.icoCataloniaVuelingLogo{width: 216px;height: 37px;background-position: -759px -2358px;position: relative;top: -11px}
+
+.h3GreyArrow{display:none;width:699px;height:31px; background-position:-292px -3576px;position:absolute;left:0;bottom:-14px}
+.icoModernClock{width:27px;height:26px;background-position:-821px -3159px}
+.icoRightArrow_yellow{width:9px;height:19px;background-position:-222px -53px;float:left}
+.icoWelcomePunto_sobre,.icoWelcomePunto_checkin,.icoWelcomePunto_hotel,.icoWelcomePunto_car,.icoWelcomePunto_visa,.icoWelcomePunto_vuelingPass{width:55px;	height:45px;display:block;float:left}
+.icoWelcomePunto_sobre{background-position:-921px -3295px}
+.icoWelcomePunto_checkin{background-position:-797px -3346px}
+.icoWelcomePunto_hotel{background-position:-792px -3297px}
+.icoWelcomePunto_car{background-position:-859px -3299px}
+.icoWelcomePunto_visa{background-position:-862px -3348px}
+.icoWelcomePunto_vuelingPass{background-position:-923px -3348px}
+.espBaggageListIcons .contentListPet .icon{float:right}
+.espBaggageListIcons .contentListEsp a{margin-top:38px}
+.espBaggageListIcons .contentListPet a{margin-top:8px}
+.espBaggageListIcons .icoCondEspecialChair{background-position:-30px -1456px}
+.espBaggageListIcons .icoSSRSky{background-position:-931px -250px}
+.espBaggageListIcons .icoSSRSports{background-position:-920px -309px;width:63px}
+.espBaggageListIcons .icoSSRMusic{background-position:-932px -431px}
+.espBaggageListIcons .icoSSRBicycle{background-position:-921px -373px;width:63px}
+#c3Body .ssrs .icoSSRWindsurf{margin-right:5px}
+#c3Body .icoSSRSports{width:39px;height:34px;background-position:-933px -317px}
+#c3Body .icoSSRBicycle{width:55px;height:34px;background-position:-924px -379px}
+#c3Body .icoSSRWindsurf,#c3Body .icoSSRKitesurf{width:27px;height:34px}
+#c3Body .icoSSRSky,#c3Body .icoSSRMusic,#c3Body .icoSSRArms{width:35px;height:34px}
+#c3Body .icoSSRArms{background-position:-347px -1358px}
+#c3Body .icoSSRSky{background-position:-935px -258px}
+#c3Body .icoSSRMusic{background-position:-939px -437px}
+.icoFeeTabListSeats_small,.icoFeeTabListSeatsAdv_small,.icoFeeTabListBaggage_small,.icoFeeTabListChrono_small,.icoFeeTabListPlane_small,.icoFeeTabListPrograma_small,.icoFeeTabListPreferent_small,.icoFeeTabListDuo_small,.icoFeeTabListChangeFlight_small,.icoFeeTabListHandBaggage_small,.icoFeeTabListReembolso_small,.icoFeeTabListClick_small,.icoFeeTabListSnack_small,.icoFeeTabListPunto_small,.icoFeeTabListIberia_small,.icoFeeTabListSeatOptimum_small,.icoFeeTabListSeatXL_small,.icoFeeTabListBCNMAD_small,.icoFeeTabListVip_small,.icoFeeTabListCarril_small,.icoFeeTabListVuelo_small{float:left;width:45px;height:31px}
+.icoFeeTabListBCNMAD_small{background-position:-954px -2980px}
+.icoFeeTabListSeatXL_small{background-position:-905px -2980px}
+.icoFeeTabListSeatOptimum_small{background-position:-905px -3018px}
+.icoFeeTabListIberia_small{background-position:-905px -2943px}
+.icoFeeTabListPunto_small{background-position:-625px -3024px}
+.icoFeeTabListSnack_small{background-position:-375px -3031px}
+.icoFeeTabListClick_small{background-position:-374px -3069px}
+.icoFeeTabListReembolso_small{background-position:-468px -2981px}
+.icoFeeTabListHandBaggage_small{background-position:-573px -2981px}
+.icoFeeTabListChangeFlight_small{background-position:-415px -2981px}
+.icoFeeTabListDuo_small{background-position:-430px -3031px}
+.icoFeeTabListPreferent_small{background-position:-520px -2981px}
+.icoFeeTabListPrograma_small{background-position:-362px -2981px}
+.icoFeeTabListSeats_small{background-position:-257px -2981px}
+.icoFeeTabListSeatsAdv_small{background-position:-430px -3069px}
+.icoFeeTabListBaggage_small{background-position:-204px -2981px}
+.icoFeeTabListChrono_small{background-position:-310px -2981px}
+.icoFeeTabListPlane_small{background-position:-62px -2981px}
+.icoFeeTabListVip_small{background-position:-321px -3031px}
+.icoFeeTabListCarril_small{background-position:-321px -3069px}
+.icoFeeTabListVuelo_small{background-position:-268px -3069px}
+.icoLeftArrow,.icoRightArrow,.icoLeftArrowIE7,.icoRightArrowIE7{width:14px;height:33px}
+.icoLeftArrow,.icoLeftArrowIE7{background-position:-41px -10px}
+.icoRightArrow,.icoRightArrowIE7{background-position:-71px -10px}
+.ico-af-DownArrow_red:after{width:40px;height:19px;background-position:-397px -1972px;bottom:0}
+.ico-bf-OfertaLimit{padding-left:24px}
+.ico-bf-OfertaLimit:before{ width:19px;height:19px;background-position:-923px -3880px;top:50%;margin-top:-9px}
+.icoCalendar_white{width:23px;height:28px;background-position:-352px -349px;cursor:pointer}
+.icoCalendar_mediumGrey{width:22px;height:25px;background-position:-350px -468px}
+.cellBorder:hover .icoLeftArrow{background-position:-56px -10px}
+.cellBorder:hover .icoRightArrow{background-position:-86px -10px}
+.icoMsgErrorChat{background-position:-55px -2627px;height:39px;width:50px}
+.icoVeriSign{background-position:-699px -1869px;height:44px;width:60px}
+.icoDigicert{background-position:-230px -150px;height:44px;width:60px}
+.icoComment_yellow, .icoComment_yellow_bf:before{background-position:-373px -3513px; width:44px; height:41px}
+.icoComment_yellow_bf:before{background-position:-851px -521px; width:44px; height:41px}
+.icoDropDownLink{position:relative;padding-right:17px;display:inline-block;margin-bottom:10px}
+.icoDropDownLink i{position:absolute;right:0;top:2px;width:12px;height:12px;background-position:-15px -457px}
+.icoDropDownLink.active i{background-position:-15px -441px!important}
+.icoFooter-Puntos,.icoFooter-Puntosxvuelos,.icoFooter-Crono{width:61px;height:50px}
+.icoFooter-Puntos{background-position:-29px -1368px}
+.icoFooter-Puntosxvuelos{background-position:-105px -1368px}
+.icoFooter-Crono{background-position:-180px -1368px}
+.icoFeeNewService{position:relative}
+.icoNewSticker{background-position:-256px -1369px;width:26px;height:26px}
+.listado_imgText .icoNewSticker{position:relative;top:6px}
+.icoFeeNewService h4{padding-right:30px}
+.icoFeeNewService:after{content:"";position:absolute;width:26px;height:26px;right:-8px;top:-8px;background:url(../../images/VuelingBase/global_sprite.png) -256px -1369px no-repeat}
+.icoVisaSmall2{width:75px;height:49px;background:url(../../images/VuelingBase/global_sprite_colors.png) -228px -88px no-repeat}
+.icoIdeal-mini{width:40px;height:25px;background: url(../../images/VuelingBase/global_sprite_colors.png) -955px -668px no-repeat}
+.icoInsuranceDear_small{width:39px;height:52px;background-position:-896px -1419px}
+.icoBaggageDesc{background-position:-546px -3512px;width:32px;height:35px}
+.icoBaggageDesc.active{background-position:-498px -3512px}
+.icoExpressSeatOptima,.icoExpressSeatExcellence{width:72px;height:39px}
+.icoExpressSeatOptima{background-position:-917px -3717px}
+.icoExpressSeatExcellence{background-position:-917px -3795px}
+.icoExpressBaggage{width:53px;height:54px;background-position:-848px -3216px}
+.icoExpressHandBaggage{width:26px;height:39px;background-position:-804px -3223px}
+.icoChangeExpress{width:35px;height:36px;background-position:-928px -3499px}
+.ico_bf_changeExpress_small{padding-left:32px;min-height:27px;vertical-align:middle}
+.ico_bf_changeExpress_small:before{width:25px;height:24px;background-position:-975px -3511px}
+.icoPromoExcellence_big{width:319px;height:98px;background-position:0 -51px}
+.icoPromoXL_small{width:123px;height:67px;background-position:-329px -52px}
+.icoEuropeAssist{width:61px;height:35px;background:url(../../images/VuelingBase/global_sprite_colors.png) -13px -8px no-repeat}
+.icoBlogAgencias{background-image: url("../../images/VuelingBase/global_sprite.png");background-repeat: no-repeat;display: inline-block;width:125px;height:132px;background-position:-705px -1263px}
+.icoCornerHold{width:91px;height:47px;background-position:-313px -1360px}
+.icoSticker-hold{width:60px;height:61px;background-position:-860px -1275px}
+.icoCompass{width: 59px;height: 60px;background-position: -610px -3496px;float:left}
+.icoCheckinSample{width:196px;height:87px;background-position:-737px -606px;margin-bottom:-4px}
+.icoChangeFlightVoucher{width:102px;height:103px;background-position:-283px -91px}
+.icoChangeFlightVoucher_grey{width:78px;height:78px;background-position:-509px -101px}
+.icoChangeFlightVoucher span, .icoChangeFlightVoucher_grey span{display: block;position: relative;text-align: center;top: 49%;width: 100%;font:normal 1.7em/1.2 'GothamRounded', verdana, sans-serif}
+.icoChangeFlightVoucher_grey span{top: 46%;font-size:1.4em}
+.icoMoovingEuro{width:35px;height:33px;background-position:-403px -149px}
+.icoRoundPlus{width:25px;height:24px;background-position:-606px -98px}
+.icoVuelingPassCard_big{width:163px;height:171px;background-position:-820px -9px}
+.iconVuelingPremium{width:260px;height:76px;background-position:-403px -1145px}
+.input-required,.input-verified{position:relative}
+.input-required:after,.input-verified:after{content:"";position:absolute;right:-15px;top:50%;margin-top:-4px}
+.icoRounded, .input-required:after{width:8px;height:8px;border-radius:8px;background-color:#fc0;display:inline-block}
+.input-verified:after{width:13px;height:15px;background:transparent url(../../images/VuelingBase/global_sprite.png) -637px -297px;margin-top:-7px;right:-19px}
+.icoBeneficioTel,.icoBeneficioMostrador,.icoBeneficioEmbarque,.icoBeneficioPunto,.icoBeneficioPasajero,.icoBeneficioPromos, .icoBeneficioCarril,.icoBeneficioCanal{width:82px;height:65px}
+.icoBeneficioTel{background-position:-17px -2777px}
+.icoBeneficioMostrador{background-position:-100px -2777px}
+.icoBeneficioEmbarque{background-position:-183px -2777px}
+.icoBeneficioPunto{background-position:-266px -2777px}
+.icoBeneficioPromos{background-position:-349px -2777px}
+.icoBeneficioPasajero{background-position:-432px -2777px}
+.icoBeneficioCarril{background-position:-515px -2777px}
+.icoBeneficioCanal{background-position:-559px -2861px}
+.icoReservaPasajero,.icoReservaComprador{width:25px;height:25px;background-position:-34px -2863px}
+.icoReservaComprador{background-position:-74px -2863px}
+.icoReservaComprador-pasajero{width:41px;height:25px;background-position:-111px -2863px}
+.icoMy25{width:102px; height:62px; background-position:-370px -4615px;}
+.icoMy25_bf_yellow:before,.icoMy25_bf_green:before,.icoMy25_bf_lineal:before{width:65px;height:40px;top:50%;margin-top:-20px}
+.icoMy25_bf_yellow,.icoMy25_bf_green,.icoMy25_bf_lineal{padding-left:75px;min-height:40px}
+.icoMy25_bf_yellow:before{background-position:-23px -3193px; top:36%;} /* PRJ673 */
+.icoMy25_bf_lineal:before{background-position:-186px -3193px}
+.icoMy25_bf_green:before{background-position:-103px -3193px}
+.icoMy25_bf_yellowMedium{width:50px;height:31px;background-position:-25px -3239px}
+.icoMy25_bf_spain_small,.icoMy25_bf_italy_small,.icoMy25_bf_everywhere_small{padding-left:57px}
+.icoMy25_bf_spain_small:before,.icoMy25_bf_italy_small:before,.icoMy25_bf_everywhere_small:before{width:53px;height:34px;top:50%;margin-top:-15px}
+.icoMy25_bf_spain_small:before{background-position:-407px -3884px}
+.icoMy25_bf_italy_small:before{background-position:-570px -3884px}
+.icoMy25_bf_everywhere_small:before{background-position:-732px -3884px}
+
+.icoMy25_yellowClaim{width:156px;height:128px;background-position:-16px -3930px}
+.icoMy25_big_spain3,.icoMy25_big_spain6,.icoMy25_big_italy3,.icoMy25_big_italy6,.icoMy25_big_everywhere3,.icoMy25_big_everywhere6{width:144px;height:90px}
+.icoMy25_big_spain3{background-position:-22px -4272px}
+.icoMy25_big_spain6{background-position:-180px -4272px}
+.icoMy25_big_italy3{background-position:-346px -4272px}
+.icoMy25_big_italy6{background-position:-504px -4272px}
+.icoMy25_big_everywhere3{background-position:-664px -4272px}
+.icoMy25_big_everywhere6{background-position:-833px -4272px}
+
+.icoMy25_medium_yellow_spain,.icoMy25_medium_yellow_italy,.icoMy25_medium_yellow_everywhere{width:149px;height:46px}
+.icoMy25_medium_yellow_spain{background-position:-407px -3920px}
+.icoMy25_medium_yellow_italy{background-position:-570px -3920px}
+.icoMy25_medium_yellow_everywhere{background-position:-732px -3920px}
+.icoMy25_big_general:before{width:118px; height:72px; background-position: -202px -4392px}
+
+.ico-bf-greenOk{padding-left:30px}
+.ico-bf-greenOk:before{width:27px;height:26px;top:50%;margin-top:-13px;left:0;background-position:-870px -3159px}
+.icoArrowOrderUp, .icoArrowOrderDown{width:12px;height:6px}
+.icoArrowOrderUp{background-position:-80px -69px}
+.icoArrowOrderDown{background-position:-80px -77px}
+.icon-bf.ico-bf-AlertCommentSmall{padding-left:35px!important}
+.ico-bf-AlertCommentSmall:before{width:29px;height:28px;background-position:-957px -127px}
+.ico-bf-commentSmall{padding:3px 0 0 40px;min-height:28px}
+.ico-bf-commentSmall:before{width:30px;height:28px;background-position:-851px -314px}
+.ico-bf-phone{padding-left:40px}
+.ico-bf-phone:before{width:30px;height:57px;background-position:-364px -1264px}
+
+.ico-bf-btPlus,.ico-bf-btMinus{position:relative;padding-left:16px}
+.ico-bf-btPlus:before,.ico-bf-btMinus:before{width:12px;height:13px;margin-top:-6px;top:50%}
+.ico-bf-btPlus:before{background-position:-409px -3991px}
+.ico-bf-btMinus:before{background-position:-426px -3991px}
+.th-filter-link{padding-right:21px;position:relative;color:#666!important}
+.th-filter-link:after{background-position:-80px -77px;content:"";height:6px;left: auto!important;position: absolute;right:5px !important;top: 50%!important;width: 12px;margin-top:-2px}
+@-moz-document url-prefix() { .th-filter-link:after{right:7px !important}}
+.old-order:after{background-position:-80px -69px}
+
+
+.roundPromo_small,.roundPromo_big{position:absolute;font:normal .9em/1 DTLProkyonTRegular, Verdana;border-radius:95px;color:#666;box-shadow:none;height:39px;width:40px;top:0;text-align:center;left:0;z-index:1;padding:9px 7px 6px}
+.roundPromo_big strong,.roundPromo_small strong{color:#666!important}
+.roundPromo_small strong{font:normal 1.33em/1.2 DTLProkyonTMedium, Verdana}
+.roundPromo_big{height:45px;width:48px;box-shadow:0;padding:11px 7px 6px}
+.roundPromo_big strong.roundPrice{font:normal 2em/1.2 DTLProkyonTMedium, Verdana;display:block}
+.roundPromo_big strong.roundWord,.roundPromo_small strong.roundWord{font:normal 1.5em/1.2 DTLProkyonTMedium, Verdana;display:block;top:8px;position:relative}
+
+a.roundMore{background-color: #f8f8f8}
+a.roundMore span{padding-left:35px;position:relative;display:inline-block;font-size:1.091em}
+a.roundMore span:before{content: "";position: absolute;width: 24px;height: 24px;border-radius: 24px;background-color:#990;top:50%;margin-top:-12px;left:0}
+a.roundMore span:after{content:"+";position:absolute;top:-4px;line-height:20px;color: #fff;font-size: 20px;left:4px}
+a.roundMore:hover{background-color:#fc0;color:#666}
+a.roundMore:hover span{text-decoration:underline!important}
+a.roundMore:hover span:before{background-color:#666;color:#fc0}
+html .roundYellowTab,html .roundYellow{background-color:#fc0;border:4px solid #f0f0f0;color:#666}
+html .roundYellow{background-color:#fc0;border:4px solid #fff}
+
+.icoBeneficioEmbarque_small,.icoBeneficioPunto_small,.icoBeneficioPromos_small,.icoBeneficioMostrador_small,.icoReservaComprador-pasajero_small,.icoBeneficioCanal_small,.icoBeneficioCarril_small{width:48px;height:45px}
+.icoBeneficioEmbarque_small{background-position:-260px -2861px}
+.icoBeneficioPunto_small{background-position:-199px -2861px}
+.icoBeneficioPromos_small{background-position:-376px -2861px}
+.icoBeneficioMostrador_small{background-position:-499px -2861px}
+.icoBeneficioCanal_small{background-position:-318px -2861px}
+.icoReservaComprador-pasajero_small{background-position:-438px -2861px}
+.icoBeneficioCarril_small{background-position:-260px -2920px}
+.iconDiagonalGrisBlanco{width: 225px;height:22px;background-position: -694px -138px}
+.iconDiagonalGrisOscuro{width: 225px;height:23px;background-position: -694px -171px}
+.iconDiagonalGrisGris{width: 225px;height:23px;background-position: -694px -207px}
+.ico-bf-myvueling{padding-left:41px!important;min-height:27px}
+.ico-bf-myvueling:before{width:30px;height:27px;background-position:-943px -533px}
+.ico-bf-Iphone{padding-left:120px}
+.ico-bf-Iphone:before{width:105px;height:264px;background-position:-604px -434px;background-image:url(../../images/VuelingBase/global_sprite_colors.png)}
+.ico-bf-premiumCardSmall{padding-left:120px;min-height:84px}
+.ico-bf-premiumCardSmall:before{width:103px;height:84px;background-position:-830px -3973px}
+.icoMyVuelingTextLogo{width: 139px; height: 29px; background-position: -656px -3977px}
+.icoBigPlane{width:61px;height:62px;background-position:-194px -4119px}
+.icoFrequentPassenger{width:191px;height:71px;background-position:-807px -4114px}
+.icoCompraRegalaPuntos{width:144px;height:56px;background-position:-283px -4120px}
+.icoPuntoVuelos{width:100px;height:93px;background-position:-880px -2446px}
+.icoObtenerPuntos{width:58px;height:56px;background-position:-536px -4122px}
+.icoChargePoints, .body .icoGiftPoints{width:69px;height:61px}
+.icoGiftPoints{background-position:-358px -4115px}
+.icoChargePoints{background-position:-296px -4120px}
+.icoAcumulaPoints_small{background-position:-613px -4132px;width:52px;width:50px;height:41px}
+.icoAssistance_af{padding-right:102px}
+.icoAssistance, .icoAssistance_af:after{ background-position: -14px -55px; height: 51px; width: 85px; left: auto; right:0; }
+.icoAssistance_bg_af:after{ background-position: -21px -121px; height: 39px; width: 89px; left: auto; right: -8px;  top: -8px;  width: 89px}
+
+.icoCoin{width:48px; height:51px; background-position: -729px -3288px}
+.icoOnTime_bf:before{width:26px; height:26px; background-position: -455px -184px}
+.icoTelBig_bf{padding-left: 94px}
+.icoTelBig_bf:before{background-position: -21px -1732px; width:74px; height:71px}
+.icoChatBig_bf{padding-left: 91px}
+.icoChatBig_bf:before{background-position: -115px -1735px; width:67px; height:60px}
+
+/* proyecto residentes*/
+.icoResidenteAlert_bf, .icoResidenteError_bf{padding-top: 10px!important;min-height: 62px}
+.icoResidenteAlert, .icoResidenteAlert_bf:before, .icoResidenteError_bf:before, .icoResidenteError, .icoResidenteOk_bf:before, .icoResidenteOk{width:58px;height:62px; background-position: -141px -1601px}
+.icoResidenteError_bf:before,.icoResidenteError{background-position: -207px -1602px}
+.icoResidenteOk_bf:before, .icoResidenteOk{background-position: -276px -1601px}
+.icoResidenteOkRound_bf:before, .icoResidenteKORound_bf:before, .icoResidenteAlertForm_bf:before{width:20px; height:20px; background-position: -145px -1684px; top:-2px}
+.icoResidenteAlertForm_bf:before{background-position: -199px -1684px}
+.icoResidenteOk_bf:before{background-position: -276px -1601px}
+.icoResidenteOkRound_bf:before, .icoResidenteKORound_bf:before{width:20px; height:20px; background-position: -145px -1684px; top:-2px}
+.icoResidenteOkRound_bf:before{background-position: -172px -1684px}
+.icoResidenteValidateProces_bf{padding-left: 230px}
+.icoResidenteValidateProces_bf:before{width:184px; height:35px; background-image: url(../../images/VuelingBase/resident_validate_data.gif)}
+
+.icoNewHold{width:135px; height:75px; background-position: -431px -4396px}
+.icoMedallaPunto{width:36px; height:26px; background-position: -513px -4487px;}
+.icoBuyPoints_small{width:38px; height:40px; background-position: -570px -4488px}
+.icoBuyWithoutPoints_small{width: 38px; height: 33px; background-position: -570px -4537px;}
+.ico_mas_economico, .ico_menor_tiempo{width:22px; height:23px; background-position: -432px -4491px;}
+.ico_menor_tiempo{background-position: -471px -4491px;}
+.ico_mas_economico_menor_tiempo{width:62px; height:23px; background-position: -432px -4491px;}
+.icoSofort{position: relative; top:-2px;}
+.icoGuideDog_bf:before{left:-50px; top:0;}
+.icoGuideDog_bf:before, .icoGuideDog{width:36px; height:42px; background-position:-698px -4637px;}
+
+
+.icoClockInterval{background-position: -485px -4616px; width:39px; height:39px;}
+.icoDevices_small{width:60px; height:19px; background-position: -909px -2715px;}
+/*iconos idioma*/
+.ES .iconLang,.CA .iconLang,.GA .iconLang,.GL .iconLang,.EU .iconLang,.FR .iconLang,.EN .iconLang,.IT .iconLang,.PT .iconLang,.NL .iconLang,.DE .iconLang,.RU .iconLang{display:block;float:left}
+.ES .iconLang{background:url(../../images/VuelingBase/spriteIcon_ES.png) no-repeat}
+.CA .iconLang{background:url(../../images/VuelingBase/spriteIcon_CA.png) no-repeat}
+.GA .iconLang{background:url(../../images/VuelingBase/spriteIcon_GA.png) no-repeat}
+.GL .iconLang{background:url(../../images/VuelingBase/spriteIcon_GA.png) no-repeat}
+.EU .iconLang{background:url(../../images/VuelingBase/spriteIcon_EU.png) no-repeat}
+.EN .iconLang{background:url(../../images/VuelingBase/spriteIcon_EN.png) no-repeat}
+.FR .iconLang{background:url(../../images/VuelingBase/spriteIcon_FR.png) no-repeat}
+.IT .iconLang{background:url(../../images/VuelingBase/spriteIcon_IT.png) no-repeat}
+.NL .iconLang{background:url(../../images/VuelingBase/spriteIcon_NL.png) no-repeat}
+.PT .iconLang{background:url(../../images/VuelingBase/spriteIcon_PT.png) no-repeat}
+.DE .iconLang{background:url(../../images/VuelingBase/spriteIcon_DE.png) no-repeat}
+.RU .iconLang{background:url(../../images/VuelingBase/spriteIcon_RU.png) no-repeat}
+.boxPrmoPunto .iconLang{float:none;margin:15px auto}
+.expressFee_lightBox .colHalf_2 .handBaggage .iconLang{float:right!important}
+.body .ico100puntos{width:87px;height:67px;background-position:-189px -6px}
+.body .icoCanjear_puntos{background-position:-302px 0;height:89px;width:100px}
+.body .ico_homePunto{width:323px;float:none;height:130px;background-position:-16px -203px;margin:10px auto 23px}
+.body .ico_homePunto_small{width:150px;float:left;height:60px;background-position:-7px -132px}
+.body .ico100puntos_small{height:56px;background-position:0 -15px}
+.body .icoCanjear_puntos_small{height:75px;background-position:-88px 0}
+html body .icoHandBaggage{width:90px;height:121px;background-position:-409px -199px!important}
+html body .icoHandBaggage_small{background-position:-523px -249px!important;height:75px;width:58px}
+.body .ico20puntos_small{width:34px;height:26px;background-position:-5px -96px}
+.body .icoCorpPoints{width:212px;height:123px;background-position:-607px -209px}
+.body .icoPointsFlight{width:76px;height:74px;background-position:-95px -2px}
+.body .icoPointsFlight_big{width:96px;height:86px;float:left;background-position:-304px -2px}
+.body .ico500PointsxUser{width:161px;height:66px;background-position:-639px -356px}
+.body .icoAcumulaPoints{background-position:-433px -103px}
+.body .icoAcumulaPoints_small{background-position:-377px -134px;width:52px;height:41px}
+.icoHoldSample{display:block;width:430px;height:178px;background-position:-561px -5px!important;float:none!important;overflow:hidden;margin:20px auto}
+body .tutoPNRDetail{width:504px;height:258px;background-position:-9px -367px!important}
+body .icofeeClaim{width:94px;height:86px;background-position:-861px -204px!important}
+body .stickerDiscount40{background-position:-531px -437px!important}
+body .stickerNew{background-position:-531px -496px!important}
+.body .ico500Points,.body .icoAcumulaPoints,.body .ico500Points{width:91px;height:73px;background-position:-433px -16px}
+.body .icoChargePoints, .body .icoGiftPoints{width:50px;height:50px}
+.body .icoGiftPoints{background-position:-367px -4120px}
+.body .icoChargePoints{background-position:-296px -4120px}
+
+/*modificación iconos*/
+.paymentForm > span span.icoMyvueling_logged{left:36px;top:5px}
+.sectionSolid_checkin fieldset .icoInfo_grey {position:relative; top:50%; margin-top:8px; display:block} 
+.sectionSolid_checkin fieldset .icoInfo_grey a{display:block;width:100%;height:100%}
+.sectionBorder_lightBox .header .icoHoldHeader{position:relative;top:-5px;margin-right:10px}
+.opcionVuelo li a span.ico_solFactura{top:-6px}
+.opcionVuelo li a span.icoLupa{top:-2px}
+.icoLupaWhite{width:15px;height:15px;background-position:-167px -2871px}
+tr.tabsFee .icofeeClaim{position:absolute;right:0;top:-17px;z-index:2}
+tr.tabsFee .tabBasic .icofeeClaim{height:71px!important;right:-2px}
+.leyendTab-basic .feeListTab li .icoPunto_small{left:-30px;margin-right:-15px;position:relative;top:6px}
+.leyendTab-optima .feeListTab li .icoFeeTabListSeats_small{margin-right:9px;position:relative}
+.leyendTab-excellence .feeListTab li .icoFeeTabListSeats_small{position:relative;left:-23px;margin-right:-15px}
+.availabilityBody tr .price .wrap_icoPrice{position:relative;margin:-3px 2px 5px !important;display:block;min-height:24px}
+.availabilityBody tr .price .wrap_icoPrice span{margin:0 1px}
+.availabilityBody tr .price .icoPromoUniversal, .availabilityBody tr .price .icoPromoCode{display: inline-block}
+.blockUIPopUpBasicDetailBox .icoPrograms{height:30px}
+.sectionBaggage .icoBaggage{background-position:-340px -652px;position:relative;width:106px;left:-6px}
+.sectionBaggage .roundPromo_small{left:auto;right:-15px!important}
+.icoSSRSky,.icoSSRSports,.icoSSRBicycle,.icoSSRMusic,.icoSSRSurf{height: 44px; width: 72px;}
+.icoSSRSky{background-position:-915px -251px}
+.icoSSRSports{background-position:-915px -309px}
+.icoSSRBicycle{background-position:-915px -371px}
+.icoSSRMusic{background-position:-915px -431px}
+.insuranceContent .icoSSRSurf,.insuranceContent .icoSSRSky,.insuranceContent .icoSSRSkateboard,.insuranceContent .icoSSRWindsurf{width:46px;height:44px}
+.insuranceContent .icoSSRSky{background-position:-929px -251px}
+.insuranceContent .icoSSRSurf{background-position:-292px -1397px}
+.insuranceContent .icoSSRSkateboard{background-position:-159px -1397px}
+.insuranceContent .icoSSRWindsurf{background-position:-210px -1397px}
+.insuranceContent .roundPromo_small{top:-20px;left:92%}
+#errorMsg .icoUM_small,.errorMsg .icoUM_small{margin-left:10px}
+#seatAssignment .icoLoading{margin-top:10px!important}
+.blockFree .icoRoundSeat_select[data-seat-description]{opacity:1;filter:Alpha(Opacity=100)}
+.icoRoundSeat_duo,.icoRoundSeat_basic,.icoRoundSeat_optimum,.icoRoundSeat_bebe,.icoRoundSeat_xl,.icoRoundSeat_pref{cursor:pointer}
+.icoRoundSeat_select,.icoRoundSeat_reserved,.icoRoundSeat_fleetblocked{cursor:default}
+.disableChat .icoQuestionConnect_small{background-position:-104px -2628px}
+#c3_cambioVueloArticle .icoCalendar_mediumGrey{margin:1px 0 0 5px}
+.desplegableFiltroVuelos .nav_calendar fieldset .icoCalendar_mediumGrey{float:left}
+.formRow .disable .icoCalendar_mediumGrey{opacity:0.5;filter:alpha(opacity=50);cursor:default!important}
+.blockUI-loading .icoLoading{margin:0 auto 10px!important}
+.callout .icoLoading{margin:10px auto 10px!important}
+#points.logged h3 .closeCont span.iconClose{font-size:.8em!important}
+.multiJourneyBox h3 .icoConnectionIda_small{position:relative;top:-3px}
+.contactBar .icon{margin-right:6px;margin-top:1}
+.payTabs .icoIdeal{position:relative;top:-7px}
+.footerVentajas li .icon{margin-right:9px}
+#research a .icon{position:relative;top:2px;margin-right:3px}
+.travelUser_servicesList ul li a span.icoMissedFlight_small{position: relative;left: -3px;margin-right: 6px;margin-bottom:6px}
+td.price .icoMoovingEuro{margin-top:-33px;position:relative;top:6px}
+.moovingBodyPage .icoChangeFlightVoucher{min-height:100px}
+.moovingBodyPage .icoChangeFlightVoucher_grey{position:relative;top:-6px}
+.travelUser_servicesList li .icon{width: 27px;height: 23px}
+.opcionVuelo .icoReembolso_small{position:relative;top:-7px;width:27px}
+.table-padding .table-row.active .ico-bf-confirm_small:before,.greyRow td .ico-bf-confirm_small:before{background-position:-475px -4010px}
+.ico-bf-roundAlert{padding-left:23px;min-height:18px}
+.ico-bf-roundAlert:before{width:18px;height:18px;background-position:-924px -3910px}
+
+/*modificacion idiomas*/
+.DE .newTabs .leyendTab-basic .layerArrow{margin-top:-29px!important}
+.RU .newTabs .leyendTab-basic .layerArrow{margin-top:-51px!important}
+.FR .availabilityBody tr div.msg {white-space:normal}
+.FR .availabilityBody tr div.msg a {clear:both;float:left;width:100%;margin-bottom:5px}
+.FR .availabilityBody tr div.msg .callout{white-space:normal}
+
+@media(max-device-width:768px){
+	.sectionBorder_lightBox_responsive{border-radius:30px!important;width:92%;margin:0 auto;position:absolute!important}
+	.sectionBorder_lightBox_responsive .header{border-radius:25px 25px 0 0!important}
+	.sectionBorder_lightBox_responsive .contentSection p{font-size:3.63em!important}
+	.sectionBorder_lightBox_responsive h3.header{font-size:3.63em!important;padding:20px 15px!important}
+	.sectionBorder_lightBox_responsive .btMedium_arrow{padding:14px 25px 21px!important}
+	.sectionBorder_lightBox_responsive .btMedium_arrow .bt_link{font-size:5em!important}
+	.sectionBorder_lightBox_responsive .contentSection{padding:0 20px 10px!important}
+	.sectionBorder_lightBox_responsive .contentSection p{margin-bottom:15px}
+	.sectionBorder_lightBox_responsive .wrap_btMedium_arrow{margin-top:60px!important}
+	.sectionBorder_lightBox_responsive .wrap_btMedium_arrow .bt_yellow .bt_link {background: url(../../images/VuelingBase/sep_btBigYellow_big.png) right center no-repeat}
+}
+
+/*contador*/
+.wrap_counter{position: relative;right: 4px;top:-21px;width:240px;overflow:hidden;margin-bottom:-21px}
+.wrap_counter .counter{position:relative;margin-bottom:21px}
+.wrap_counter .counter:before{position:absolute;content:"";top:0;left:0;width:100%;height:170px; background: url(../../images/VuelingBase/global_sprite.png) -994px -1240px no-repeat;z-index:1}
+.wrap_counter:after{content:"";position:absolute;width:15px;height:65px;top:0;left:0}
+.wrap_counter .counter-header{padding:16px 16px 20px 20px;background-color:#d2460c;color:#fff;text-align: left;font:normal 1.5em/1 verdana;margin-bottom:15px;position:relative}
+.wrap_counter, .wrap_counter .counter-header{border-radius:0 8px 0 0}
+.wrap_counter .counter-header:before{content: "";position: absolute;width:244px;height:24px;bottom:-10px;left: 0;background:url(../../images/VuelingBase/global_sprite.png) -692px -93px no-repeat}
+.wrap_counter .counter-content{padding:3px 10px 3px 20px;border-radius:0 0 4px 4px;text-align: left}
+.wrap_counter .counter-content > div{font:normal 2.8em/1 "GothamRounded", Arial, "Helvetica Neue", Helvetica, Arial, sans-serif;display:inline-block;text-align:center;border:0;color: #d2460c;margin-left:-2px}
+.wrap_counter .counter-content span.tag{font:normal 11px/1 "GothamRounded-Medium", Arial, "Helvetica Neue", Helvetica, Arial, sans-serif;display:block;margin-top:0px;clear:both}
+.wrap_counter .counter-content > div.sep{vertical-align: top}
+.wrap_counter .digit .position{display:inline-block;width:auto;text-align: center;width:24px;margin-left:-10px}
+.wrap_counter .digit .position:first-child{margin-left:0}
+html body .BSPTicket {font-family:Verdana,Geneva,sans-serif; font-size:10px; color:#666; text-align:left; margin-top:7px}
+.hideOutside {position:absolute;left:-10000px}
+.continueDates {margin-top:10px}
+
+/*filto selector tarifas*/
+.wrap_round_select {border-radius:8px;border:1px solid #ccc;background-color:#fff;float:left;overflow:hidden;padding:4px 20px 4px 3px;width:200px;position:relative;top:2px;margin-right:15px}
+.wrap_round_select:before,.wrap_round_select:after{content:"";position:absolute;background:url(../../images/VuelingBase/global_sprite.png) 0 0 no-repeat!important;z-index:0}
+.wrap_round_select:before{width:20px;height:19px;background-position:-409px -55px;top:3px;left:5px}
+.wrap_round_select:after{width:12px;height:6px;background-position:-80px -57px!important;top:10px;left:auto;right:6px}
+.wrap_round_select select {background:rgba(255, 255, 255,0);border:0;outline:0;width:120%;text-indent:25px;position:relative;z-index:1;margin:0}
+.wrap_round_select select:focus,.wrap_round_select select:checked, .wrap_round_select select::selection{outline:0;border:0; background:rgba(255, 255, 255,0);-webkit-appearance: none}
+@-moz-document url-prefix() { .wrap_round_select select{padding-left:25px;text-indent:0}}
+.feeDescription-bar .wrap_round_select{position:absolute;top:50%;margin-top:-14px}
+.feeDescription-bar.feeDescription-optima .wrap_round_select{position:relative;margin-top:8px}
+@media screen\0 { 
+    .wrap_round_select select{padding-left:25px!important;width:250px;position:relative;float:none;left:45px;background:transparent} 
+    .wrap_round_select:after{right:-37px!important}
+    .wrap_round_select:before{left:50px}
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .wrap_round_select select{padding-left:10px!important;width:215px;position:relative;float:none;left:21px;background:transparent} 
+    .wrap_round_select:after{right:15px!important}
+    .wrap_round_select:before{left:5px}
+}
+
+/*asistente popup*/
+#blockUIPopUpForAsistente .center-popup{max-height: 60em}
+#blockUIPopUpForAsistente #vassistant input {width:28em}
+#blockUIPopUpForAsistente .vresponses h3, #blockUIPopUpForAsistente .vresponses p, #blockUIPopUpForAsistente .vresponses a {margin-bottom:1em}
+#blockUIPopUpForAsistente .vresponses h3{padding:6px;background:#f3f3f3;font:normal 1.05em/1.3 verdana}
+#blockUIPopUpForAsistente .vresponses p,#blockUIPopUpForAsistente .vresponses a{padding-left:5px}
+#blockUIPopUpForAsistente .vresponses a{font-size:.9em;color:#999900}
+#blockUIPopUpForAsistente .cerrar_emergente{font-weight:bold;text-decoration:none}
+#blockUIPopUpForAsistente .center,#blockUIPopUpForAsistente #scrollbar1 .viewport{height:200px}
+#blockUIPopUpForAsistente .scrollbar{position:relative;float:right;width:15px}
+#blockUIPopUpForAsistente .track {background-color:#e1e1e1;height:100%;width:3px;position:relative;padding:0 1px}
+#blockUIPopUpForAsistente .thumb {background-color:rgb(255, 204, 0);height:20px;left:-4px;cursor:pointer;position:absolute;border-radius:10px}
+#blockUIPopUpForAsistente .thumbimg{height:13px;width:11px;margin-left:1px;position:absolute;top:45%;cursor: pointer;background:url(../../images/VuelingBase/global_sprite.png) -112px -559px no-repeat!important}
+#blockUIPopUpForAsistente .thumb .end{overflow:hidden;height:5px;width:13px}
+#blockUIPopUpForAsistente .viewport{overflow:hidden;position:relative}
+#blockUIPopUpForAsistente .disable{display:none}
+#blockUIPopUpForAsistente .overview{position:absolute;width:98%}
+
+/*chat*/
+#chat{border:3px solid #f7f7f7;padding:0!important;margin-top:20px;border-radius:10px}
+.chatQuestion{position:relative;border-radius:8px 0 0 8px;width:81px;height:46px;padding:13px 28px 13px 13px;background-color:#f7f7f7;display:inline-block}
+.chatQuestion span{position:absolute;right:-3px;top:0;background:url(../../images/VuelingBase/global_sprite.png) -192px -3514px no-repeat; width:40px; height:75px;display:block}
+#chat .content_colRight{padding-left:130px!important}/*PMR2 -> INT -> PRE*/
+.disableChat .bt_link{background:url(../../images/VuelingBase/sep_btSmallGrey_disable.png) no-repeat right center;color:#B5B5B5!important;padding-right:30px!important}
+.disableChat .bt_link:hover, .disableChat a:hover .bt_link, .disableChat .boton_vp:hover{color:#b5b5b5!important;cursor:default!important}
+
+/*Formulario Contacto Emergencia*/
+.emergencyForm .emergencyForm-namePax{padding:6px 0 0 138px}
+.emergencyForm .emergencyForm-namePax p{font:800 1.27em/1.3 Verdana}
+.emergencyForm .emergencyForm-namePax a{font:normal 1.09em/1.3 Verdana}
+.emergencyForm .emergencyForm-contactFields{margin:18px 0 0}
+.emergencyForm .formPax{border-bottom:1px solid #e1e1e1;margin:0 0 30px;padding:0 0 25px}
+.emergencyForm .last{border:none;margin-bottom:0}
+.emergencyForm .checkField{padding-left:231px}
+.emergencyForm .checkField label{float:none;position:inherit;text-align:left;margin:0;padding:0 0 0 20px !important}
+.emergencyForm .checkField input.typeCheck{top:0}
+.emergencyForm .checkField .select{min-width:195px!important;width:195px!important}
+
+
+/********************************************************************************************************
+ * Modules
+ *
+ * @SEATMAP
+ *
+ */
+
+/*nuevo seatmap*/
+.sectionPassengers > div{width:48.3%;padding:17px 0 2px;border:2px solid #fff;margin:0;position:relative}
+.sectionPassengers.wrap-oneway > div{width:99.5%;display:none}
+.sectionPassengers.wrap-oneway > div:first-child{display:block}
+.sectionPassengers > div.colHalf_2{float:right;margin:0 0 0 -2px}
+.sectionPassengers > div.sectionSelected,.sectionPassengers.msgError24h > div.errorBox{border-radius:10px;-webkit-border-radius:10px}
+.sectionPassengers > div.sectionSelected,.sectionPassengers > div.sectionSelected:hover{background-color:#F4F4F4;min-height:0;margin:0;height:auto;margin-bottom:32px}
+
+/*error mensaje 24horas*/
+.sectionPassengers.msgError24h > div,.sectionPassengers.msgError24h > div:hover{min-height:196px}
+.sectionPassengers .errorBox{background-color:#f4f4f4!important}
+.sectionPassengers .errorBox:after,.sectionPassengers .errorBox:hover:after{background-image:none}
+
+/*labelFlight*/
+.labelFlight{margin-left:8px;position:relative;padding-left:30px;min-height:44px}
+.labelFlight.labelFlight-format{position:relative!important;top:0!important;margin:0!important;padding:0!important;top:-1px!important}
+.section-conexion .labelFlight{padding-left:48px;min-height:44px}
+.sectionIda .labelFlight:before,.sectionVuelta .labelFlight:before{content:"";position:absolute;top:0;left:0;background-image:url(../../images/VuelingBase/global_sprite.png);background-repeat:no-repeat;width:20px;height:19px}
+.sectionIda .labelFlight:before{background-position:-589px -410px}
+.sectionVuelta .labelFlight:before{background-position:-617px -410px}
+.sectionIda.section-conexion .labelFlight:before{background-position:-940px -2771px;width:39px;height:27px}
+.sectionVuelta.section-conexion .labelFlight:before{background-position:-884px -2771px;width:39px;height:27px}
+.labelFlight h4,.labelFlight h5{display:inline-block;width:100%;*display:inline}
+.labelFlight h4 > span:first-child{font:bold 1.24em/1 verdana,serif;color:#666}
+BODY.EN #personalizeBody.EN .labelFlight h4 > span:first-child{font-size:1.14em}
+.labelFlight h4 > span{float:left!important}
+.labelFlight h4{margin-bottom:3px}
+.section-conexion{margin-bottom:6px}
+.labelFlight h5{font:400 1.091em/1 verdana,serif}
+.feeName{margin-top:1px;padding-left:18px}
+.feeName i{position:absolute;left:0;top:50%;margin-top:-5px}
+/*feeName*/
+.feeName{display: inline-block;margin-left: 10px;position: relative}
+.feeName{font:normal 1.1em/0.9 "DTLProkyonTRegular",verdana,serif;color:#999}
+.feeName i.roundOptima,.feeName i.roundExcellence,.feeName i.roundBasic{background-image:url(../../images/VuelingBase/global_sprite.png);background-repeat:no-repeat;width:16px;height:16px;top:50%;left:0;margin-top:-7px}
+.feeName i.roundExcellence,.feeName i.roundPlus{background-position:-91px -2684px}
+.feeName i.roundOptima{background-position:-112px -2685px}
+.feeName i.roundBasic{background-position:-70px -2685px}
+.feeName-basic{color:#999!important}
+.feeName-optima{color:#fc0!important}
+.feeName-excellence{color:#666!important}
+/*passenger box*/
+.sectionPassengers .sectionSolid{padding:8px;background-color:#F4F4F4}
+.sectionPassengers .sectionSolid .scrollDefault{height: 231px !important;margin: 3px 0 0;overflow-y: auto;
+padding-right: 8px !important}
+.sectionPassengers ul li{padding:8px;background-color:#fff;margin-top:5px;border:2px solid #fff;/*antiguo min-height:32px;*/}
+.sectionPassengers li:first-child{margin-top:0}
+.sectionPassengers ul li.pulsado{background:#ebebeb}
+.pnrbox_mooving .sectionPassengers li{clear:both;margin-top:6px}
+.pnrbox_mooving .sectionPassengers li:first-child{margin-top:0}
+.sectionPassengers li fieldset{margin-bottom:5px}
+.sectionPassengers li input{margin:0}
+.sectionPassengers li label{padding-left:20px;display: block;font:normal 1.091em/1.2 verdana;text-align: left;top: -1px}
+.sectionPassengers li label,.sectionPassengers li .seatInfo{padding-left:20px}
+.sectionPassengers li .seatInfo{display:block}
+.sectionPassengers li .seatInfo .numSeat{font:bold 1.091em/1.2 verdana, serif;margin-right:6px}
+.sectionPassengers li .seatInfo .no.numSeat{display: inline-block;font-size: 1em;line-height: 1;margin-bottom: 0;vertical-align: top;padding-top:3px}
+.sectionPassengers li .seatInfo .seatButton{color:#990;font-size:0.91em}
+.sectionPassengers li .seatInfo .seatButton:before{content:"";left: 0;margin-left:4px;padding-right:10px;position: relative;top:4px;width:6px;height:7px;background:url(../../images/VuelingBase/global_sprite.png) -771px -1550px no-repeat}
+/*botonera / flechas cajas asientos*/
+ .section-conexion.sectionSelected:after {background-image:none}
+.section-conexion.sectionIda:after, .section-conexion.sectionVuelta:after, .section-conection.sectionIda:after, .section-conexion.sectionVuelta:after {background-image:none}
+.section-noconexion .wrap-seat-buttons {bottom: -29px;height: 26px;left: -2px;padding: 0 12px;position: absolute;width: 93.7%}
+.section-noconexion .wrap-seat-buttons a {display:block;min-height:30px;cursor:pointer!important}
+.section-noconexion.sectionIda .wrap-seat-buttons a span, .section-noconexion.sectionVuelta .wrap-seat-buttons a span{left:50%; margin-left:-18px;width:36px;  background:url(../../images/VuelingBase/global_sprite.png) -589px -3668px no-repeat; height:15px;display:inline-block;position:relative; top:8px}
+.section-noconexion.sectionSelected .wrap-seat-buttons a span, .section-noconexion.sectionSelected .wrap-seat-buttons a span, .section-noconexion.sectionVuelta:hover .wrap-seat-buttons a span, .section-noconexion.sectionIda:hover .wrap-seat-buttons a span{ background-position:-589px -3640px}
+.section-conexion.sectionSelected .wrap-seat-buttons a.selected {background-position:-580px -3703px}
+
+.section-conexion .wrap-seat-buttons {left: -2px; padding: 0 12px;position: absolute;width: 93.7%;display:block!important;bottom:-87px}
+.styleBox_checkin .section-conexion .wrap-seat-buttons {padding:0;width:100%}
+#c3Body .section-conexion .wrap-seat-buttons {padding: 0 7px; width: 97%}
+.section-conexion .wrap-seat-buttons a {background: url("../../images/VuelingBase/global_sprite.png") no-repeat scroll -738px -3706px transparent;
+border: 0 none; padding-top: 11px;text-align: center; width: 152px; float:right;height:78px;cursor:pointer;  position:relative}
+
+.section-conexion .wrap-seat-buttons a:first-child {float:left}
+.section-conexion .wrap-seat-buttons a:hover {background-position:-738px -3785px}
+.section-conexion .wrap-seat-buttons a span {position:relative; top:11px;font:bold 1em/1 verdana;color:#666}
+.sectionPassengers > div.section-conexion, .sectionPassengers > div.section-conexion:hover {margin-bottom:62px}
+
+.wrap-oneway .sectionSolid {padding-right:0}
+.wrap-oneway .sectionSolid .scrollDefault {margin-right:4px!important}
+.wrap-oneway.sectionPassengers li {width:46.1%;float:left;margin:0;margin-bottom:5px;margin-right:5px;min-height:35px}
+.wrap-oneway-alone.sectionPassengers li {width:95.6%!important;padding-top:20px;min-height:0;height:23px}
+.wrap-oneway-alone.sectionPassengers label{float:left;padding-left:10px}
+.wrap-oneway-alone .labelFlight{min-height:0;margin-bottom:10px!important}
+.wrap-oneway-alone .labelFlight h4, .wrap-oneway-alone .labelFlight h5{float:left;width:auto}
+.wrap-oneway-alone .labelFlight h5{padding:4px 0 0 10px}
+.wrap-oneway-alone.sectionPassengers .seatInfo{padding-left:0}
+.wrap-oneway.sectionPassengers li.selected {background-color:#ebebeb}
+.wrap-oneway.sectionPassengers .sectionSolid .scrollDefault {margin:0 0 6px;padding:0!important}
+.wrap-oneway .section-conexion .wrap-seat-buttons { width:97%;text-align:center}
+.wrap-oneway .section-conexion .wrap-seat-buttons fieldset {width:48%;display:inline-block}
+#c3Body .wrap-oneway .section-conexion .wrap-seat-buttons fieldset {width:49%}
+
+#seatMap .ui-tabs-hide{display:none}
+#seatMap .sectionSelectedNoSeat{border:2px solid #fc0;-webkit-border-radius:10px;border-radius:10px}
+#seatMap .sectionSelectedNoSeat .arrowSelected{background-image:none}
+#seatMap .sectionSelectedNoSeat:hover{border:2px solid #fc0}
+#seatMap.ui-widget-content,#seatMap.ui-widget-content .ui-widget-content{border:none}
+
+.legendSeats li.legendXl .squarePrice,.legendSeats li.legendXl span{width:34px}
+.legendSeats li.legendXl .squarePrice .arrow{left:32%}
+
+#seatMap li.ui-state-default{position:relative}
+#seatMap .ui-state-default a{position:relative;font:800 1.09em/1.2 Verdana;-webkit-border-radius:9px 9px 0 0;border-radius:9px 9px 0 0;background-color:#ccc;height:20px;border:4px solid #ccc;z-index:1;float:left;text-align:center;margin-right:3px;border-image:initial;display:block;color:#fff;border-bottom:0 solid #ccc;text-decoration:none;cursor:pointer;padding:10px 19px 2px}
+#seatMap .ui-tabs-selected{border:none}
+#seatMap .ui-widget-content .ui-tabs-selected a,#seatMap .ui-state-active a{position:relative;*zoom:1;-webkit-border-radius:9px 9px 0 0;border-radius:9px 9px 0 0;height:23px;border-bottom:0;background-color:#fff;color:#666;border-color:#fc0}
+#seatMap .ui-state-hover{background-color:transparent!important}
+
+#idaTab:hover,#vueltaTab:hover{cursor:pointer}
+
+.seatSection{position:relative;background-color:#fff;-webkit-border-radius:0 0 9px 9px;border-radius: 0 0 9px 9px;border-radius:4px 4px 9px 9px\9;border:4px solid #fc0;padding:8px 15px 15px}
+
+#seatMapAjax{clear:both;width:100%}
+
+#personalizetArticle .seatSection{min-width:500px}
+.seatSection .labelFlight{width:100%;float:left;margin-bottom:20px}
+.seatSection .labelFlight span{color:#666;float:left;font-size:1.1em;margin-left:10px;padding-top:3px}
+.seatTable .labelFlight .feeName{position:relative;float:right}
+.serviceInfo .feeName{display:block;padding-bottom:4px;*zoom:1}
+.serviceInfo .feeName strong{font:800 1.1em/1 Verdana}
+
+.labelFlight-connection i{top:8px!important}
+
+.sectionBaggage .header span,#seatAssignment span.feeName{display:inline-block;position:relative;margin-right:5px}
+.sectionBaggage .header span:first-child,#seatAssignment .header{color:#000}
+.sectionBaggage .feeName i,#seatAssignment .feeName i{position:absolute}
+#sec2 i, #secXL i{background:url(../../images/VuelingBase/global_sprite.png) -468px -1545px}
+#sec4 i,#sec3 i, #secOptimum i, #secBasic i{background:url(../../images/VuelingBase/global_sprite.png) -517px -1545px}
+
+.seatSection .labelFlight-connection span{padding-top:12px}
+.seatSection .sectionSolid{background-color:#f4f4f4}
+.seatSection .contentRight{width:415px;float:right}
+.seatSection .contentRight .sectionSolid{padding:8px}
+
+.passengersBar .whiteBox fieldset.checked .passengerFieldName{background-color:#ebebeb}
+.seatLegendList{position:absolute;top:18px;right:0}
+.seatLegendList li{float:left;font-size:0.91em;margin-left:10px;height:16px;margin-top:14px;padding:0}
+.seatLegendList li.longLi{width:auto}
+
+.wrapAvion{position: relative}
+.avion{width:100%;height:221px;position:relative; overflow-x: auto; overflow-y: hidden; padding: 35px 0 38px; margin-bottom: 0px!important}
+
+.frontal{background-position:-26px -1601px}
+.avion .btAvion{height:27px;padding-left:367px;padding-top:0;font-size:1.09em;font-weight:800;display:block;margin-bottom:7px;position:absolute;top:0}
+.avion .tableAvion > table { margin-left: 3%; width: 98%}
+.avion .tableAvion > table td{padding-bottom:6px}
+.avion .tableAvion > table tr.last td{padding-bottom:0}
+.avion .tableAvion > table tr.pasillo td{padding:3px 0 9px}
+.tableAvion_thList{position: absolute; z-index: 1; top: 59px; left: 0; padding: 8px 9px 9px; background-color: #fff; border-left: 4px solid #fff; height: 157px}
+.tableAvion_thList li{padding-top:7px; font-weight: 800; font-size: 13px}
+.tableAvion_thList li.pasillo{padding-top:0; height:20.4px; font-weight: 800}
+.tableAvion_thList li:first-child{padding-top:0;margin: -1px 0 1px}
+.avion .tableAvion{width:100%;background-color:#fff;position:relative;padding:9px; border:4px solid #bdbdbd; box-sizing: border-box; -moz-box-sizing: border-box}
+.avion .tableAvion:before, .avion .tableAvion:after{content:""; position: absolute; width:108px; height:34px;left:36%; margin-left:-54px; background-position: -14px -1601px; top:-35px; background-image:url(../../images/VuelingBase/global_sprite.png)}
+.tableAvion_seatMask{width:4px; height:182px; background-color: #bdbdbd;  position: absolute; left:0; z-index: 3}
+.avion .tableAvion:after{background-position: -14px -1653px; top:auto; bottom:-38px}
+.seatMapSeparator{ position: absolute; height:129%; width:1px; background: url(../../images/VuelingBase/sepDo_seatmap.png) top left repeat-y; margin-left: -4px;z-index: 1}
+.legendSeats{margin:24px 0 0}
+
+.icoRoundSeat_basic.icoSeatOpacity,.icoRoundSeat_optimum.icoSeatOpacity, #sec4.disabledPiece i, #sec3.disabledPiece i{ background-position: -493px -1563px!important}
+.icoRoundSeat_xl.icoSeatOpacity, #sec2.disabledPiece i, #secXL.disabledPiece i { background-position: -468px -1563px!important}
+
+.icoRoundSeat_pref.icoSeatOpacity{background-position: -518px -1563px !important}
+.icoRoundSeat_optimum.icoSeatOpacity,.icoRoundSeat_basic.icoSeatOpacity{background-position: -495px -1563px !important}
+.icoRoundSeat_xl.icoSeatOpacity{ background-position: -469px -1563px!important}
+.icoRoundSeat_duo.icoSeatOpacity{background-position: -443px -1563px !important}
+.icoRoundSeat_duo,.icoRoundSeat_basic,.icoRoundSeat_optimum,.icoRoundSeat_bebe,.icoRoundSeat_xl{cursor:pointer}
+.icoRoundSeat_select,.icoRoundSeat_reserved,.icoRoundSeat_fleetblocked{cursor:default}
+.blockDuo .btAvion{display:none}
+.icoRoundSeat_reserved.icoSeatOpacity{ background-position: -565px -1563px!important}
+.icoRoundSeat_fleetblocked.icoSeatOpacity{ background-position: -632px -1563px!important}
+.blockDuo .legendSeats li span{display:none}
+.icoSeatOpacity { cursor: default!important}
+.icoRoundSeat_select_xl{background-position:-817px -1564px!important}
+
+.tableAvion th{text-align:center;vertical-align:middle}
+.tableAvion th span{height:17px;width:31px;float:left;display:block;font:800 1.09em/1.2 DTLProkyonTRegular, Verdana;color:#4D4D4D;text-align:center}
+.tableAvion td.sep span{height:6px;display:block}
+.tableAvion th a,.tableAvion td a{height:17px;width:19px;float:left;display:block}
+.tableAvion td a.icoRoundSeat_xl{margin:0 0 0 5px}
+.tableAvion tr.pasillo td{text-align:center;letter-spacing:-.5px;font: 800 10px/1.2 Verdana; padding-right: 6px!important;color:#4D4D4D}
+.tableAvion tr.last th,.tableAvion tr.last th{padding-bottom:0}
+.passengersBar .sepSolid_hGrey{margin:10px 0}
+
+.legendSeats{width:100%;position:relative;float:left;margin:15px 0 0;min-height: 49px; z-index: 1}
+.legendSeats li{position:relative;float:left}
+.legendSeats li .squarePrice .arrow{left: 50%;margin-left: -10px!important}
+.legendSeats li, .legendSeats li .squarePrice{padding: 0 2px; box-sizing: border-box; -moz-box-sizing: border-box}
+.legendSeats li.legendDuo{position:absolute}
+.legendSeats li.legend15-19,.legendSeats li.legendDuo{margin-right:0}
+.legendSeats-duo{margin-top:-43px!important}
+.legendSeats-duo li.legendDuo .squarePrice{left:-18px}
+.legendSeats-duo li.legendDuo .squarePrice .arrow{top:auto;bottom:-10px;border-top-color: #666!important;border-width:10px 10px 0;left:33%!important}
+
+.legendSeats li .squarePrice{width:100%;font:800 .85em/1.2 Verdana;color:#fff;text-align:center; border:0; position:relative; padding:5px 0 4px}
+.legendSeats li .squarePrice .arrow{position:absolute;top:-10px;display:block;width:0;height:0;overflow:hidden;border-style:solid;border-width:0 10px 10px;margin:0 11px 0 0; border-color:transparent}
+.legendSeats li span{float:right;padding:3px;font:normal 0.8em/1.2 Verdana; color:#fff;display:block;text-align:center;margin-top:4px}
+.legendSeats li.legendDuo{left: 7px;top: -472%;width: 12%}
+.legendSeats li.legendDuo .squarePrice{background-color:#666}
+.legendSeats li.legendDuo .squarePrice .arrow{border-width: 10px 10px 0;bottom:-10px;top:auto;border-top-color: #666666}
+.legendSeats li.legendPref{width:16.5%}
+.legendSeats li.legendOptimum{width:22%}
+.legendSeats li.legendXL{width:7.8%}
+.legendSeats li.legendOptimum{width:22%}
+.legendSeats li.legendXL span{width:100%; float:left}
+.legendSeats li.legend15-19, .legendSeats li.legend20-24{width: 15.3%; left:3px}
+.legendSeats li.legend15-19{left:2px}
+.legendSeats li.legend25-31{width: 23%; left: 3px}
+
+/*hack para webkit*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .tableAvion_thList{top: 59px}
+	.tableAvion_thList li.pasillo{height:23.4px}
+	.legendSeats li.legendPref{width:16.5%}
+	.legendSeats li.legendOptimum{width:21.2%}
+	.legendSeats li.legendXL{width:7.7%}
+	.legendSeats li.legend15-19{width: 15.4%; left: 0}
+	.legendSeats li.legend20-24{width: 15.4%; left:1px}
+	.legendSeats li.legend25-31{width: 23%; left: 2px}
+	
+	/*change flight*/
+	#c3_seatsPage .legendSeats li.legend20-24{left:-1px}
+	#c3_seatsPage .legendSeats li.legend25-31{left:-2px}
+	
+	/*checkin*/
+	#c3_seatsPage .styleBox_checkin .legendSeats li.legend20-24 {width: 15.4%; left:0}
+	#c3_seatsPage .styleBox_checkin .legendSeats li.legend25-31 { left:0}
+
+	/*express checkin*/
+	#expressSeatMap .legendSeats li.legendXL{width:7.6%}
+	#expressSeatMap .legendSeats li.legend15-19{left:0}
+	#expressSeatMap .legendSeats li.legend20-24 { width: 15.5%; left: 0; }
+	#expressSeatMap .legendSeats li.legend25-31 {left: 1px}
+	
+	
+}
+	
+/*hack firefox*/
+@-moz-document url-prefix() { 
+	.legendSeats li.legendXL{width:7.7%}
+	.legendSeats li.legend15-19{width: 15%;left:1px}
+	.legendSeats li.legend20-24{width: 15.2%; left:3px}
+	.legendSeats li.legend25-31{left: 5px;width: 22%}
+}
+
+.legendSeats li.legendPref .squarePrice,.legendSeats li.legendPref span,.legendSeats li.legendOptimum span{background-color:#990}
+.legendSeats li.legendPref .squarePrice .arrow{border-color:transparent transparent #990;left:72%}
+.legendSeats li.legendXL .squarePrice,.legendSeats li.legendXL span,.legendSeats li.legendOptimum span{background-color:#999}
+.legendSeats li.legendXL .squarePrice .arrow{border-color:transparent transparent #999}
+.legendSeats li.legendOptimum .squarePrice,.legendSeats li.legendOptimum span,.legendSeats li.legendSegment .squarePrice, .legendSeats li.legendSegment span{background-color:#fc0}
+.legendSeats li.legendOptimum .squarePrice .arrow,.legendSeats li.legendSegment .squarePrice .arrow{border-color:transparent transparent #fc0}
+.type319left {left: 65px!important}
+.seatWrap{position:relative}
+.tableAvion .hover{z-index:10}
+#dvPromoExcIn {width:47%!important}
+
+.detailSeatLayer{position:absolute;padding:10px;border:2px solid #4d4d4d;color:#666;width:140px;background-color:#fff;font-size:0.91em;min-height:25px;z-index:10;border-radius:8px;-webkit-border-radius:8px}
+.detailSeatLayer p{margin-bottom:0;vertical-align:middle}
+.detailSeatLayer p > span{display:block;font:normal 1.091em/1 verdana;margin-top:3px;text-align:left}
+.detailSeatLayer p > span:first-child{margin-top:0}
+.detailSeatLayer:before{background: url("../../images/VuelingBase/global_sprite.png") no-repeat scroll -925px -3229px transparent;content: "";height: 25px;left: -9px;margin-top: -13px;position: absolute;top: 50%;width: 12px}
+.detailSeatLayer--izq:before, .detailSeatLayer--izq.layerAlert:before{left:auto; right: -9px; background-position: -946px -3229px}
+.detailSeatLayer--izq.layerAlert:before{background-position: -946x -3196px}
+
+/*capa boton seleccionado*/
+.layerSelect{background-position:-926px -3227px}
+.layerDuo:before{background-position:-926px -3227px}
+.layerDuo{background-color:#fc0;color:#666}
+.layerOptimum:before{background-position:-926px -3227px}
+.layerOptimum{background-color:#999}
+.layerXl:before{background-position:-926px -3227px}
+.layerXl{background-color:#666}
+.layerBusy:before{background-position:-926px -3227px}
+.layerBusy{background-color:#d2460c}
+.layerBebe:before{background-position:-926px -3227px}
+.layerBebe{background-color:#fff;color:#666;border-color:#990}
+.layerAlert{border-color:#d2460c;padding-right:30px;width:174px}
+.layerAlert:before{background-position:-925px -3196px}
+
+
+/* END SEATMAP
+*********************************************************************************************/
+
+
+/*Express LightBox*/
+
+/*Layer Express Fee*/
+.expressFee_lightBox{width:938px!important}
+.expressFee_lightBox .sectionPassengers > div{border:0;padding:0;margin-bottom:47px!important}
+.expressFee_lightBox .labelFlight{margin:14px}
+.expressFee_lightBox .section-conection{min-height:72px}
+.expressFee_lightBox .feeName {position:absolute;top:0;right:0}
+.expressFee_lightBox .wrap_colHalf{width:100%;clear:both;float:left;position:relative}
+.expressFee_lightBox .sectionPassengers > div {width: 49.3%}
+.expressFee_lightBox .labelSeat{min-height:55px}
+.expressFee_lightBox .whiteBox{background-color:#fff;margin:0 3px 3px;border-radius:0 0 8px 8px;
+min-height: 162px;padding:9px 8px 5px!important}
+.contentScrollExpressPopUp {height: 333px!important; margin: 0 -6px 0 -3px; overflow-y: auto;padding: 0 8px 0 0 !important}
+.expressFee_lightBox .expressSeatsBox .contentScroll{max-width:268px;overflow:hidden;padding:0 3px}
+.expressFee_lightBox .expressSeatsBox table td a.seatNumber, .expressFee_lightBox .expressSeatsBox table td span.guion{color: #000000;display: block;font: 400 2.3em/0.95 verdana,serif;height: 24px; position: relative; text-decoration: none}
+.expressFee_lightBox .expressSeatsBox table td span.guion{width:22px}
+.expressFee_lightBox .ajuste-conexion .ida,.expressFee_lightBox .ajuste-conexion .vuelta{margin-top:9px}
+.hiddenScroll{display:none!important}
+.expressFee_lightBox .sectionIda:after, .expressFee_lightBox .sectionVuelta:after,.expressFee_lightBox .sectionVuelta:hover:after, .expressFee_lightBox .sectionIda:hover:after{background-image:none}
+/*caja asientos*/
+.expressSeatsBox{padding:12px 1.5% 8px}
+.expressSeatsBox .wrap-seatsBox{text-align:center; }
+.optima_lightBox .wrap-seatsBox{position:relative;left:-10px}
+.expressSeatsBox .wrap-seatsBox > span,.expressSeatsBox .wrap-seatsBox > div{display:inline-block;vertical-align:middle}
+.expressSeatsBox .wrap-seatsBox > span.flights{margin-right:8px}
+.expressSeatsBox .wrap-seatsBox > span span{display:block;margin-top:4px}
+.expressSeatsBox .wrap-seatsBox > span span:first-child{margin-top:0}
+.expressSeatsBox .wrap-seatsBox > div{max-width:336px;min-height:24px}
+.expressSeatsBox .wrap-seatsBox > div button, .expressFee_lightBox .wrap-seatsBox > div div.contentScroll{display:inline-block;vertical-align:middle}
+.expressSeatsBox table{margin-top:3px}
+.expressSeatsBox table:first-child{margin-top:0}
+.expressSeatsBox button{height:35px;border:0;width:17px;background:transparent url(../../images/VuelingBase/global_sprite.png) -932px -3649px no-repeat;cursor:pointer}
+.expressSeatsBox button.scroll-right{background-position:-959px -3649px}
+/*botón para ver avión y flechas de ida / vuelta*/
+.sectionBox .btn-showPlane{bottom:-8px;margin-bottom: -33px;position:relative}
+.sectionButtonSeat{border-radius:10px;;background-color:#fff!important;border:2px solid #fff;padding:8px;display:block}
+.sectionButtonSeat:hover,.btn-showPlane.selected .sectionButtonSeat{background-color:#F4F4F4!important;border-color:#F4F4F4;color:#990}
+.sectionBox .btn-showPlane .wrap-seat-buttons{display:none}
+.sectionBox .btn-showPlane.selected .wrap-seat-buttons{display:block}
+
+/*Sin conexión*/
+.sectionBox .btn-showPlane.selected:after{bottom: -24px;content: "";height: 15px;left: 50%; margin-left: -18px;position: absolute;width: 36px;background: url(../../images/VuelingBase/global_sprite.png) -589px -3640px no-repeat}
+.expressFee_lightBox .wrapAvion{background-color: #fff; float: left; }
+.expressFee_lightBox .wrapAvion320{margin:23px 14.75% 0 !important;width:71.5%}
+.expressFee_lightBox .wrapAvion321{width: 92%!important;margin: 20px 4% 0 !important}
+.expressFee_lightBox .wrapAvion321:after{display: none}
+.expressFee_lightBox .wrapAvion .avion{padding: 25px 0 25px; margin-top: 4px!important}
+.expressFee_lightBox .seatLegendList{top:-5px}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { /*hack webkit*/
+	.expressFee_lightBox .wrapAvion {width: 71%}
+	.expressFee_lightBox .wrapAvion320 .legendSeats li.legend15-19 { width: 15.3%; left: -1px;	}
+	.expressFee_lightBox .wrapAvion320 .legendSeats li.legend20-24 { width: 15.45%; left: 0px}
+}
+/*hack firefox*/
+@-moz-document url-prefix() { 
+	.expressFee_lightBox .wrapAvion .legendSeats li.legendXL{left:-1px}
+	.expressFee_lightBox .wrapAvion .avion_321 .legendSeats li.legend20-24{width: 12.2%}
+}
+
+/*modificacion avion321 hack para webkit*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.avion_321 .legendSeats li.legend5-10{width:14%; left:-1px}
+	.avion_321 .legendSeats li.legend15-19, .avion_321 .legendSeats li.legend20-24{width: 11.6%}
+	.avion_321 .legendSeats li.legend20-24{width: 12.2%}
+	.avion_321 .legendSeats li.legend29-41{width: 32%; left: -3px}
+}
+
+.expressFee_lightBox .wrapAvion .legendSeats li.legendDuo .squarePrice .arrow{bottom:-5px}
+.expressFee_lightBox .sectionBox .btn-showPlane.selected:after{display:none}
+.expressFee_lightBox .tableAvion_thList, .expressFee_lightBox .wrapAvion:after{top: 33px}
+
+/*Con conexión*/
+.expressFee_lightBox .section-conexion .btn-showPlane.selected .wrap-seat-buttons{display:block!important}
+.expressFee_lightBox .section-conexion .btn-showPlane.selected:after{background-image:none}
+.expressFee_lightBox .section-conexion .wrap-seat-buttons {padding:0 119px;width:48%;height:46px;display:none!important;top:49px}
+.expressFee_lightBox .section-conexion .wrap-seat-buttons a {padding-top: 11px;width: 104px;height: 36px;background-position:-784px -3641px;font-size:1em}
+.expressFee_lightBox .section-conexion .wrap-seat-buttons a span{top:-6px;font-weight:400}
+.expressFee_lightBox .section-conexion .wrap-seat-buttons a.selected span{font-weight:800}
+.expressFee_lightBox .section-conexion .wrap-seat-buttons a:hover,.expressFee_lightBox .section-conexion .wrap-seat-buttons a.selected {background-position: -675px -3641px}
+.expressFee_lightBox .conection-option .avion{margin-top: 69px!important}
+.expressFee_lightBox .contentSection{margin:12px;padding:0!important}
+.expressFee_lightBox .conection-option .contentScrollExpressPopUp {height: 333px !important}
+.expressFee_lightBox .paddingDot20px{padding:15px 0}
+.expressFee_lightBox h3.header{border-radius:0;font-weight:400}
+.section-conexion .expressSeatsBox table td a.seatNumber, .section-conexion .expressSeatsBox table td span.guion{font: 800 1.27em/1.2 verdana,serif;height: 16px;margin-top: -1px;vertical-align: middle}
+.section-conexion .expressSeatsBox .contentScroll{height:37px;max-width:171px}
+.section-conexion .expressSeatsBox table td .detailSeatLayer,.section-noconexion .expressSeatsBox table td .detailSeatLayer {margin-left:40px}
+.section-conexion .expressSeatsBox .wrap-seatsBox > div{height:33px}
+
+/*Oneway*/
+.expressFee_lightBox .sectionPassengers > div.sectionBorder {border:3px solid #f4f4f4;padding: 12px;width: 45.8%;min-height:255px}
+.plusOperator {font:4.36em/0.5 verdana,serif;height: 30px;position:relative;width:100%;clear:both;margin:20px auto;text-align:center;display:block}
+
+/*Footer capa ExpressFee*/
+.expressFeeFooter_lightBox .plusOperator{line-height:1; width:30px; height:30px; position:absolute; top:0;right:0; margin:0}
+.expressFeeFooter_lightBox .colHalf_1{width:46%}
+.expressFeeFooter_lightBox .colHalf_2{width:48%}
+.expressFeeFooter_lightBox .colHalf_2{float:right}
+
+/*caja scroll*/
+.whiteBox{border:4px solid #fff;background-color:#fff}
+.whiteBox-bottom-radius{border-radius:0 0 8px 8px}
+/*caja scroll*/
+.whiteBox{border:4px solid #fff;background-color:#fff}
+.whiteBox .btScroll{width:100%;height:21px;display:block;background-color:#ccc}
+.whiteBox .btScroll span{background:url(../../images/VuelingBase/global_sprite.png) no-repeat center;position:relative;top:6px;display:block;height:8px;width:13px;cursor:pointer;margin:0 auto}
+.icoUpdateData{background:url(../../images/VuelingBase/rellenar_datos.png) no-repeat;display:block;background-repeat:no-repeat;width:82px;height:81px}
+.whiteBox .btScroll:hover{background-color:#666}
+.whiteBox .arrowUp span{background-position:-679px -391px}
+.whiteBox .arrowDown span{background-position:-679px -406px}
+.whiteBox .topScroll,.whiteBox .bottomScroll,.whiteBox .topScroll:hover,.whiteBox .topScroll:hover span,.whiteBox .bottomScroll:hover,.whiteBox .bottomScroll:hover span{background-color:#f9f9f9;cursor:default!important}
+
+.expressFee_lightBox #seatMap .ui-state-default a,.seatModule #seatMap .ui-state-default a{height:18px;padding-top:6px}
+.expressFee_lightBox #seatMap .ui-tabs-selected a,.expressFee_lightBox #seatMap .ui-state-active a,.seatModule #seatMap .ui-tabs-selected a,.seatModule #seatMap .ui-state-active a{height:22px;padding-top:6px}
+.expressFee_lightBox .seatSection,.seatModule .seatSection{padding:8px}
+.expressFee_lightBox .seatSection .labelFlight,.seatModule .seatSection .labelFlight{width:40%;margin-bottom:9px}
+.expressFee_lightBox .seatSection .labelFlight span{margin:0 0 0 7px}
+.expressFee_lightBox .seatSection .labelFlight-connection span,.seatModule .seatSection .labelFlight-connection span{font:normal 1em/1.1 Verdana;float:none;display:block;margin:0;padding:3px 6px 0 46px}
+.seatModule .seatSection .labelFlight-connection span{padding-top:10px}
+.expressFee_lightBox .seatSection .oneWayFly .labelFlight-connection span{padding:4px 6px 0 0 !important}
+.expressFee_lightBox .vueloRuta,.seatModule .vueloRuta{float:left;margin-top:3px;width:60%}
+.seatModule .vueloRuta{margin-top:10px}
+.expressFee_lightBox .vueloRuta span,.seatModule .vueloRuta span{width:49.5%;display:block;text-align:center;float:left;font-size:.91em;color:#666}
+.expressFee_lightBox .oneWayFly .vueloRuta span,.seatModule .oneWayFly .vueloRuta span{width:100%;font-size:1em;margin-top:2px}
+.expressFee_lightBox #seatMap .ui-widget-content,.seatModule-connection #seatMap .ui-widget-content{margin-top:0}
+.expressFee_lightBox .sectionSeats,.expressFee_lightBox .sectionSeats .contentSeats,.seatModule .sectionSeats,.seatModule .sectionSeats .contentSeats{width:100%!important;height:auto}
+.expressFee_lightBox .contentSeats table,.seatModule .contentSeats table{border-collapse:collapse;width:100%;margin:2px 0}
+.expressFee_lightBox .contentSeats table td,.seatModule .contentSeats table td{border:1px solid #ebebeb!important;vertical-align:middle;text-align:center;font-size:.91em;color:#666;padding:10px}
+.expressFee_lightBox .contentSeats table td.name,.seatModule .contentSeats table td.name{width:40%;text-align:left!important;font-weight:800}
+.expressFee_lightBox .contentSeats table td.seat,.seatModule .contentSeats table td.seat{width:30%}
+.expressFee_lightBox .oneWayFly .contentSeats table td.seat,.seatModule .oneWayFly .contentSeats table td.seat{width:60%}
+.expressFee_lightBox .contentSeats table td.seat span,.seatModule .contentSeats table td.seat span{width:28px;height:14px;color:#666;font-weight:800;display:block;background-color:#ebebeb;margin:0 auto;padding:6px}
+
+.expressFee_lightBox .legendSeats{min-height: 22px}
+.expressFee_lightBox .legendSeats li.legendDuo{top: -1035%}
+
+.expressFee_lightBox .avion.avion-25files{float: none;margin: 56px auto 0 !important;width: 66%}
+
+.expressFee_lightBox .colHalf_1 .whiteBox .errorMsg{border:none!important;color:#666;padding:15px 0 0!important;float:left;margin-bottom:0!important}
+.expressFee_lightBox .colHalf_1 .whiteBox .errorMsg.scrollDefault{height:147px!important;margin-top:0;margin-left:0;padding-right:9px!important}
+.expressFee_lightBox .colHalf_1 .whiteBox .errorMsg .content_colRight{padding-left:70px}
+
+
+/*expressFee_lightBox*/
+#userInfoBack{border-top:10px solid #fff}
+.marketDirectionHeader{padding-bottom:4px}
+.toggleButton{position:relative;width:16px;height:16px;background-color:#666;border-radius:3px;border:1px solid #666;float:right;margin-top:5px;cursor:pointer}
+
+.toggleButton img{margin:5px}
+.toggleButtonClose img{margin:7px 5px}
+
+.backgroundcolorgrey{background-color:#666!important}
+.backgroundcoloryellow{background-color:#fc0!important}
+
+.cursordefault{cursor:default!important}
+
+.hotelDiv{background-position:-330px -305px;height:110px;width:665px}
+.carDiv{background-position:-330px -193px;height:110px;width:665px}
+#contentWebMap{position:relative;display:inline-block}
+
+.toggleEdit-preview{margin:0px 0;padding:0px 0 0px}
+label.dccLabel{float:none;width:auto;padding-bottom:6px;padding-top:0;font-weight:400}
+#dcccontainer  h3{font-size:120%;font-weight:700;color:#990;margin-bottom:5px}
+
+/*nuevo paso 2*/
+.formLeft .programmRow{position:relative}
+BODY.EU .formLeft .programmRow{padding-right:134px}
+.formLeft .programmRow .typeCheck{margin-right:0}
+.formLeft .programmLabel{float:none!important;width:auto!important;padding-right:0!important;padding-left:20px;display:block}
+.formLeft .programmLabel span{float:left;white-space:nowrap;min-width:10px}
+.formLeft .programmLabel span.icoIbplus_small{margin-top:4px}
+.programmRow_msg{margin-left: -20px; color:#d2460c; clear:both; max-width:97%}
+
+div.apisPaxBreak{height:25px;float:left;clear:both}
+div.paxDocumentNames{clear:none;width:231px;height:auto;float:left}
+div.paxDocumentNames input{clear:both;margin-bottom:5px}
+div.apisBookingPaxname div{margin-top:5px}
+
+h3.state-off,h3.state-hover{background-color:#fff!important;margin-bottom:0!important;padding:10px 10px 0!important}
+h3.state-hover{margin-bottom:35px!important;padding-bottom:10px!important;background-color:#f0f0f0!important}
+h3.state-hover .h3GreyArrow{display:block}
+
+/*fixes*/
+#linkSendEmailToFriendFromAgency{float:left;position:relative;width:515px;margin-top:15px;margin-left:-53px}
+
+.contenido_caja #txt_12_content, .contenido_caja #list_pasajeros{height:auto;min-height:106px}
+.contenido_caja .txt_12{margin:0 0 10px}
+#txt_12_content > div{width:40%}
+#txt_12_content > div:first-child{width:60%}
+#contenido_content #informacion_de_contacto .contenido_caja #txt_12_content{width:85%}
+
+.contentScrollServicesPopUp {height:260px!important; padding: 0 15px 0 0 !important;  margin: 18px -6px 16px -3px}              
+.span-multicity{max-width:95% !important}
+.span-multicity-nofloat{float: none !important}
+.labelFlight-autowidth{width: auto !important}
+.labelFlight-noborder{border-bottom: 0 solid rgb(225, 225, 225) !important}
+
+
+/*tarjea premium*/
+.premiumCard{padding:0!important;border:1px solid #666;border-radius:13px;position:relative}
+.premiumCard:before, .premiumCard:after{position:absolute;content:"";z-index:1}
+.premiumCard:before{width:300px;height:121px;top:0;left:0;background:url(../../images/VuelingBase/brillo_izq_premiumCard.png) 0 0 no-repeat}
+.premiumCard:after{width:12px;height:171px;top:0;right:0;background:url(../../images/VuelingBase/brillo_der_premiumCard.png) 0 0 no-repeat}
+
+.sectionSolid.premiumCard{background-color:#d0d0d1!important}
+.premiumCard h3.header{font:normal 19px/1.3 'GothamRounded-Light', Verdana;color:#fff; padding:10px 13px 2px 10px!important;position:relative;background-color:#666;border-radius:11px 11px 0 0}
+.premiumCard h3.header:before{content:"";background:url(../../images/VuelingBase/global_sprite.png) -31px -2154px no-repeat;width:77px;height:25px;right: 10px;top: 8px;position: absolute}
+.premiumCard h3.header:after{content:"";background: url(../../images/VuelingBase/global_sprite.png) 100% -4075px no-repeat;width: 100%;height: 22px;left: 0;bottom:-21px;position: absolute}
+.premiumCard .contentSection{padding:0 18px 12px!important;color:#333!important}
+.premiumCard .premiumCard-number{font:normal 15px/1.3 'GothamRounded-Light', Verdana;text-align:right;padding-bottom:50px}
+.premiumCard .premiumCard-personal{float:left}
+.premiumCard .premiumCard-personal span,.premiumCard .premiumCard-date span{font:normal 11px/1.3 'DTLProkyonTRegular', Verdana;display:block}
+.premiumCard .premiumCard-personal span:first-child{font-size:13px}
+.premiumCard .premiumCard-date{float:right}
+.premiumCard .premiumCard-date span:first-child{padding-bottom:2px}
+
+/*barra de progreso*/
+.wrapper_progressbar {position:relative; margin:20px 0}
+.goalProgress {background: #eee;position:relative;border-radius:10px;;height:32px;border:2px solid #ccc;z-index:3}
+.goalProgress:before{ position:absolute;content:"";width:100%;left:0;height:12px;opacity:0.3;filter: alpha(opacity=30);background-color:#fff;top:-2px;z-index:3;display:none\9}
+div.progressBar{background: #ffcc00;color: #fff;font-size: 1.5em;font-family: 'helvetica neue', helvetica, arial, sans-serif;font-weight: 700;height:32px;display: block;width: auto; position:relative;border-radius:8px;;overflow:visible!important;z-index:1}
+div.progressBar:after{content:"";position:absolute; right:0;top:-2px;height:36px;width:5px;background-color:#666;border-radius:10px;; z-index:2}
+div.progressBarText{position:relative;display:block;height:24px;width: auto;margin-top:5px}
+span.progressBarText-content{position:relative;color:#666;padding-left:25px;margin-left:-12px}
+.progressBarText-content:before{content:"";position:absolute;width:20px;height:19px;background:url(../../images/VuelingBase/global_sprite.png) -589px -410px no-repeat;top:0;left:0}
+.progressBarText-content:before{content:"";position:absolute;width:20px;height:19px;background:url(../../images/VuelingBase/global_sprite.png) -589px -410px no-repeat;top:0;left:0}
+.wrapper_progressbar--major{ text-align:right}
+.wrapper_progressbar--start div.progressBar:after, .wrapper_progressbar--end div.progressBar:after{display:none}
+.wrapper_progressbar--start span.progressBarText-content{margin-left:0}
+
+/*cajas o contenedores especiales*/
+#accesoCuentaArticle .bg_colHalf_dotYellow{min-height: 189px}
+.myVuelingInfoBox{padding-left:90px;position:relative}
+.myVuelingInfoBox:before{content:"";position:absolute;width:76px;height:71px;background-position:-566px -3981px}
+.myVuelingInfoBox .colInRow .colIn > span{display:block}
+.myVuelingInfoBox .colInRow .colIn > span:first-child{margin-bottom:5px}
+.myVuelingInfoBox .colInRow .icoIbplus_small{margin-top:7px}
+.myVuelingInfoBox .colInRow .ico_bf_changeExpress_small{margin-top:15px}
+
+
+.colHalf_1 .myVuelingInfoBox .colIn{width:100%;display:block;margin:8px 0 0}
+
+/*caja buscador de filtros*/
+.buscadorFiltro{position:relative;border-radius:10px;;background-color:#efefef;z-index:1;padding:15px 25px}
+.buscadorFiltro .header{margin-bottom:15px;overflow:hidden}
+.buscadorFiltro .header h3{font:normal 1.36em/1.4 DTLProkyonTMedium, Verdana;color:#666}
+.buscadorFiltro .header .spanArrowLeft_grey{margin-right:5px;border-color:#efefef #efefef #efefef #990}
+.buscadorFiltro .header a{font:800 1.1em/1.2 Verdana;color:#990}
+.buscadorFiltro .contentSection{padding:0}
+.buscadorFiltro .formLeft{padding-left:150px;float:none;width:auto!important}
+.buscadorFiltro .formLeft .formRow{float:left;clear:none;width:auto!important;margin-bottom:5px}
+.buscadorFiltro .formLeft .txtEdit{width:auto!important;clear:both}
+.buscadorFiltro .formLeft label{width:auto!important;margin-bottom:5px;display:block;padding:0;text-align:left}
+.buscadorFiltro .formLeft select.fechas{width:303px;min-width:303px}
+.buscadorFiltro .formLeft select.pnr{width:74px;min-width:74px}
+.buscadorFiltro .formLeft select.passenger{width:179px;min-width:179px}
+#filterRow div,#filterRow .layer_btCerrar{z-index:2}
+#filterRow.formRow{width:auto!important;margin-right:16px}
+#filterRow.formRow .txtEdit #dateRangeOpenLink{margin:0!important}
+#dateRangeCalendar.posAbs{top:30px;left:0}
+.buscadorFiltro .formLeft .bt_form{width:auto!important;margin:23px 0 15px;float:left;padding:0}
+.buscadorFiltro .formLeft .bt_form .bt_largo{padding:0 14px}
+
+/*caja cookies*/
+ .styleBoxOutsider {border:1px solid #fff!important;background-color:#ebebeb!important;margin:0 0 10px!important;font:normal 0.91em/1.4 verdana, sans-serif!important;position:relative;padding-right:29px!important}
+.styleBoxOutsider .btCerrar_small { top:5px;right:7px}
+.styleBoxOutsider a.link-button {position:relative;padding-left:10px;margin-left:10px}
+.styleBoxOutsider a.link-button:before {content:"";position:absolute;top:0;left:0;width:7px;height:8px;background:url(../images/sprite-cms2.png) -383px -1811px no-repeat;top:50%;margin-top:-3px}
+.styleBoxOutsider .box-content {padding:8px 15px 15px}
+
+/*communication preferences Punto*/
+.areaAcceptNewsletterConditions{float:left;clear:both;margin:5px 0;padding:0;display:none}
+.areaAcceptNewsletterConditions INPUT{margin:5px 0 0 0;padding:0; float:left}
+
+/*caja hoteles catalonia*/
+.sectionCatalonia .halfbox, .sectionCatalonia .halfbox > div{min-height:112px}
+.sectionCatalonia .colHalf_1{padding-right: 19px;width: 56%}
+.sectionCatalonia .colHalf_2{width:37.5%;float:right}
+
+/*caja promoCode*/
+.promoCode{*zoom:1}
+.promoCode label{font:normal 1em/1.2 Verdana!important;float:left;width:361px;text-align:left;padding:7px 0 0 10px}
+.promoCode input{float:left;width:137px;min-width:0;margin-right:10px;text-align:left;font-weight:800}
+.promoCode .boton_vp{font-weight:800;padding-left:12px!important;padding-right:12px!important}
+.promoCode .content_colRight{padding-left:60px}
+.promoCode .inputSection{margin:10px 0}
+.promoCode a.pulsado span{border-color:#fff #fff #990;border-width:0 5px 5px}
+.buscador .promoCode label{width:auto;max-width:200px}
+.buscador .promoCode input{width:164px}
+.buscador-multicity .promoCode label{max-width:180px;width:auto}
+.buscador-multicity .promoCode input{width:220px;margin-right:0}
+.buscador-Col3 .promoCode{width:100%;margin-top:5px!important}
+.buscador-Col3 .promoCode .icon{top:0}
+.buscador-Col3 .promoCode span.txt{padding:2px 0 0 25px}
+.buscador-Col3 .promoCode label{max-width:152px;padding-right:15px;width:auto;width:auto;padding-right:8px;margin:0;float:left}
+.buscador-Col3 .promoCode input{position:relative;top:-4px;width:228px;margin-right:0}
+
+.sectionBorder--codeMy25 input[type="text"]{width:143px}
+.sectionBorder--codeMy25__form{float:right}
+
+/*modulo pago*/
+#paymentBody .payBox{margin-top:0}
+.payBox{width:100%;clear:both;margin:30px 0 20px}
+.payBox h2{float:left;width:auto;*padding-bottom:8px;margin:10px 10px 0 0 !important}
+.payBox .payTabs,.customTabs{border-bottom:4px solid #fc0;width:100%;margin-bottom:23px}
+.payBox .payTabs a,.customTabs a{height:19px;float:left;font:800 1.09em/1.2 Verdana;position:relative;margin-right:3px;border-radius:7px 7px 0 0;text-align:center;display:block;background-color:#efefef;color:#666!important;text-decoration:none;padding:10px 13px 2px;min-width:50px}
+.payBox .payTabs a.pulsado,.customTabs a.pulsado{background-color:#fc0}
+.payBox .radioForm{width:100%}
+.payBox label{width: 33%;margin: 0 auto;float: none;display:table-cell}
+.payBox .txtEdit{margin: 0 auto;float: none;display:table-cell}
+.payBox .txtEdit.no-cards{width:30%}
+.payBox .totalRow{border-top:1px solid #e1e1e1;margin-top:25px;width:100%;float:left;padding:32px 0 0}
+.payBox .totalRow .totalPrice{width:215px;float:left;margin-right:16px;color:#000;text-align:right;font:800 1.63em/1.2 Verdana;padding:15px 0 0}
+.payBox .totalRow .wrap_btBig_arrow{margin-right:15px!important}
+.payBox .totalRow .verisign{margin-right:15px;float:left;padding:6px 0 0}
+.payBox .totalRow .verisigndiv {float:left;width:70px;height:36px;background:url(../../images/VuelingBase/icoVerising_small.png) no-repeat;margin:6px 15px 24px 0}
+.payBox .totalRow .icoDigicert {float:left; margin:6px 15px 24px 0}
+.payBox .totalRow .claim{color:#666;font:800 .9em/1.2 Verdana;padding:14px 0 0}
+
+/*cssHint*/
+#cssHint,.cssHint,.warningApis{display:none;position:absolute;background:url(../../images/VuelingBase/hint-bg.png) 5px 3px no-repeat;padding-left:20px;min-height:27px;padding-top:5px}
+#cssHint.findPassword{width:320px}
+.cssHintChangeFlight{left:180px!important;width:200px!important;top:0px;display:block}
+.formLeft .programmRow #cssHint,.formLeft .programmRow .cssHint{left:100%!important;width:170px!important;top:4px}
+BODY.EU .formLeft .programmRow .cssHint{left:80%!important}
+.cssHint-Floated{float: left;margin-bottom: -12px;margin-left: 20px;position: relative;top:-6px;width: 198px}
+.cssHint-Floated-140{width:140px}
+
+.warningApis{position:absolute;right:10px;width:215px;height:auto;font-size:9px; display:block}
+div.warningApis{clear:none;float:right;font-size:9px;height:auto;left:240px;position:absolute;width:215px}
+div.warningApis span{float:left;clear:none;width:11px;height:21px;background:url(../../images/VuelingBase/global_sprite.png) -205px -52px no-repeat}
+div.warningApis div{float:left;clear:none;width:145px;height:auto;margin-left:4px}
+
+/*loading capa centrada*/
+.loadingDivCenter{margin-top:-80px;top:50%;left:50%;margin-left:-140px;width:295px}
+.loadingDivCenter #loadCalendarMonth{min-height:40px;margin-bottom:0}
+.loadingDivCenter .icoLoading{margin-top:19px}
+
+.widget-wrapper{position:fixed;width:950px;bottom:0;min-height:100px;z-index:1000000000}
+.widget-infoReserva{position:absolute;right:0;bottom:0}
+.widget-infoReserva .widget-content{width:368px;background-color:#fc0;color:#666;border:2px solid #fff;border-bottom:none}
+.widget-wrapper .widget-content{position:relative;border-radius:10px 10px 0 0;-webkit-box-shadow:1px 1px 10px #666;box-shadow:1px 1px 10px #666;padding:8px}
+.widget-wrapper .header a.bt_cerrarBig{right:6px;top:3px}
+@media only screen and (max-width: 950px) {
+	.widget-wrapper{right:0}
+}
+
+/*** 12.Tablas ***/
+ 
+/*estructura para tablas en css */
+.section__table{ display:table; width:100%}
+.section__table .section__table__cell{ display:table-cell; vertical-align: middle} 
+
+/*Tabla ancillaries*/
+.ancillaryTable{position:relative;background-color:#f4f4f4;;border-radius:10px;clear:both;margin-top:20px;padding:10px}
+.ancillaryTable .col1,.ancillaryTable .col2,.ancillaryTable .col3,.ancillaryTable .col4{float:left}
+.ancillaryTable .col1{width:210px;font-weight:800;padding-right:20px}
+.ancillaryTable .passenger .col1{padding-top:3px}
+.ancillaryTable .col2{width:285px;padding-right:20px;position:relative}
+.ancillaryTable .col3{width:170px}
+.ancillaryTable .col2 a,.ancillaryTable .col3 a{font-size:.9em!important;float:left;padding:3px 0 5px}
+.ancillaryTable .col2 p,.ancillaryTable .col3 p{margin-bottom:8px}
+.ancillaryTable .col2 select{top:-4px}
+.ancillaryTable .col4{float:right;padding-right:7px;text-align:right}
+.ancillaryTable .col4 p{margin-bottom:0}
+.ancillaryTable .header{background-color:#e8e8e8;color:#000;margin-bottom:0!important;*zoom:1;padding:8px 10px!important}
+.ancillaryTable .header h3{font-size:1em!important}
+.ancillaryTable .header .col2{width:auto;max-width:244px}
+.ancillaryTable .passenger{color:#666;background-color:#fff;border-bottom:1px solid #e1e1e1;padding:15px 10px}
+.ancillaryTable .passenger fieldset{float:left;margin-right:10px}
+.ancillaryTable .passenger .inputAncillary{float:left;position:relative;top:-2px}
+.ancillaryTable .insurance{width:100%;float:left;margin-top:15px;position:relative}
+.newInsurance{margin-top:25px!important}
+.ancillaryTable .insurance h4{font-size:1.09em!important}
+.ancillaryTable .insuranceContent{background-color:#f5f5f5;position:relative;border-radius:6px;padding:10px}
+.ancillaryTable .insurance .content_colRight{padding:4px 0 0 83px}
+.ancillaryTable .insuranceBt{position:relative;float:right;;border-radius:10px;padding:10px 15px}
+.ancillaryTable .insuranceBt input{margin-right:10px;top:0}
+.ancillaryTable .insuranceBt label{color:#000;font:800 .9em/1.2 Verdana!important}
+.ancillaryTable .insuranceChecked{background-color:#fff;margin-top:14px}
+.baggageTable.ancillaryTable{padding:0;background:none;margin-top:0}
+.baggageTable.ancillaryTable .passenger{padding: 20px 10px 20px}
+.baggageTable.ancillaryTable .passenger:fist-child{padding-top:0}
+.baggageTable.ancillaryTable .passenger fieldset{float:none}
+.baggageTable.ancillaryTable .passenger fieldset label.txt{padding-top:6px;max-width:160px}
+.baggageTable .msg_weightBaggage{color: #666666;display: inline-block;font: 1.72em/1.9 "DTLProkyonTRegular",verdana,serif;text-align: right;vertical-align: middle;position:relative;top:-5px}
+.baggageTable .msg_weightBaggage > a{display:inline-block; margin-left:6px;vertical-align:middle}
+.baggageTable .msg_weightBaggage > a:first-child{margin-left:0}
+.baggageTable .msg_weightBaggage > a:hover{background-position: -498px -3512px}
+#c3_baggageArticle .ancillaryTable .col1{width:162px}
+#c3_baggageArticle .ancillaryTable .col2{width:363px}
+
+/*capa detalles de asientos*/
+.layerSeatsDetails{width:554px}
+
+/*tabla detalle asientos pasajeros ferran*/
+.passengersBar{width:189px;float:left;padding:10px}
+.passengersBar h3{color:#666;font-size:1.09em;padding:5px 0 10px 4px}
+.passengersBar .whiteBox fieldset label{font-weight:400;float:left;width:149px}
+.passengersBar .whiteBox fieldset.checked .seatInfo{background-color:#f3f3f3}
+.passengersBar .whiteBox .numSeat{float:left;margin-right:6px;text-align:center;color:#000;font:800 1.3em/1.3 Verdana}
+.passengersBar .whiteBox .noNum .numSeat{margin-top:-2px;font:800 .91em/1.3 Verdana}
+.passengersBar .whiteBox .noNum .numSeat .seatLegend{display:none}
+.passengersBar .whiteBox .seatLegend{padding-top:4px;float:right;width:130px}
+.passengersBar .whiteBox .seatInfo .seatDescription{width:99px;font-size:0.91em}
+.passengersBar .whiteBox .seatInfo .seatButton{width:15px;height:15px;color:#8d8d8d;position:relative;top:-2px;text-decoration:none;font:800 1.2em/1.3 Verdana}
+
+#c3_checkinArticle .passengersBar fieldset{margin-bottom:5px;padding-bottom:5px;border-bottom:1px solid #ebebeb}
+#c3_checkinArticle .passengersBar fieldset > div{padding:9px 5px;background-color:#ebebeb}
+#c3_checkinArticle .passengersBar fieldset span.col1{width:46.5%}
+#c3_checkinArticle .passengersBar fieldset span.col2{width:9.5%}
+#c3_checkinArticle .passengersBar fieldset span.col3{width:41.5%}
+#c3_checkinArticle .passengersBar fieldset label{width:82.2%}
+
+/*detalle tabla mascotas*/
+.petTable .col3{width:106px}
+.petTable .col2 .formRow{margin-bottom:0;padding-top:2px}
+.disable .col2 .formRow{opacity:0.5;filter:Alpha(opacity=50)}
+
+/*detalle tabla equipaje especial*/
+.baggageEspecialTable .col2 .formRow{margin-bottom:0}
+.baggageEspecialTable .secRoundTab{left: 88%;position: relative;top: -17px}
+
+/*detalle tabla asientos*/
+#seatAssignment .loading{position:absolute;width:444px;height:81px;float:left;overflow:hidden;border:3px solid #fc0;text-align:center;margin:100px 0 100px 99px;padding:24px}
+#seatAssignment .loadingCheckin{position:absolute;width:444px;height:81px;float:left;overflow:hidden;border:3px solid #fc0;text-align:center;z-index:10!important;margin:-300px 0 100px 99px;padding:24px}
+
+.seatTable{min-height:374px;clear:both;background:none;margin-top:5px;padding:5px}
+.seatTable .intro{padding:10px 5px 5px}
+
+.tabSeatList{z-index:1;position:relative;top:4px}
+.tabSeatList li{position:relative;float:left;background-color:transparent!important;padding:0!important}
+.tabSeatList li .sectionBorder_layerSmall{position:absolute;width:150px;left:128px;top:-10px;padding:10px;z-index:2}
+.tabSeatList li:first-child .sectionBorder_layerSmall{left:100px;top:-33px}
+.tabSeatList li.ui-state-hover{border:none!important}
+
+.box-bono h3.header{margin-bottom:15px!important;position:relative;padding-left:8px!important}
+.box-bono h3.header .box-bono-msg-state{position:absolute;right:4px;top:3px}
+.bono-table{width:100%}
+.bono-table .txt_greenCell{color:#990;font-weight:bold;font-size:1.091em}
+.bono-table .bono-table-num-field{padding-left:30px;font-weight:bold}
+.bono-table th{vertical-align:middle;color:#666!important}
+.bono-table th a{text-decoration:none!important}
+.bono-table th a:hover{color:#000!important}
+.bono-table .th-col1{width:15%}
+.bono-table .th-col2{width:30%}
+.bono-table .th-col3{width:35%}
+.bono-table .th-col4{width:20%}
+
+.table-alternate{width:100%}
+.table-alternate td{padding:15px;vertical-align:middle}
+.table-alternate tbody tr td{background-color:#fff;border-bottom:1px solid #ebebeb}
+.table-alternate tbody tr.alternate td{background-color:#f3f3f3}
+.table-alternate .table-col1{width:20%}
+.table-alternate .table-col2{width:30%}
+.table-alternate .table-col3{width:27%;padding:0}
+.table-alternate .table-col4{width:23%;padding:0;text-align:center}
+.table-alternate .table-col-message td{border-bottom:0;padding-bottom:0}
+.table-alternate .table-col-message .table-col-message-content{float:left;min-width:330px;margin-top:4px}
+
+.wrap-table-padding,.wrap-table-bono-detail{border:1px solid #ccc}
+.wrap-table-padding table,.wrap-table-bono-detail table{border-collapse:separate}
+.wrap-table-padding-top-rounded,.wrap-table-padding-top-rounded .table-padding{border-radius:10px 10px 0 0}
+.wrap-table-padding-top-rounded .table-head .table-col1{border-radius:8px 0 0 0}
+.wrap-table-padding-top-rounded .table-head .table-col-last{border-radius:0 8px 0 0}
+
+.table-padding .table-head .table-col{color:#fff;font:800 1.091em/1 verdana, sans-serif;background-color:#999}
+.table-padding .table-col{padding:14px;vertical-align:middle}
+.table-padding .table-col-full{width: 100%}
+.table-padding-footer{padding:14px 22px 18px}
+.table-padding .table-col input[type="checkbox"]{left:0;float:none;display:inline-block;vertical-align:middle}
+.table-padding-footer{padding:14px 22px 18px}
+.table-padding .table-head .table-col1{padding-left:14px}
+.table-padding .table-col1{width:28.5%}
+.table-padding .table-col2{width:25%}
+.table-padding .table-col3{width:27%}
+.table-padding .table-col4{width:20%}
+
+.table-padding .table-row .table-col{border-top:3px solid #fff; border-top:3px solid #fff; padding:8px 15px; background:url("../../images/VuelingBase/horizontal-dot-line.png") repeat-x left bottom; }
+.table-padding .table-row.last .table-col{background-image: none!important}
+.table-padding .table-row .table-col1{border-left:6px solid #fff}
+.table-padding .table-row .table-col-last{border-right:6px solid #fff}
+.table-padding .table-row.first-row .table-col{border-top:6px solid #fff; border-bottom:3px solid #fff}
+.table-padding .table-row.active .table-col{background-color:#f3f3f3!important}
+.table-padding .table-row .table-col4{text-align:right}
+
+.table-bono-detail .table-head .table-col{border-bottom:1px solid #ccc;background-color:#eee;color:#666}
+.table-bono-detail .table-head .table-col1{padding-left:32px}
+.table-bono-detail .table-row .table-col{border:0}
+.table-bono-detail .table-row .table-col1{border-left:19px solid #fff}
+.table-bono-detail .table-row .table-col-last{border-right:19px solid #fff}
+.table-bono-detail .table-row.first-row .table-col{border-top:13px solid #fff}
+.table-bono-detail.table-col6 .table-col{text-align:left}
+.table-bono-detail.table-col6 .table-col1{width:270px}
+.table-bono-detail.table-col6 .table-col2{width:193px}
+.table-bono-detail.table-col6 .table-col3{width:125px}
+.table-bono-detail.table-col6 .table-col4,.table-bono-detail.table-col6 .table-col5{width:96px}
+.table-bono-detail.table-col6 .table-col6{width:76px}
+.wrap-table-bono-detail .table-padding-footer{padding-right:50px}
+
+.proforma h2{display:block;margin-bottom:5px!important;font:normal 2.2em/1.4 DTLProkyonTRegular, Verdana}
+.proforma .proformaUser{width:296px;*float:left}
+.proformaTable .header h3{font-weight:800}
+.proformaTable .col1{width:95px!important}
+.proformaTable .col2{width:105px!important}
+.proformaTable .col3{width:86px!important}
+.proformaTable .col4{width:146px!important;float:left!important;text-align:left!important}
+.proformaTable .col5{float:right;width:119px!important;text-align:right}
+.proformaTable .passenger .col1{font-weight:800;color:#000;padding-top:33px!important;text-align:center}
+.proformaTable .passenger .flyDetail{float:left;width:484px}
+.proformaTable .passenger .col2,.proformaTable .passenger .col3,.proformaTable .passenger .col4,.proformaTable .passenger .col5{padding-top:2px;color:#000!important;font-weight:400!important}
+.proformaTable .passenger .col2{padding-right:0;width:125px!important}
+.proformaTable .passenger .col2 .fecha{float:left;padding-right:20px}
+.proformaTable .passenger .col2 .fecha p{margin:0;padding:2px 0 0 30px}
+.proformaTable .passenger .col5{text-align:right}
+.proformaTable .sepDotsYellow{padding:10px 0}
+.proformaTable .otrosCargos{background-color:#FFF;color:#000;padding:15px 10px!important}
+.proformaTable .otrosCargos .col1{width:477px!important;font-weight:400!important;text-align:right!important;padding:0!important}
+.proformaTable .total{background-color:#e8e8e8;color:#000;font-size:1.3em;font-weight:800;padding:15px 10px!important}
+.proformaTable .total .col1{width:477px!important;font-weight:400!important;text-align:right!important;padding:0!important}
+.proforma .proformaFooter{color:#000}
+.proforma .contactData span{display:block;float:left;padding-right:10px;border-right:1px solid #fc0;margin-right:10px}
+.proforma .contactData span.last{border:none}
+.bt_proforma{width:500px;overflow:hidden;margin:0 auto;padding:10px 0 30px}
+
+/*Layer tabla comparativa ferran*/
+.feeComparativeTable{width:100%;*width:644px;position:relative;left:1px}
+.feeComparativeTable tr:first-child td,.genericTable tr:first-child td{border-top:0}
+.feeComparativeTable tr td.selected{background:#eaeaea url(../../images/VuelingBase/bg_feeBlinkList.png) top left no-repeat}
+.feeHeaderTabs{height:70px;width:92%;padding-top:21px;border-bottom:1px solid #e1e1e1;position:relative;margin:0 29px 0 17px}
+.feeHeaderTabs .tabFee{display: table-cell;min-height:0;padding:10px 6px 7px;text-align:center !important;vertical-align:bottom;width:109px;border-bottom:none}
+.feeHeaderTabs .tabFee h3{position:relative;word-break:break-all;padding:0}
+.feeHeaderTabs > div{display:table-cell;width:20%;vertical-align:bottom}
+.feeHeaderTabs > div,.feeHeaderTabs .tabFee{height:50px}
+.feeHeaderTabs .tableHeaderLinkSection{width:40.6%}
+.feeComparativeTable tr td,.genericTable tr td, .genericTable tr th{padding:13px}
+.feeHeaderTabs .tabBasic .tabFee{width:105px;height:3px}
+.feeHeaderTabs .tabOptima .tabFee{padding-top:13px;height:45px}
+.feeHeaderTabs .tabExcellence .tabFee{padding-top:8px;height:55px}
+.feeComparativeTable td.routeCell{width:197px}
+.feeComparativeTable td.routeCell h4{margin-bottom:5px}
+.feeComparativeTable .tabFee{min-height:20px;text-align:center;padding:7px}
+.feeComparativeTable .tabFee h3{font:800 1em/1.3 DTLProkyonTMedium,Verdana,Geneva,sans-serif;text-align:left;position:absolute;bottom:8px;left:5px}
+.feeComparativeTable .tabFee,.feeComparativeTable .tabFee h3{width:87px}
+.feeComparativeTable tr td.price{width:110px;text-align:center;vertical-align:middle;color:#666;font-size:20px;padding:0!important}
+.feeComparativeTable tr td.price span{display: block;font-size: 14px!important}
+.feeComparativeTable td .contentRight{color:#666;padding-left:55px}
+.feeComparativeTable td .contentRight p{margin-bottom:0}
+
+/*tabla gris generica*/
+.genericTable{width:100%}
+.genericTable.tableWidth_684{width:684px}
+.genericTable tr th.borderNone{border-top-color:#fff!important;border-left-color:#fff!important}
+.genericTable tr th, .genericTable tr td{width:30%;vertical-align:middle;text-align:center}
+.genericTable tr td{padding:18px 0}
+.genericTable tr th:first-child,.genericTable tr td:first-child{width:40%;padding:18px 20px;text-align:left}
+.genericTable tr.subTh th{padding:2px 0!important}
+.genericTable tr.subTh th.first{padding:2px 0 2px 2px}
+.genericTable tr.subTh-connection th.first div{height:62px}
+.genericTable tr.subTh-connection th.first div span{position:relative;top:5px}
+.genericTable tr.subTh th.last{padding:2px 2px 2px 0}
+.genericTable tr.subTh th div{width:100%;background-color:#f4f4f4!important;display:inline-table;vertical-align:middle}
+.genericTable tr.subTh th div > span{display:table-cell;vertical-align:middle;height:33px;padding:7px 0}
+.genericTable tr.subTh th.last{padding-left:0}
+.msgBabyCheckin,.msgApiCheckin{margin-top:7px;max-width:none!important}
+.msgApiCheckin{top:22px}
+.unavailableFly > span{filter:alpha(opacity=20);opacity:0.2;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)"}
+#tablePaxSeats.genericTable tr.subTh th div > span{padding:0}
+.wrapGenericTable_colRight #tablePaxSeats.genericTable tr td span{max-width:150px}
+
+.block {display:block; position:relative}
+.block, .block *{box-sizing:border-box;-moz-box-sizing:border-box}
+.block__content__txt__title{font:800 1.27em/1.3 verdana;margin-bottom:15px}
+.block__content__txt__title--noFull{width:75%}
+.block__content__txt__price, .block--acordeon .block__content__txt__listHeader,.block__content__txt__linkButton{font:800 1.091em/1.3 verdana;margin-bottom:0}
+.block__content__txt__linkButton{font-weight:normal; display:block; margin-bottom:20px}
+.block__content__description{min-height: 58px;}
+.block .wrap_btSmall_plus .btSmall{padding:4px 7px 4px !important}
+.block .wrap_btSmall_plus{text-align:right}
+.block .wrap_btSmall_plus .bt_cancel, .block .wrap_btSmall_plus .btBorder:first-child{display:none}
+.block .wrap_btSmall_plus .bt_cancel{width:30px}
+.block .wrap_btSmall_plus.is.active .btBorder:first-child, .block .wrap_btSmall_plus.is.active .bt_cancel{display:block}
+.block .wrap_btSmall_plus .boton_vp, .block .wrap_btSmall_plus .btBorder{float:right;margin-left:0}
+.block .wrap_btSmall_plus .boton_vp:first-child, .block .wrap_btSmall_plus .btBorder:first-child{margin-left:3px}
+.block .wrap_btSmall_plus .btBorder{margin:0!important}
+.block .wrap_btSmall_plus .boton_vp:first-child{margin-left:3px}
+.block .wrap_btSmall_plus .btBorder a{float:none;margin:0!important}
+.wrapGenericTable_colLeft, .wrapGenericTable_colRight{float:left}
+.wrapGenericTable_colLeft,wrapGenericTable_colLeft > table{width:40%}
+.wrapGenericTable_colRight{width:59%;margin-left:-1px;background-color:#fff}
+.wrapGenericTable_colRight{border-left:1px solid #e1e1e1}
+.wrapGenericTable_colRight .genericTable tr th:first-child{border-left:none;text-align:center}
+.wrapGenericTable_colLeft .borderNone{border:none;border-bottom-color:#ebebeb!important;padding-top:37px!important}
+.wrapGenericTable_colRight .genericTable tr td, .wrapGenericTable_colRight .genericTable tr th{width:190px;padding:18px 10px}
+.wrapGenericTable_colRight .genericTable tr td:first-child{border-left:0}
+.wrapGenericTable_colRight .genericTable tr td{text-align:center}
+.wrapGenericTable_colRight .genericTable tr td input{display:inline-block;float:none}
+.wrapGenericTable_colRight .genericTable tr td span{max-width:88px;line-height:1}
+.wrapGenericTable_colRight .genericTable tr td.txtAlignCenter{padding:10px 37px}
+.wrapGenericTable_colRight .genericTable tr td.txtAlignCenter{max-width:none;line-height:1.3}
+.wrapGenericTable_colRight .genericTable tr td.txtAlignCenter span{max-width:none;display:block}
+.wrapGenericTable .genericTable td{height:28px}
+.wrapGenericTable_colRight{overflow-y:hidden;overflow-x:auto}
+.oneWay.wrapGenericTable_colRight {width:49%}
+.oneWay.wrapGenericTable_colLeft  {width:51%}
+.genericTable .apiRow td{height:58px}
+.genericTable .babyRow td{height:41px}
+.genericTable .noCheckin td{height:93px!important}
+.genericTable tr.subTh-connection th div, .genericTable tr.subTh-connection th.first div{height:70px}
+.genericTable.equalCells tr td, .genericTable.equalCells tr th{width:50%}
+.genericTable input.typeCheck{top:4px}
+
+
+/*nueva busqueda selects ocultos*/
+#searchControl{background-color:#FFF;border:3px solid #999;width:750px;z-index:100;;border-radius:10px;margin:0 0 20px;padding:0}
+.nuevaBusqueda{display:none;left:-3px;position:absolute;top:70px;-webkit-box-shadow:4px 4px 10px #555;box-shadow:4px 4px 10px #555}
+#searchControl h1{background-color:#999;color:#fff;font-size:1.25em;font-weight:700;padding:9px 10px 12px}
+#searchControl h2{color:#666;font-size:13px;font-weight:700;position:relative;margin:0;padding:5px 0 5px 12px}
+#searchControl label{color:#666}
+
+/*Caja Error SB*/
+#errorMsg,.errorMsg{clear:both;border:3px solid #d2460c;font-weight:800;margin-bottom:20px;padding:15px}
+.errorMsgWarning {border-color:#fc0!important;}
+.errorMsgNoBorder{border:none!important;padding:0!important}
+#errorMsg .content_colRight,.errorMsg .content_colRight{padding-left:60px}
+#errorMsg ul,.errorMsg ul{color:#d2460c;font-size:1em;font-weight:400;margin-left:17px;list-style:url(../../images/VuelingBase/icoSquareList_red.png)}
+#errorMsg ul li,.errorMsg ul li{margin:0 0 10px}
+
+.block--passenger{border-top:1px solid #ccc;padding-top:15px;margin:20px 0 0}
+.block--passenger--first{border:none;padding-top:0;margin-top:0}
+.block--passenger__name, .block--passenger__num{color:#000; display:inline-block;padding-top:8px; font-size: 1.091em}
+.block--passenger__name{font:800 1.091em/1.3 verdana; padding-right:10px}
+/*modulo paginacion*/
+.paginacion{width:100%;float:left;text-align:center;margin:0 0 23px}
+.paginacion .sectionIndex{display:inline-block;margin-right:16px}
+.paginacion .sectionIndexBlock{display:block;margin-bottom:10px}
+.paginacion span.numPage{margin:0 0 0 20px}
+.paginacion span.numPage a{margin-right:5px}
+.paginacion span.numPage a,.paginacion .next,.paginacion .prev{font-weight:800}
+.paginacion a.prev{margin-left:20px}
+.paginacion span.numPage a.pulsado,.paginacion span.numPage a:hover,.paginacion .prev:hover,.paginacion .next:hover{color:#666!important}
+.paginacion span.numPage a.pulsado{text-decoration:none}
+.paginacion .next{margin-left:20px}
+
+/*Select Idiomas*/
+.langList{width:120px;position:absolute;z-index:100;text-align:left;left:-12px;top:-11px;font-size:1.091em;padding:9px 10px 10px!important}
+.langList p{margin-bottom:5px;font-size:11px;color:#666}
+.langList p:hover{cursor:pointer}
+.langList p strong{font-weight:normal}
+.langList ul{margin-top:14px}
+.langList li{width:100%!important;border:none!important;height:auto;float:none;margin:0;padding:0}
+#header .langList li a{color:#666!important;text-decoration:none!important;display:block;padding:6px 8px}
+.langList li a:hover{background-color:#e6e6e6}
+
+/*flecha verde desplegable*/
+.icoGreenArrowUp_bf,.icoGreenArrowDown_bf{padding-left: 17px; position: relative}
+.icoGreenArrowUp_bf:before,.icoGreenArrowDown_bf:before{content:"";position: absolute; left:1px; top:5px; height:6px; width:10px; background-image:url(../../images/VuelingBase/global_sprite.png)}
+.icoGreenArrowUp_bf:before{background-position: -276px -4535px}
+.icoGreenArrowDown_bf:before{background-position: -276px -4542px}
+
+/*modelo interno de caja + icono*/
+
+.block {display:block; position:relative}
+.block, .block *{box-sizing:border-box;-moz-box-sizing:border-box}
+.block__content__txt__title{font:800 1.27em/1.3 verdana;margin-bottom:15px}
+.block__content__txt__title--noFull{width:75%}
+.block__content__txt__price, .block--acordeon .block__content__txt__listHeader,.block__content__txt__linkButton{font:800 1.091em/1.3 verdana;margin-bottom:0}
+.block__content__txt__linkButton{font-weight:normal; display:block; margin-bottom:20px}
+.block .wrap_btSmall_plus .btSmall{padding:4px 7px 4px !important}
+.block .wrap_btSmall_plus{text-align:right}
+.block .wrap_btSmall_plus .bt_cancel, .block .wrap_btSmall_plus .btBorder:first-child{display:none}
+.block .wrap_btSmall_plus .bt_cancel{width:30px}
+.block .wrap_btSmall_plus.is.active .btBorder:first-child, .block .wrap_btSmall_plus.is.active .bt_cancel{display:block}
+.block .wrap_btSmall_plus .boton_vp, .block .wrap_btSmall_plus .btBorder{float:right;margin-left:0}
+.block .wrap_btSmall_plus .boton_vp:first-child, .block .wrap_btSmall_plus .btBorder:first-child{margin-left:3px}
+.block .wrap_btSmall_plus .btBorder{margin:0!important}
+.block .wrap_btSmall_plus .boton_vp:first-child{margin-left:3px}
+.block .wrap_btSmall_plus .btBorder a{float:none;margin:0!important}
+.block input[type="text"]{ height:27px}
+
+.iconx{padding:0 0 0 30px}
+.iconAlignRight.iconx{padding:0 30px 0 0}
+.iconx0{padding:0 0 0 40px}
+.iconAlignRight.iconx0{padding:0 40px 0 0}
+.iconx1{padding:5px 0 0 44px}
+.iconAlignRight.iconx1{padding:5px 44px 0 0}
+.iconx1_5{padding:2px 0 0 60px}/*social*/
+.iconAlignRight.iconx1_5{padding:5px 60px 0 0}
+.iconx1plus{padding:5px 0 0 80px}
+.iconAlignRight.iconx1plus{padding:5px 80px 0 0}
+.iconx2{padding:5px 0 0 112px}
+.iconAlignRight.iconx2{padding:5px 112px 0 0}
+.iconAlignRight:before{left:auto; right:0}
+
+.block--ancillarie .block__content.iconx2{ padding-left:98px; min-height:105px}
+.block--ancillarie .block__content__txt{ width:63%; float:left}
+.block--ancillarie .block__content__txt--full{ width:100%; padding:0}
+.block--ancillarie .block__content__button{width:37%; float:right}
+.block--ancillarie .wrap_button_link{ display:inline-block;float:right; display:block} 
+
+.block--ancillarie .block__content__button--center{width:100%; margin-top: 20px; float: none; text-align: center;}
+.block--ancillarie .block__content__button--center .wrap_btSmall_plus {display: inline-block; float: none; text-align: center;}
+
+/*.block--specialBaggage .block__content__txt{width:100%;padding:0}
+.block--specialBaggage .block__content__button{position:absolute;right:0}
+.block--specialBaggage__content__txt_icons__link {padding: 42px 0 0 0px; float: right; max-width: 52%} --> A eliminar cuando se apliquen los cambios del PRJ635*/
+
+.block--passenger{border-top:1px solid #ccc;padding-top:15px;margin:20px 0 0}
+.block--passenger--first{border:none;padding-top:0;margin-top:0}
+.block--passenger__name, .block--passenger__num{color:#000; display:inline-block;padding-top:8px}
+.block--passenger__name{font:800 1.091em/1.3 verdana; padding-right:10px}
+
+.block--alert .iconx0 .block__content__txt{padding-top:6px}
+.block--acordeon .block__content__txt__title{background:none;font-size:1.35em;font-weight:800; margin-bottom:9px}
+.block--acordeon .block__content__txt__desc{font-size:1.091em; margin-bottom:26px}
+.block--acordeon .block__content__txt__price, .block--acordeon .block__content__txt__listHeader{font-size:1.2em; color:#000}
+.block--acordeon .block__content__txt{width:75%;padding:0}
+.block--acordeon .block__content.iconx2 {padding-left: 168px}
+.block--acordeon .block__content.icon-bf:before{width:158px;height:106px}
+.block--acordeon .block__content.icon-bf{min-height:106px}
+.block--acordeon .icoInsurance_generalBig_bf:before{background-position:-2px -648px}
+.block--acordeon .icoSeat_bf_big:before{background-position:-159px -648px}
+.block--acordeon .icoMaleta_bf_big:before {background-position: -316px -647px}
+.block--acordeon .icoEquipoEspecial_bf_big:before {background-position: -632px -647px}
+.block--acordeon .icoEquipoEspecial_bf_big:before {background-position: -632px -647px}
+.block--acordeon .icoMissedFlight_bf_big:before{background-position:-234px -1111px}
+.block--acordeon .icoInsuranceDear_c3_bf:before{left:35px}
+.block--acordeon .icoInsuranceNull_bf:before{background-position:-680px -4094px}
+
+.block--acordeon .block__content__txt--list{margin:16px 0 10px}
+.block--acordeon .block__content__txt__list li, .block--acordeon .listSquare li{margin-bottom:5px}
+
+.block--modal .block__content__txt__title{font:400 1.45em/1.3 'DTLProkyonTMedium', verdana; color:#666}
+.block--modal .block__content__txt__price{padding:15px 0 20px; display:block; padding-left:12px}
+.block--modal .listadoFlechas {float:none;display:block}
+.block--modal__linkFooter{padding:8px 0;display:block}
+/*Select Idiomas*/
+.langList{width:120px;position:absolute;z-index:100;text-align:left;left:-12px;top:-11px;font-size:1.091em;padding:9px 10px 10px!important}
+.langList p{margin-bottom:5px;font-size:11px;color:#666}
+.langList p:hover{cursor:pointer}
+.langList p strong{font-weight:normal}
+.langList ul{margin-top:14px}
+.langList li{width:100%!important;border:none!important;height:auto;float:none;margin:0;padding:0}
+#header .langList li a{color:#666!important;text-decoration:none!important;display:block;padding:6px 8px}
+.langList li a:hover{background-color:#e6e6e6}
+
+/**
+ * AGENCIAS PROMO REG 
+ *
+ *
+ */ 
+
+*[class*="checkDisplay"]{display:none}
+
+/* pagina registro agencias normal */
+.registerPageTA .article .colIn{
+    width:100%;
+    display:block;
+}
+.registerPageTA .registerPageTA_checkDisplay{display:block;}
+
+
+/* pagina registro agencias landing */
+.registerPageTA_landing .article{
+   width: 100%!important;
+   float: none; 
+}
+.registerPageTA_landing .registerPageTA_landing_checkDisplay{display:block;}
+.registerPageTA_landing .registerPageTA_checkDisplay{display:none;}
+.registerPageTA_landing .introForm{padding:0;background:none;}
+.registerPageTA_landing .introForm .title_content, .registerPageTA_landing .title_sub_header{min-height:0;}
+.registerPageTA_landing .introForm .title_content{margin-bottom:16px;}
+#wrapper .registerPageTA_landing .txtEdit #cssHint{position: relative; padding: 0 0 0 38px; min-height: 0; left: 0!important;  float: left; margin-top: 7px; background-image: none; font-size: 10px;margin-left:0!important;}
+#wrapper .registerPageTA_landing .txtEdit #cssHint:before{content:""; position: absolute; width:30px; height:28px; background: url(../../images/VuelingBase/global_sprite.png) -851px -314px no-repeat; left:0;}
+
+/* modificación para agencias página de registro */
+#wrapper .registerPageTA .formLeft.form-vertical label > span{position:relative;}
+#wrapper .registerPageTA .formLeft.form-vertical label {width:148px!important;float:left;text-align:right}
+BODY.FR #agenciasBody.FR #agencias_registerPage .formLeft.form-vertical label {width:152px!important}
+#wrapper .registerPageTA .formLeft.form-vertical .txtEdit input, #wrapper .registerPageTA .formLeft.form-vertical .txtEdit select, #wrapper .registerPageTA .formLeft.form-vertical .radioList-inline{width:214px;}
+#wrapper .registerPageTA .formLeft.form-vertical .radioList-inline{display:block;float:left;}
+#wrapper .registerPageTA .formLeft.form-vertical .radioList-inline fieldset{margin:0 0 8px;}
+#wrapper .registerPageTA .formLeft.form-vertical .radioList-inline fieldset label{padding-top:0; padding-right:0; text-align:left;width:auto!important; margin:0;}
+#wrapper .registerPageTA .introForm .colInRow{margin:0;}
+#wrapper .registerPageTA .introForm .colIn{margin:0 0 10px;}
+#wrapper .registerPageTA .introForm .halfBox{background:none;}
+#wrapper .registerPageTA .introForm .colHalf_1, #wrapper .registerPageTA .introForm .colHalf_2{width:100%!important;padding:0;margin:0 0 10px;}
+#wrapper .registerPageTA .introForm .checkRow{padding-left:161px;width:323px!important;}
+#wrapper .registerPageTA .introForm .formLeft.form-vertical .checkRow label {display: inline-block; float: none; min-height: 0; padding: 0 0 0 28px; text-align: left;  width: 80%!important;}
+#wrapper .registerPageTA .wrap_btBig_arrow a{margin-top:10px!important}
+
+
+/**
+ * Modules 
+ *
+ * Caja con flecha
+ *
+ */ 
+
+/*sin flecha*/
+.sectionInput{margin:0 auto 33px;padding:0!important;position:relative;width:96%}
+.sectionInput .wrap-sectionInput{display:table;width:100%; overflow: hidden}
+.sectionInput .iconTab,.sectionInput-content{display:table-cell;vertical-align:top}
+.sectionInput-content{vertical-align:middle}
+.sectionInput .iconTab{padding:12px 13px 10px 20px;width:47px}
+.sectionInput .sectionInput-content{padding-left:0}
+.sectionInput .sectionInput-content > div{font:400 1.091em/1.3 verdana, sans-serif;position:relative;text-align:left;vertical-align:middle}
+.sectionInput .sectionInput-content{padding:13px 15px 18px 0px}
+
+/*con flecha*/
+.sectionInput--arrow{border:3px solid #f0f0f0}
+.sectionInput--arrow .sectionInput-content{padding:8px 15px 8px 30px}
+.sectionInput--arrow .iconTab{background:#fff;border-radius:8px 0 0 8px;padding:8px 1px 8px 6px;vertical-align:middle}
+.sectionInput--arrow .iconTab > div{position:relative;text-align:middle}
+.sectionInput--arrow .iconTab > div:before{background:url(../../images/VuelingBase/white_arrow.png) -38px center;content:"";position:absolute;right:-19px;top:50%;width:19px; height:135px;margin-top:-70px}
+.sectionInput .sepDotsWhite{margin:0;padding:0}
+.sectionInput .sepDotsWhite:after{font-size:7px;letter-spacing:5px}
+
+
+/**
+ * Modules 
+ *
+ * Caja con flecha DCC
+ *
+ */ 
+
+.dccResponse{margin-top: 40px; width:100%}
+.dccResponse__title{font:800 1.27em/1.3 verdana, sans-serif; margin-bottom:16px}
+.dccResponse__legend{padding:7px 0 0 105px}
+
+/*flecha DCC*/
+.dccResponse{margin-bottom: 20px}
+.dccResponse .sectionInput{ margin-bottom: 10px}
+.dccResponse .sectionInput--arrow .sectionInput-content{background:#f0f0f0;padding:8px 15px 8px 30px}
+.dccResponse .sectionInput--arrow .iconTab > div{padding:0 13px}
+
+
+/**
+ * Modules 
+ *
+ * Caja con flecha old
+ *
+ * @pendiente de borrar
+ *
+ */   
+
+.sectionArrowTab{position:relative;padding:0!important}
+.sectionArrowTab .wrap-sectionArrowTab{display:table;width:100%}
+.sectionArrowTab.iconLeft .iconTab,.sectionArrowTab.iconLeft .sectionArrowTab-content{display:table-cell;vertical-align:middle}
+.sectionArrowTab.iconLeft .iconTab{width:10%;padding:13px}
+.sectionArrowTab.iconLeft .sectionArrowTab-content{width:90%;padding:8px 15px 8px 30px}
+.sectionArrowTab.sectionArrow-yellow{border-color:#fc0}
+.sectionArrowTab.sectionArrow-yellow .sectionArrowTab-content{background-color:#fc0;color:#666;vertical-align:middle;border-radius:0 6px 6px 0}
+.sectionArrowTab .sectionArrowTab-content > div{position:relative; vertical-align:middle;text-align:left; font:400 1.091em/1.3 verdana, sans-serif}
+
+.sectionArrowTab.sectionArrow-grey{border-color:#F0F0F0}
+.sectionArrowTab.sectionArrow-grey .sectionArrowTab-content{ background-color:#f0f0f0}
+.sectionArrowTab.sectionArrow-grey .iconTab div:before{content:""; position:absolute; width:19px; height:78px; background:url(../../images/VuelingBase/global_sprite.png) -35px -4396px no-repeat; right:-29px; top:50%; margin-top:-41px}
+.sectionArrowTab.iconLeft .iconTab > div{position:relative}
+
+/**
+ * Modules 
+ *
+ * @callmeBack
+ *
+ * Caja flotante que aparece en el paso 2.
+ *
+ */ 
+
+.callmeBack{ position:fixed; z-index: 1000; bottom:0; width:356px; height:auto; margin:0 auto; left:50%; -webkit-box-shadow:1px 1px 10px #666;box-shadow:1px 1px 10px #666; box-sizing: border-box; padding:3px 3px 0; margin-left:119px; border-radius:10px 10px 0 0; background-color: #fff}
+.callmeBack { filter: progid:DXImageTransform.Microsoft.dropShadow (OffX='4', OffY='4', Color='#666', Positive='true'); filter: 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=0,strength=5), progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=45,strength=2), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=90,strength=5),   progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=135,strength=5), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=180,strength=10), progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=225,strength=5), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=270,strength=5), progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=315,strength=2); 
+}
+.callmeBack .header{position:relative; background-color:#fc0; padding:12px; margin-bottom: 0; font:normal 1.5em/1.1 DTLProkyonTMedium, Verdana; border-radius:8px 8px 0 0}
+
+.header_titleDropDown{padding-left: 15px;position:relative; text-decoration: none; color:#666!important; position: relative;width:90%; display: block}
+.header_titleDropDown:before{content:"";position:absolute; width:15px; height:15px; background: url(../../images/VuelingBase/global_sprite.png) -315px -4499px; left:2px; top:3px; }
+.header_titleDropDown.is.active{padding-left: 26px}
+.header_titleDropDown.is.active:before{left:10px}
+.header_titleDropDown.is.active:before{background-position: -310px -4524px; left:3px; top:7px}
+
+.callmeBack a.bt_cerrarSmall{top:50%;margin-top:-12px;right:10px}
+.callmeBack a.bt_cerrarSmall span{width:17px;height:17px;background-position: -653px -204px}
+.callmeBack .sectionContent{padding:0 14px}
+.callmeBack > .sectionContent{padding: 14px 14px 0}
+.callmeBack > .sectionContent > .sectionSolid{border-radius: 10px 10px 0 0; padding:14px 4px 14px}
+.callmeBack_textTitle{font:normal 1.40em/1.1 DTLProkyonTMedium, Verdana; display:block}
+
+.callmeBack_telForm, .callmeBack_telLoading{margin: 15px 0 0}
+.callmeBack_telForm{margin: 8px 0 0}
+.callmeBack_telLoading{padding:14px; font:800 1.091em/1.3 verdana}
+.callmeBack .formLeft.form-vertical label{margin-bottom: 0}
+.callmeBack .variosnputsRow .variosnputsRow_telPref{width:39px!important}
+.callmeBack .variosnputsRow .variosnputsRow_telNum{width:111px!important}
+.callmeBack_telForm .btSmall{display:block!important}
+.callmeBack_telForm .validationErrorDescription{width:auto; font-size: 10px!important}
+
+/**
+ * Modules 
+ *
+ * @helError
+ *
+ * Módulo de mensaje de página de error
+ *
+ */
+
+.helpErrorTitle{font:400 1.45em/1.5 'DTLProkyonTRegular', verdana; margin-bottom: 12px}
+.helpErrorTel strong{font:800 22px/1.5 'DTLProkyonTRegular', verdana; margin:0 4px 16px 0}
+
+/**
+ * Modules 
+ *
+ * @pageValidacionResi
+ *
+ * Página de validación de residente
+ *
+ */
+.pageValidacionResi #pnrDetails, .pageValidacionResi .c3AsideBar.styleBox{min-height: 216px; box-sizing: border-box; -moz-box-sizing:border-box; position: relative}
+.pageValidacionResi .c3AsideBar.styleBox .wrap_btSmall{position: absolute; bottom:15px; left:50%; width:125px; margin-left: -63px}
+.pageValidacionResi .c3AsideBar.styleBox .wrap_btSmall > a{width:100%;box-sizing: border-box; -moz-box-sizing:border-box}
+
+/**
+ * Modules
+ *
+ * @legendSeats
+ *
+ * Modulo de leyendas de los distintos seatmaps
+ *
+ */
+
+.wrapperAvions{	float: left;width: 100%}
+.seatMapSeparator{ position: absolute; height:118%; width:1px; background: url(../../images/VuelingBase/sepDo_seatmap.png) top left repeat-y; margin-left: -4px;z-index: 1}
+
+/*modificacion avion321*/
+.avion_321 .legendSeats, .avion.avion_321 .tableAvion{width:825px}
+.avion_321 .legendSeats li.legendDuo{left:-2px}
+.avion_321 .tableAvion td a.icoRoundSeat_xl { margin: 0 4px 0 4px; width: 17px}
+.avion_321 .legendSeats li.legendOptimum{width:14.54%; left:-1px}
+.avion_321 .legendSeats li.legend15-19, .avion_321 .legendSeats li.legend20-24{width: 11.8%; left: -2px}
+.avion_321 .legendSeats li.legend20-24{width: 12.4%}
+.avion_321 .legendSeats li.legend25-27{width: 7%; left:-1px}
+.avion_321 .legendSeats li.legend29-41{width: 31.3%; left: -2px}
+.avion_321 .legendSeats li.legendPref{width:14%}
+.avion_321 .legendSeats li.legendXL{width:32px; left:-1px; letter-spacing: -0.5; margin-right:4px}
+.avion_321 .legendSeats li.legendPosteriores{width: 30.7%;left:-2px;margin-right: -2px}
+.avion_321 .legendSeats li.legendPosterioresLast{width:31.8%;left:-2px}
+.avion_321 .legendSeats li.legendXL .squarePrice{left:-1px;width:33px}
+
+/*modificacion avion320 actual*/
+.avion_320_actual .legendSeats li.legendPosteriores{width:53.5%}
+
+/*modificacion avion320 new*/
+.avion_320_new .legendSeats li.legendXL {margin-right: 1px;  width: 7.3%}
+.avion_320_new .legendSeats li.legend15-19{width:15%;margin-right:2px}
+.avion_320_new .legendSeats li.legend20-24{width:14.9%; margin-right:3px}
+.avion_320_new .legendSeats li.legend25-31{width:22.9%}
+
+/*express checkin 320 new*/
+#expressSeatMap.avion_320_new .legendSeats li.legendXL{width:7.3%;}
+#expressSeatMap.avion_320_new .legendSeats li.legend15-19{width:14.8%;}
+
+/*modificacion avion321 new*/
+.avion_321_new .legendSeats li.legend5-10{left: -1px; width: 15.5%}
+.avion_321_new .legendSeats li.legend15-19, .avion_321_new .legendSeats li.legend20-24{ left:0; margin-right: 3px; width: 11.8%}
+.avion_321_new .legendSeats li.legend20-24{width: 12.2%;margin-right:3px;}
+.avion_321_new .legendSeats li.legend25-27{left:0; margin-right:1px;}
+.avion_321_new .legendSeats li.legendXL{margin-right: 2px}
+.avion_321_new .legendSeats li.legend29-41{width: 30.4%; left:0}
+
+/*modificacion avion321 actual*/
+.avion_321_actual .legendSeats, .avion.avion_321 .tableAvion{width:825px}
+.avion_321_actual .legendSeats li.legendDuo{left:-2px}
+.avion_321_actual .tableAvion td a.icoRoundSeat_xl { margin: 0 4px 0 4px; width: 17px}
+.avion_321_actual .legendSeats li.legendPref{width:14%}
+.avion_321_actual .legendSeats li.legendOptimum{width:14.7%}
+.avion_321_actual .legendSeats li.legendXL{width:36px; left:-1px; letter-spacing: -0.5}
+.avion_321_actual .legendSeats li.legendPosteriores{width: 32.2%;left:-2px;margin-right: -1px}
+.avion_321_actual .legendSeats li.legendPosterioresLast{left: 0; margin-left: -2px; width: 30.86%}
+
+/*modificacion avion319 actual*/
+.avion.avion-25files{width:79%;margin:0 auto}
+.avion-25files .tableAvion{width:97.5%}
+.avion-25files .legendSeats li .squarePrice{font:800 0.85em/1.2 Verdana}
+.avion-25files .legendSeats li.legendPref {width: 21.2%}
+.avion-25files .legendSeats li.legendOptimum {width: 17.5%}
+.avion-25files .legendSeats li.legendXL {width: 4.85%}
+.avion-25files .legendSeats li.legendXL span{position:absolute}
+.avion-25files .legendSeats li.legendBasic {width: 54.8%}
+.avion-25files .seatLegendList {background-color:#fff}
+.avion-25files .seatLegendList li{padding: 2px 2px 0 0;margin-bottom: 8px}
+
+.avion_319_actual .legendSeats li.legendPref{width:19.5%}
+.avion_319_actual .legendSeats li.legendOptimum{width:18.4%}
+.avion_319_actual .legendSeats li.legendXL .squarePrice{width:80%}
+.avion .legendSeats li.legendXL span{width:50px}
+.avion_319_actual .legendSeats li.legendPosteriores{width: 53.8%;left:-8px}
+
+.wrapAvion319_new, .wrapAvion319 {width:607px!important; margin:20px auto 0; float:none!important}
+.avion_319_new .legendSeats li.legendPref{width:20%}
+.avion_319_new .legendSeats li.legendOptimum{width:19.2%}
+.avion_319_new .legendSeats li.legendXL{width:30px;}
+.avion_319_new .legendSeats li.legend11-15{width: 15.2%; margin-right: 3px;}
+.avion_319_new .legendSeats li.legend16-20{width: 18.8%; margin-right: 3px;}
+.avion_319_new .legendSeats li.legend21-25{width: 20.2%;}
+
+/*hack para webkit*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	/*modificacion avion321*/
+	.avion_321 .legendSeats li.legend5-10{width:14%; left:-1px}
+	.avion_321 .legendSeats li.legend15-19, .avion_321 .legendSeats li.legend20-24{width: 12.2%;margin-right: 3px}
+	.avion_321 .legendSeats li.legend20-24{width: 12.5%}
+	.avion_321 .legendSeats li.legend29-41{width: 30.5%; left: -1px}
+	
+	/*modificacion avion320_actual*/
+	.avion_321_actual .legendSeats, .avion.avion_321 .tableAvion{width:825px}
+	.avion_321_actual .legendSeats li.legendPref{width:14%}
+	.avion_321_actual .legendSeats li.legendOptimum{width:14.2%}
+	.avion_321_actual .legendSeats li.legendPosterioresLast{width: 31.36%}
+
+	/*modificacion avion320_new*/
+	.avion_320_new .legendSeats li.legendXL{width:7%;margin-right:3px}
+	.avion_320_new .legendSeats li.legend15-19 {width: 15.1%;left: 0; margin-right: 0;}
+	.avion_320_new .legendSeats li.legend20-24 {width: 15.1%; margin-right: 3px; left: 3px}
+	.avion_320_new .legendSeats li.legend25-31 {width:23.7%; left:3px;}
+	
+	/*express checkin 320 new*/
+	#expressSeatMap.avion_320_new .legendSeats li.legendXL{width:7.6%;}
+	#expressSeatMap.avion_320_new .legendSeats li.legend15-19{left: -1px; width:15.2%;}
+	#expressSeatMap.avion_320_new .legendSeats li.legend20-24 { width: 14.4%; left: 1px }
+	
+	/*Cambio de asiento 320_new*/
+	#c3_seatsPage .styleBox_checkin .avion_320_new .legendSeats li.legendXL{width:6.4%;}
+	#c3_seatsPage .styleBox_checkin .avion_320_new .legendSeats li.legend15-19{width:15%;}
+	#c3_seatsPage .styleBox_checkin .avion_320_new .legendSeats li.legend20-24 {width: 15.5%;left: 3px;}
+	#c3_seatsPage .styleBox_checkin .avion_320_new .legendSeats li.legend25-31 { left: 3px; width: 24%;}
+	
+	/*modificacion avion321_new*/
+	.avion_321_new .legendSeats li.legend25-27{left:-2px}
+	
+	/*modificacion avion319_new*/
+	.avion_319_new .legendSeats li.legendPref{width:19%}
+	.avion_319_new .legendSeats li.legendOptimum{width:18.2%}
+	.avion_319_new .legendSeats li.legendXL, #expressSeatMap.avion_319_new .legendSeats li.legendXL, #c3_seatsPage .styleBox_checkin .avion_319_new .legendSeats li.legendXL{width:30px}
+	.avion_319_new .legendSeats li.legend11-15{width: 15.7%; margin-right: 3px}
+	.avion_319_new .legendSeats li.legend16-20{width: 19.3%; margin-right: 3px}
+	.avion_319_new .legendSeats li.legend21-25{width: 21.7%}
+
+	/*checkin 321*/
+	.styleBox_checkin .avion_321_actual .legendSeats li.legendPosterioresLast{width: 31.2%}
+	
+	/*Cambio de asiento 321*/
+	#c3_seatsPage .styleBox_checkin .avion_321 .legendSeats li.legendXL{width:4.3%}
+	#c3_seatsPage .styleBox_checkin .avion_321 .legendSeats li.legend5-10{width:14.3%}
+	#c3_seatsPage .styleBox_checkin .avion_321 .legendSeats li.legend15-19{ width: 11.3%}
+	#c3_seatsPage .styleBox_checkin .avion_321 .legendSeats li.legend20-24 {width: 12.1%; left: -1px}
+	#c3_seatsPage .styleBox_checkin .avion_321 .legendSeats li.legendPosteriores{width:30.8%}
+}
+
+/*hack para firefox*/
+@-moz-document url-prefix() { 
+	
+	/*modificacion avion321*/
+	.avion_321 .legendSeats li.legend15-19{width: 11.6%; left: -2px}
+	.avion_321 .legendSeats li.legend5-10{width:14%; left:-1px}
+	.avion_321 .legendSeats li.legend15-19, .avion_321 .legendSeats li.legend20-24{width: 12.2%;margin-right: 3px}
+	.avion_321 .legendSeats li.legend20-24{width: 12.2%}
+	.avion_321 .legendSeats li.legend29-41{width: 31.1%; left: -2px}
+	
+	/*modificacion avion321_new*/
+	.avion_321_new .legendSeats li.legend5-10{left: -1px; width: 15.1%}
+	.avion_321_new .legendSeats li.legend15-19, .avion_321_new .legendSeats li.legend20-24{ left:0; margin-right: 3px; width: 11.9%}
+	.avion_321_new .legendSeats li.legend20-24{width: 12.3%}
+	.avion_321_new .legendSeats li.legend25-27{left: 0; margin-right: 1px; width: 7%;}
+	.avion_321_new .legendSeats li.legend29-41 {left: 0; width: 30.1%}
+	
+	/*modificacion avion320_new*/
+	.avion_320_new .legendSeats li.legendXL{width:7.5%;margin-right:2px}
+	.avion_320_new .legendSeats li.legend15-19 {width:15%;margin-right:0}
+	.avion_320_new .legendSeats li.legend25-31 {22.9%; left:4px}
+	.avion_320_new .legendSeats li.legend20-24{left:4px;}
+	
+	/*express checkin 320 new*/
+	#expressSeatMap.avion_320_new .legendSeats li.legendXL{width:7.4%;}
+	#expressSeatMap.avion_320_new .legendSeats li.legend15-19{width:14.9%;}
+	
+	/*Cambio de asiento 320_new*/
+	#c3_seatsPage .avion_320_new .legendSeats li.legendXL{margin-right: 1px; width:7.5%;}
+	#c3_seatsPage .avion_320_new .legendSeats li.legendOptimum{}
+	
+	/*modificacion avion319_new*/
+	.avion_319_new .legendSeats li.legendXL{width:30px;}
+	.avion_319_new .legendSeats li.legend11-15{width: 15.4%; margin-right: 3px;}
+	.avion_319_new .legendSeats li.legend16-20{width: 18.7%; margin-right: 3px;}
+	.avion_319_new .legendSeats li.legend21-25{width: 20.5%;}
+}
+
+
+/**
+ * Modules
+ *
+ * @legendSeats expressCheckout
+ *
+ * Modulo de leyendas de los distintos seatmaps para la capa express checkout
+ *
+ */
+.expressFee_lightBox .wrapAvion .legendSeats{margin:16px 0 0}
+.expressFee_lightBox .wrapAvion .legendSeats li.legendDuo{top:-226px}
+
+.expressFee_lightBox .wrapAvion .avion_320_new .legendSeats li.legendXL{width:7.3%}
+.expressFee_lightBox .wrapAvion .avion_320_new .legendSeats li.legend15-19{width:14.9%;left:2px;margin-right:2px}
+.expressFee_lightBox .wrapAvion .avion_320_new .legendSeats li.legend25-31{width:22.5%;left:6px}
+
+/*hack para chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) { /*hack webkit*/
+	.expressFee_lightBox .wrapAvion320 .avion_320_new .legendSeats li.legendXL{width:7.3%}
+	.expressFee_lightBox .wrapAvion320 .avion_320_new .legendSeats li.legend15-19 { width: 15.3%; left: 0}
+	.expressFee_lightBox .wrapAvion320 .avion_320_new .legendSeats li.legend20-24{width:15%}
+	.expressFee_lightBox .wrapAvion320 .avion_320_new .legendSeats li.legend20-24 { width: 15.2%; left: 1px}
+	.expressFee_lightBox .wrapAvion320 .avion_320_new .legendSeats li.legend25-31 { width: 23%; left: 1px}
+
+	#expressSeatMap.avion_321 .legendSeats li.legendXL{width:4.3%; left:-1px; letter-spacing: -0.5}
+	#expressSeatMap.avion_321 .legendSeats li.legend15-19{left:-2px}
+	#expressSeatMap.avion_321 .legendSeats li.legend20-24 {width: 12.2%; left: -2px}
+}
+
+/*hack para firefox*/
+@-moz-document url-prefix() { 	
+	.expressFee_lightBox .wrapAvion320 .avion_320_new .legendSeats li.legendXL{left:-1px; width:7.6%}
+	.expressFee_lightBox .wrapAvion320 .avion_320_new .legendSeats li.legend15-19{left:0}
+	.expressFee_lightBox .wrapAvion320 .avion_320_new .legendSeats li.legend20-24{width:14.7%; left:1px}
+	.expressFee_lightBox .wrapAvion320 .avion_320_new .legendSeats li.legend20-24{left:1px}
+	.expressFee_lightBox .wrapAvion .avion_321 .legendSeats li.legend20-24{width: 12.2%}
+	.expressFee_lightBox .wrapAvion .avion_321_new .legendSeats li.legend20-24{width:12.3%}
+	.expressFee_lightBox .wrapAvion320 .avion_320_new .legendSeats li.legend25-31 { width: 22.8%; left: 3px}
+}
+
+/**
+ * Modules
+ *
+ * @social
+ * @facebook fans
+ *
+ *
+ */
+.fanBoxFacebook{overflow: hidden; margin-top: 15px; margin-bottom: 0}
+.fanBoxFacebook iframe{ margin-top: -60px; margin-bottom: -51px}
+
+
+/**
+ * Modules
+ *
+ * @Insurance
+ * @sectionPiece
+ *
+ *
+ */
+.sectionInsurance .sectionPiece{width:100%; padding:10px 5px; min-height:235px; margin:0; border: 0; box-sizing: border-box; -moz-box-sizing: border-box; text-align: left;}
+.sectionInsurance .sectionPiece:hover{background-color: transparent!important; padding: 10px 5px;}
+.sectionInsurance .sectionPiece .sectionInsuranceClaim, .sectionInsurance .sectionPiece .sectionInsuranceTitle{font:800 1.091em/1.3 verdana, sans-serif;}
+.sectionInsurance .sectionPiece .sectionInsuranceTitle{color:#666; margin-bottom: 15px; min-height: 26px;}
+.sectionInsurance .sectionPiece .sectionInsuranceText{font-size:.91em; min-height: 58px;}
+.sectionInsurance .sectionPiece .sectionInsuranceMedia{margin: 20px auto; display: block;}
+.sectionInsurance .sectionPiece .sectionInsuranceClaim{margin-bottom: 10px; text-align: center; color:#666;}
+.sectionInsurance .sectionPiece .sectionInsuranceButton{width: 100%; text-align: center;}
+.sectionInsurance .sectionPiece .sectionInsuranceButton .wrap_btSmall_plus{float:none; display: inline-block;}
+
+.sectionInsurance .sectionPiece--noSeat{padding: 0; margin: 10px; width:90.5%;}
+.sectionInsurance .sectionPiece--noSeat.sectionPieceSelected, .sectionInsurance .sectionPiece--noSeat.sectionPieceSelected:hover{ border:2px solid #ffcc00; border-radius: 10px; -webkit-border-radius: 10px;  padding: 8px; margin: 0; width:100%; background-color: #f7f7f7!important;} 
+.sectionInsurance .sectionPiece--noSeat:hover{border-color:#fff; background-color: transparent!important;padding:0;}
+.sectionInsurance .sectionPiece--noSeat .wrap_btSmall .boton_vp { padding:7px !important}
+.sectionInsurance .sectionPiece--noSeat .sectionInsuranceMedia {margin-bottom: 58px;}
+.sectionPieceSelected{cursor:default!important;}
+
+/**
+ * Modules
+ *
+ * @pushBox
+ * 
+ * Este módulo está ubicado en el paso 2, como mensaje en la parte superior que acompaña al scroll en toda la página
+ *
+ */
+.wrapper_pushBox{ position: relative; width:950px; margin-bottom: 20px; border:0;}
+.wrapper_pushBox--fixed{ position: fixed; top:0px; z-index: 20;}
+.pushBox{background-color: #fc0; position: relative;}
+.pushBox .pushBox_btClose{position: absolute; width:16px; height:16px; background-position: -306px -4668px; right:5px; top:5px; z-index: 1;}
+.pushBox .pushBox_btClose.Second{z-index: 21;}
+
+.pushBox .pushBox_btClose, .pushBox > .colRow2 > [class*="column_"]:first-child:after, .pushBox_colCounter .wrap_counter .counter-content:before{ background-image: url(../../images/VuelingBase/global_sprite.png); }
+
+.pushBox > .colRow2{margin: 0; width:100.3%;}
+.pushBox > .colRow2 > [class*="column_"]{ padding:10px; margin: 0 8px;}
+.pushBox > .colRow2 > [class*="column_"]:first-child{width:42.5%; padding-right: 20px; position: relative;}
+.pushBox > .colRow2 > [class*="column_"]:first-child:after{position: absolute; content:""; right:0; top:50%; width:9px; height:19px; background-position: -339px -4616px; margin-top: -9px;}
+#wrapper .pushBox .pushBox_colCounter{ background-color: #f7f7f7;  width:24.5%; padding-left: 30px;}
+
+.pushBox.pushBox--fewPlaces > .colRow2 > [class*="column_"]:first-child {width:45.83%;}
+.pushBox.pushBox--fewPlaces .pushBox_colBoxPrice {width:30%}
+.pushBox.pushBox--fewPlaces .pushBox_colCounter { width:24.5%;}
+
+.pushBox .icoPushSpeaker{width:44px; height:44px; background-position: -279px -4612px;}
+.pushBox > sectionTable{ vertical-align: middle;}
+.pushBox .pushBox_icon{ width:15%;}
+.pushBox .pushBox_txt{ width:85%;font-size: 1.091em;}
+.pushBox_colBoxPrice .sectionSolid{ box-sizing: border-box; -moz-box-sizing: border-box; height: 72%;  position: absolute; top: 10px; width: 93%; padding: 3% 4% 3%; min-height: 47px; background-color: #fc0;}
+.pushBox_colBoxPrice--whiteBox .sectionSolid{background-color: #fff;}
+.pushBox_colBoxPrice .sectionSolid > span{display: inline-block; width:48%; vertical-align: middle;}
+.pushBox_colBoxPrice_txt{font:800 1em/1.2 verdana, sans-serif;}
+.pushBox_colBoxPrice_txt span{font-size: 14px; display: block; font-weight: 400;}
+.pushBox_colBoxPrice_txt span:first-child{font-size: 18px; font-weight: 800;}
+.pushBox_colBoxPrice_price{text-align: right; font-size: 2.55em; line-height: 1.1;}
+.pushBox_colBoxPrice:after{content: ""; position: absolute; top: 50%; margin-top:10px; width: 0; height: 0; border-style: solid; border-width: 15px 0 15px 15px; border-color: transparent transparent transparent #ffcc00; right: -10px; z-index: 1;}
+.pushBox .pushBox_colBoxPrice_price {right: 10px; width:52%;}
+.pushBox.pushBox--fewPlaces .pushBox_colBoxPrice .sectionSolid .pushBox_colBoxPrice_txt{margin-top: -2%; width:45%;}
+    
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.pushBox_colBoxPrice  .sectionSolid{top:13%;}
+    .pushBox_colBoxPrice:after{margin-top: -13px; top:50%;}
+    .pushBox_colBoxPrice .sectionSolid > span{ position: absolute; top:50%; margin-top: -5%;}
+    .pushBox.pushBox--fewPlaces .pushBox_colBoxPrice .sectionSolid .pushBox_colBoxPrice_txt{margin-top: -6%;}
+    .pushBox_colBoxPrice_price{right:10px;}
+}
+@-moz-document url-prefix() { 
+    .pushBox_colBoxPrice .sectionSolid{top:13%;}
+    .pushBox_colBoxPrice .sectionSolid{top:13%;}
+    .pushBox_colBoxPrice .sectionSolid > span{ position: absolute; top:50%; margin-top: -5%;}
+    .pushBox.pushBox--fewPlaces .pushBox_colBoxPrice .sectionSolid .pushBox_colBoxPrice_txt{margin-top: -6%;}
+    .pushBox_colBoxPrice_price{right:10px;}
+    .pushBox_colBoxPrice:after{margin-top: -13px; top:50%;}
+}
+.pushBox_colCounter_txt, .pushBox_colBoxPrice--whiteBox .pushBox_colBoxPrice_txt{color:#d2460c;}
+
+/*contador*/
+.pushBox_colCounter .wrap_counter{ width:100%; top:0; margin: 0; position: relative; z-index: 20; overflow: visible;}
+.pushBox_colCounter .wrap_counter .counter{margin-bottom: 0; padding-right: 20px;}
+.pushBox_colCounter .wrap_counter .counter:before, .pushBox_colCounter .wrap_counter:after{display: none;}
+.pushBox_colCounter .wrap_counter .counter-content{position: relative; padding:0 0 0 30px; margin-top: 7px;}
+.pushBox_colCounter .wrap_counter .counter-content:before{content:""; position: absolute; width:20px; height:25px; background-position: -278px -4669px; top:50%; margin-top: -14px; left:0;}
+.pushBox_colCounter .wrap_counter .counter-content .digit { font: 400  13px/1.1 "gothamrounded-Light", Arial, "Helvetica Neue", Helvetica, Arial, sans-serif; margin-right: 5px;}
+.pushBox_colCounter .wrap_counter .counter-content .digit .epiclock{font: 400  2em/1.1 "gothamrounded-Medium", Arial, "Helvetica Neue", Helvetica, Arial, sans-serif; margin-right: -2px;}
+
+/**
+ * Modules
+ *
+ * @shareBox
+ * 
+ * Este módulo está ubicado en tu itinerario, carga en la parte superior. Contiene los botones de compartir de las redes sociales
+ *
+ */
+
+.shareBox .sectionSolid.bc_white{ border-radius: 0 3px 3px 0; -webkit-border-radius: 0 3px 3px 0;  box-shadow:2px 2px 0px 0px #D5D5D5; box-sizing: border-box; -moz-box-sizing: border-box; height: 48px; position: relative;}
+
+.shareBox .sectionSolid.bc_white:before, .shareBox .sectionSolid.bc_white:after{  content:""; position:absolute; right:0}
+.shareBox .sectionSolid.bc_white:before, .shareBox .sectionSolid.bc_white:after{ border-color: transparent transparent transparent #ffffff; border-style: solid; border-width: 24px 0 24px 10px; height: 0; right: -9px; top: 1px; width: 0; z-index: 1 }
+.shareBox .sectionSolid.bc_white:after{ border-color: transparent transparent transparent #D5D5D5; right: -11px; z-index: 0}
+
+.shareBox_socialButtons .boton_vp.btSocial + .boton_vp.btSocial { margin-left: 13px; }
+.shareBox_socialButtons_points{border-bottom:1px dotted #ccc; padding-bottom: 2px; font-size: 11px; width:95%; margin: -18px 2% 5px; font-weight: 800; display:none;}
+
+.shareBox_socialButtons_points span{display: inline-block;text-align: center; width: 31.32%;}
+.shareBox_socialButtons_pointsFacebook{color:#3A5998}
+.shareBox_socialButtons_pointsTwitter{color:#59D6FF}
+.shareBox_socialButtons_pointsGoogle{color:#DB2814}
+
+
+/**
+ * Modules
+ *
+ * @buyPoints
+ * 
+ * Este módulo está ubicado el area privada, en la sección de comprar puntos 
+ *
+ */
+
+.shareBox .sectionSolid.bc_white{ border-radius: 0 3px 3px 0; -webkit-border-radius: 0 3px 3px 0;  box-shadow:2px 2px 0px 0px #D5D5D5; box-sizing: border-box; -moz-box-sizing: border-box; height: 48px; position: relative;}
+.shareBox .sectionSolid.bc_white:before, .shareBox .sectionSolid.bc_white:after{  content:""; position:absolute; right:0}
+.shareBox .sectionSolid.bc_white:before, .shareBox .sectionSolid.bc_white:after{ border-color: transparent transparent transparent #ffffff; border-style: solid; border-width: 24px 0 24px 10px; height: 0; right: -9px; top: 1px; width: 0; z-index: 1 }
+.shareBox .sectionSolid.bc_white:after{ border-color: transparent transparent transparent #D5D5D5; right: -11px; z-index: 0}
+
+.shareBox_socialButtons .boton_vp.btSocial + .boton_vp.btSocial { margin-left: 13px; }
+.shareBox_socialButtons_points{border-bottom:1px dotted #ccc; padding-bottom: 2px; font-size: 11px; width:95%; margin: -18px 2% 5px; font-weight: 800; display:none;}
+
+.shareBox_socialButtons_points span{display: inline-block;text-align: center; width: 31.32%;}
+.shareBox_socialButtons_pointsFacebook{color:#3A5998}
+.shareBox_socialButtons_pointsTwitter{color:#59D6FF}
+.shareBox_socialButtons_pointsGoogle{color:#DB2814}
+
+.buyPoints_row{margin-bottom: 23px;}
+.buyPoints_row_modules{box-sizing: border-box; -moz-box-sizing: border-box; margin-left: 2%; width: 17.8%; display: inline-block; vertical-align: top;}
+.buyPoints_row .buyPoints_row_modules:first-child{margin-left: 0;}
+.buyPoints_row_modules_icon{ width:80px; height:80px; border-radius: 50%; -webkit-border-radius: 50%; margin: 0 auto 8px; position: relative; background-image: url(../../images/VuelingBase/global_sprite.png); background-position: -400px -1611px; display: block;}
+.buyPoints_row_modules_icon span{ color: #fff; display: block; font: 400 18px/80px "gothamrounded-Medium",Arial,"Helvetica Neue",Helvetica,Arial,sans-serif; height: 80px;  text-align: center; width: 80px;}
+.buyPoints_row_modules_button{ display: block; margin-bottom: 9px; padding-top: 4px; text-align: center;}
+.buyPoints_row_modules_button a{width:24px; height:24px; border-radius: 5px; -moz-border-radius: 5px; display: inline-block; margin-left: 8px; position: relative; text-decoration: none;}
+.buyPoints_row_modules_button a:first-child{margin-left:0;}
+.buyPoints_row_modules_button a:before{text-align: center; display: block; font: 400 16px/24px verdana,sans-serif; color:#fff;}
+a.buyPoints_row_modules_button_minus:before{content:"-";}
+a.buyPoints_row_modules_button_more:before{content:"+";}
+#wrapper a.buyPoints_row_modules_button_more:hover{background-color: #999;}
+a.buyPoints_row_modules_button_minus:hover{background-color: #eee;}
+
+.buyPoints_row_modules_points{background: url("../../images/VuelingBase/buyPoints_dottedLine.png") left bottom repeat-x; color: #000; font: 1.091em/1.2 verdana,sans-serif;  margin-bottom: 10px; padding: 0 3px 10px; text-align: center;}
+.buyPoints_row_modules_price{text-align: center; padding-top: 15px; font:800 1.091em/1.2 verdana, sans-serif; display: block; position: relative; color:#000;}
+.buyPoints_row_modules_price:before{content:"";position: absolute;width:19px; height:9px; background: url(../../images/VuelingBase/global_sprite.png) -368px -4564px; top:0; left:50%; margin-left: -9px;}
+.buyPoints_row_modules_delete{text-align: center; padding-top: 8px; min-height: 17px;}
+.buyPoints .closer{color:#d2460c; display: inline-block; margin: 0 auto; text-decoration: none; font-size: 10px; display: none;}
+
+.buyPoints_box{padding: 0}
+.buyPoints_box_title, .buyPoints_box_price{ line-height: 65px; top:2px;}
+.buyPoints_box_title{float:left; font-size: 18px; padding-left: 20px;}
+.buyPoints_box_price{float:right; font:normal 24px/60px DTLProkyonTRegular, Verdana; position: relative; padding-left: 65px; }
+.buyPoints_box_price span{font-size: 12px;}
+.buyPoints_box_price:before{position:absolute; content:""; width:54px; height:51px; background: url(../../images/VuelingBase/global_sprite.png) -32px -1296px; top:50%; margin-top: -25px; left:0;}
+.buyPoints_box_total{background-color: #ddd; color:#333; padding-left: 16px; text-align: center; font:normal 23px/65px DTLProkyonTRegular, Verdana; border-radius: 0 8px 8px 0; -webkit-border-radius: 0 8px 8px 0; position: relative; display: block;}
+.buyPoints_box_total:before{position: absolute; content:""; width:19px; height:67px; background: url(../../images/VuelingBase/global_sprite.png) -581px -4398px; top:0; left: 0;}
+
+/* puntos activos */
+a.buyPoints_row_modules_button_minus, .buyPoints_row_modules_icon{background-color: #eee;}
+.buyPoints_row_modules.has-points .buyPoints_row_modules_icon{background-color: #fc0;}
+
+.buyPoints_row_modules.has-points a.buyPoints_row_modules_button_minus, .buyPoints_row_modules_button a.buyPoints_row_modules_button_more{ background-color: #666;}
+.buyPoints_row_modules.has-points .buyPoints_row_modules_delete a{display: inline-block;}
+.buyPoints_row_modules.has-points a.buyPoints_row_modules_button_minus:hover{background-color: #999;}
+
+.buyPoints_row_modules.has-maxpoints a.buyPoints_row_modules_button_more, #wrapper .buyPoints_row_modules.has-maxpoints a.buyPoints_row_modules_button_more:hover{background-color:#ddd}
+
+
+/**
+ * Modules
+ *
+ * @blockUIPopUp
+ *
+ * tamaños capas blockUI
+ *
+ */
+.blockUIPopUpForPassengerTravelDocumentsBox{ width:684px!important; left:50%!important; margin-left: -342px!important;}
+.blockUIPopUpForPassengerTravelDocumentsBox .contentSection{padding: 15px 8px 15px 15px!important; margin: 0!important;}
+.blockUIPopUpForPassengerTravelDocumentsBox .paxDetails .sectionRowBorder{ border:0; margin:0; padding:0; border-top: 1px solid #e1e1e1; margin-top: 15px; padding-top: 15px}
+.blockUIPopUpForPassengerTravelDocumentsBox .paxDetails .sectionRowBorder:first-child{border:0; margin:0; padding:0}
+.blockUIPopUpForPassengerTravelDocumentsBox .paxDetails .colRow2{margin-bottom: 0; margin-top:10px;}
+.blockUIPopUpForPassengerTravelDocumentsBox .sectionRowBorder .colRow2:first-child{margin-top:0;}
+.blockUIPopUpForPassengerTravelDocumentsBox .paxDetails .checkRow.checkRow--full{margin-bottom: 10px;} 
+.blockUIPopUpForPassengerTravelDocumentsBox .contentSectionFooter{padding: 20px 10px 0 0;}
+
+/**
+ * Modules
+ *
+ * @checkRow--specialNeeds
+ *
+ *
+ */
+
+.checkRow--specialNeeds{margin-top:5px!important; padding-top: 0!important;}
+.checkRow--specialNeeds_content{padding:10px 0 0 20px; width: 93.4%;}
+.checkRow--specialNeeds_content_check{margin-bottom: 10px;}
+.checkRow--specialNeeds_content_check:last-child{margin-bottom:0;}
+.checkRow--specialNeeds_content_subCheck{padding-left: 20px;}
+.checkRow--specialNeeds_content_check label span{white-space: normal!important; position: relative; top:-2px;}
+.checkRow--specialNeeds_content_box{margin-left: -20px; padding: 0 20px; width:105%; box-sizing: border-box; border-radius: 10px;}
+.checkRow--specialNeeds_content_box.is.active{margin-bottom: 20px;  background-color: #f8f8f8; padding: 15px 20px;}
+.checkRow--specialNeedsRememberBox{ margin: 15px 10px 0 -79px;  width: 106.4%;}

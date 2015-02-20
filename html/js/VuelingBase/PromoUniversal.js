@@ -1,0 +1,1 @@
+PromoUniversalJsonpCallback({"promo" :[{"COS":"D","OD":"FCOCTA","I":20140511,"F":20140525}]})
